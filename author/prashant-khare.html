@@ -76,15 +76,15 @@
 <section id="content">
 <h3>Articles by Prashant Khare</h3>
 
-        <h3>Impact of early engagement on longevity of participation</h3>
-        <span class="text-muted">by  <a class="url fn" href="/author/prashant-khare.html">Prashant Khare</a> &bull; Friday 02 April 2021 &bull; <a href="/impact-of-early-engagement-on-longevity-of-participation.html" rel="bookmark" title="Permalink to Impact of early engagement on longevity of participation">Permalink</a></span>
+        <h3>Impact of early engagement on longevity of IETF participation</h3>
+        <span class="text-muted">by  <a class="url fn" href="/author/prashant-khare.html">Prashant Khare</a> &bull; Friday 02 April 2021 &bull; <a href="/impact-of-early-engagement-on-longevity-of-ietf-participation.html" rel="bookmark" title="Permalink to Impact of early engagement on longevity of IETF participation">Permalink</a></span>
         <br><br>
         <h4>Introduction</h4>
-<p>What factors influence a Internet Engineering Task Force (IETF) participant to remain engaged with the IETF community for a long time? Are there early signs that can indicate whether a new participant can go on to stay engaged with IETF activities for a long time or they are likely to get disengaged?</p>
+<p>What factors influence an Internet Engineering Task Force (IETF) participant to remain engaged with the IETF community for a long time? Are there early signs that can indicate whether a new participant will go on to stay engaged with IETF activities for a long time or are they likely to get disengaged?</p>
 <p>In our recent work, we have attempted to find answers to these questions. Nearly 4000 participants per year were found to actively participate across various mailing lists between 2000-2004. During this period nearly 2000 new participants per year joined various mailing lists. By the beginning of the next decade (2011-), the number of active participants per year (across mailing lists) were still close to 4000. While this could reflect an entirely new generation of IETF participants across different time periods or a combination of some old participants still active along with the new participants, the reality is that a significant proportion of new people who joined over the years eventually became inactive or disengaged with the IETF community, at least on the mailing lists.</p>
 <p>So we decided to look at the interaction behaviour of the new joiners over the years. Without giving too much away, we find out that engaging people early in their life span may be the most effective tool to keep participants engaged. We notice a clear difference in the early age interaction activities of those who go on to stay for a long time in comparison to those who leave early.</p>
 <h4>Methodology</h4>
-<p>We take over 1100 IETF mailing lists archives (all the mailing lists available at the time of download) and,  for each user, determine their activity period (also referred to as "age"). This is the time period between  their first and last email exchange. Note that we identify users with multiple accounts and create unique identifiers, resulting in more than 200,000 identifiers.</p>
+<p>We take over 1100 IETF mailing lists archives (all the mailing lists available at the time of download) and,  for each user, determine their activity period (also referred to as ‘age’). This is the time period between their first and last email exchange. Note that we identify users with multiple accounts and create unique identifiers, resulting in more than 200,000 identifiers.</p>
 <p>The first thing we notice is that the data is dominated by users who only send one or two emails (covering around 83% of all users). The one-time emails can often vary between spam emails, introduction/greet emails, etc. To avoid skewing the results, we therefore apply a filter to consider only users who have sent at least three messages. It is important to note that the remaining 17% of the accounts contributed towards over 90% of the total volume of emails (over 2.8 million emails).</p>
 <h4>Analysis</h4>
 <p><strong>Question</strong>: <em>How many years do IETF participants generally remain active, as they join over the years?</em></p>
@@ -100,9 +100,9 @@
 <ul>
 <li><strong>Early leavers</strong>: participants who go on to get inactive within 1 year of joining IETF.</li>
 <li><strong>Mid-level stayers</strong>: participants who go on to remain active for a period between 1 and 5 years before getting inactive.</li>
-<li><strong>Long-term stayers</strong>: participants who go onto remain active for 5 or more years.
-This is an interesting observation since these categories are, broadly, consistent over an observed period of 13 years. Substantial proportion of people leave within a year or so throughout this time period, while some indeed go onto remain active for 5 or more years.</li>
+<li><strong>Long-term stayers</strong>: participants who go onto remain active for 5 or more years.</li>
 </ul>
+<p>This is an interesting observation since these categories are, broadly, consistent over an observed period of 13 years. Substantial proportion of people leave within a year or so throughout this time period, while some indeed go onto remain active for 5 or more years.</p>
 <p><center></p>
 <figure>
 <table class="table" style="width:60%">
@@ -130,21 +130,27 @@ This is an interesting observation since these categories are, broadly, consiste
 <figcaption><i>Number of participants across categories (Table 1)</i></figcaption>
 </figure>
 <p></center></p>
+<p><center></p>
+<figure>
+  <img src="/images/longevity-image2.png" alt="Gaussian Mixture Models: max age acquired over the years" style="width: 60%">
+  <figcaption><i>Gaussian Mixture Models: max age acquired over the years (Figure 2)</i></figcaption>
+</figure>
+<p></center></p>
 <p>Now that we have identified how IETF participants cluster regarding the age they go on to acquire, we explore what factors influence  the length of their association.</p>
 <p><strong>Question</strong>: <em>Is early age interaction activity indicative of how long a new participant goes on to remain active?</em></p>
-<p>What is an interaction? - participants either respond to someone’s email on the mailing lists or their email is responded to by some participant and these collectively reflect the interaction activities of a participant. We hypothesise that new joiners who engage more with the existing community early on are more likely to stay for longer. This is based on the observation that after removing nearly 83% of accounts (posting two or less number of emails), the remaining 17% of the accounts formulate over 90% of the total volume of emails in the archives. Thus, the extent to which a new joiner interacts with the active community can influence their ability/motivation to remain engaged. Since Early leavers get inactive within 1 year of joining IETF, we consider analysing interaction behaviour of participants of all the three categories (above) in the first year of their participantship.</p>
-<p>to understand whether a new joiner interacts more with young participants (other new joiners) or participants who have been in IETF for a long time we categorise the network nodes as one of the categories identified in the GMM model:</p>
+<p><em>What is an interaction?</em> - participants either respond to someone’s email on the mailing lists or their email is responded to by some participant and these collectively reflect the interaction activities of a participant. We hypothesise that new joiners who engage more with the existing community early on are more likely to stay for longer. This is based on the observation that after removing nearly 83% of accounts (posting two or less number of emails), the remaining 17% of the accounts formulate over 90% of the total volume of emails in the archives. Thus, the extent to which a new joiner interacts with the active community can influence their ability/motivation to remain engaged. Since Early leavers get inactive within 1 year of joining IETF, we consider analysing interaction behaviour of participants of all the three categories (above) in the first year of their participantship.</p>
+<p>To understand whether a new joiner interacts more with young participants (other new joiners) or participants who have been in IETF for a long time we categorise the network nodes as one of the categories identified in the GMM model:</p>
 <ul>
-<li>Senior participants: when the age of this participant, at the time of interaction with a new joiner, is 5 or more years.</li>
-<li>Mid-age participants: when the age of this participant, at the time of interaction with a new joiner, is between 1 and 5 years.</li>
-<li>Young participants: when the age of this participant, at the time of interaction with a new joiner, is 1 or less than 1 year.</li>
+<li><em>Senior participants</em>: when the age of this participant, at the time of interaction with a new joiner, is 5 or more years.</li>
+<li><em>Mid-age participants</em>: when the age of this participant, at the time of interaction with a new joiner, is between 1 and 5 years.</li>
+<li><em>Young participants</em>: when the age of this participant, at the time of interaction with a new joiner, is 1 or less than 1 year.</li>
 </ul>
 <p>We, now, have three types of categories for new joiners based on the number of years that they will remain in the IETF., early leavers, mid-level stayers, and long-term stayers. And, we also have three types of categories for their network viz., senior participants, mid-age participants, and young participants. To understand the interaction dynamics we look at two types of interactions:</p>
 <ul>
 <li>Outgoing interaction (new joiner responds to an email from the network: email sent)</li>
 <li>Incoming interaction (network responds to an email by new joiner: email received)</li>
 </ul>
-<p>Next, for each new joiner we evaluate how many people (from each network category) they have an outgoing or incoming interaction with, and how many messages were covered in these interactions respectively (in the first year of their IETF lifespan). We do this to observe if the joiners from individual categories reflect any specific behaviour with respect to how they interact with their network, for instance, if the long-term stayers show a certain behavioural aspect, in terms of interactions, which early leavers do not. We record first year interactions for the new joiners in the years 2000-2013. We select the years till 2013 to make sure that there is enough time for participants to acquire whatever age they could go on to acquire till the time data was collected (in 2020), and avoid bias towards younger participants. For e.g. a new joiner, Person A, has outgoing interactions with 10 participants of the mid-age participant category sending  15 messages. We plot graphs, in Figure 5 and Figure 6, showing incoming and outgoing interactions respectively, between new joiners across three categories and their corresponding network. We make the following observations:</p>
+<p>Next, for each new joiner we evaluate how many people (from each network category) they have an outgoing or incoming interaction with, and how many messages were covered in these interactions respectively (in the first year of their IETF lifespan). We do this to observe if the joiners from individual categories reflect any specific behaviour with respect to how they interact with their network, for instance, if the long-term stayers show a certain behavioural aspect, in terms of interactions, which early leavers do not. We record first year interactions for the new joiners in the years 2000-2013. We select the years till 2013 to make sure that there is enough time for participants to acquire whatever age they could go on to acquire till the time data was collected (in 2020), and avoid bias towards younger participants. For e.g. a new joiner, Person A, has outgoing interactions with 10 participants of the mid-age participant category sending  15 messages. We plot graphs, in Figures 3 and 4, showing incoming and outgoing interactions respectively, between new joiners across three categories and their corresponding network. We make the following observations:</p>
 <ul>
 <li>Early leavers engage significantly less with the senior participants or mid-age participants. For instance, early leavers send less than 1 email as outgoing interactions, on average, to senior participants. The incoming interactions from senior participants are much lower than the outgoing interactions.</li>
 <li>In their first year, long-term stayers not only take initiative to interact with the senior community but are also responded to by the senior participants of the community. Long-term stayers send more than 4 emails as outgoing interactions, on average, to senior participants. The incoming interactions from senior participants are close to 4 on average.</li>
