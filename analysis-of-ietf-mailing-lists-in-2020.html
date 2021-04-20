@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <title>sodestream - Analysis of IETF mailing lists in 2020</title>
+        <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
+        <link href="/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="sodestream Full Atom Feed" />
+        <link href="/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="sodestream Full RSS Feed" />
+        <link href="/feeds/blog.atom.xml" type="application/atom+xml" rel="alternate" title="sodestream Categories Atom Feed" />
+        <link rel="stylesheet" type="text/css" href="/theme/css/bootstrap.min.css" />
+        <style>
+        .internal-links-list {
+          padding-left: 0;
+          list-style: none;
+        }
+
+        .internal-links-list li {
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: .25rem;
+          list-style: none;
+          padding-left: 0;
+        }
+
+        .internal-links-list li::before {
+          display: block;
+          flex-shrink: 0;
+          width: 1.5em;
+          height: 1.5em;
+          margin-right: .5rem;
+          content: "";
+          background: url("/theme/images/arrow-right-square.svg") no-repeat center center / 100% auto;
+        }
+
+        .external-links-list {
+          padding-left: 0;
+          list-style: none;
+        }
+
+        .external-links-list li {
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: .25rem;
+          list-style: none;
+          padding-left: 0;
+        }
+
+        .external-links-list li::before {
+          display: block;
+          flex-shrink: 0;
+          width: 1.5em;
+          height: 1.5em;
+          margin-right: .5rem;
+          content: "";
+          background: url("/theme/images/arrow-up-right-square-fill.svg") no-repeat center center / 100% auto;
+        }
+        </style>
+
+
+
+
+
+</head>
+
+<body id="index" class="home">
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+  <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+    <img src="/theme/images/share.svg" width="32" height="32">
+    <span class="fs-4" style="padding-left: 10px;">sodestream</span>
+  </a>
+
+  <ul class="nav nav-pills">
+        <li class="nav-item"><a href="/" class="nav-link ">Home</a></li>
+        <li class="nav-item"><a href="/pages/about.html" class="nav-link ">About</a></li>
+        <li class="nav-item"><a href="/category/blog.html" class="nav-link active">Blog</a></li>
+        <li class="nav-item"><a href="/dashboard/index.html" class="nav-link" target="_blank">IETF Data Dashboard</a></li>
+  </ul>
+</header>
+  <div class="row">
+    <div class="col">
+  <h3>Analysis of IETF mailing lists in 2020</h3>
+  <span class="text-muted">by  <a class="url fn" href="/author/stephen-mcquistin.html">Stephen McQuistin</a> &bull; Tuesday 20 April 2021 &bull; <a href="/drafts/analysis-of-ietf-mailing-lists-in-2020.html" rel="bookmark" title="Permalink to Analysis of IETF mailing lists in 2020">Permalink</a></span>
+  <br><br>
+    <p>In 2020, there were 118,537 unique e-mails sent across IETF mailing lists by 3,616 addresses. In this blog post, we briefly outline highlights and trends in the dataset, analyse the <em>ietf@ietf.org</em> list, and describe the raw dataset.</p>
+<h4>Highlights and trends</h4>
+<p>In 2020, we saw the following highlights:</p>
+<ul>
+<li>There was activity (i.e., at least one e-mail sent) across 335 mailing lists, with 16,612 e-mails to the <em>quic-issues</em> list, making up 12.5% of all e-mails in the dataset</li>
+<li>17,045 e-mails were sent from <em>notifications@github.com</em> and <em>noreply@github.com</em>: these addresses were the first and third biggest contributers of e-mail respectively. This highlights the growing role that GitHub plays in managing working group activity.</li>
+<li>Addresses were active on an average of 3.3 mailing lists</li>
+<li>Active addresses sent 33 e-mails on average</li>
+</ul>
+<p><center></p>
+<table style="border: 0; width: 80%;">
+<tr>
+<td style="width: 40%">
+<figure>
+  <img src="/images/addr-email-cdf.png" alt="CDF of e-mails sent per address" style="width: 100%">
+  <center><figcaption><i><b>Figure 1</b>: CDF of e-mails sent per address</i></figcaption></center>
+</figure>
+</td>
+<td style="width: 40%">
+<figure>
+  <img src="/images/addr-active-list-cdf.png" alt="CDF of number of lists each address is active in" style="width: 100%">
+  <center><figcaption><i><b>Figure 2</b>: CDF of number of lists each address is active in</i></figcaption></center>
+</figure>
+</td>
+</tr>
+</table>
+<p></center></p>
+<p>Figures 1 and 2 show CDFs of the e-mail volume and list participation, respectively, for each address. These figures show that participation across IETF mailing lists is heavy-tailed: 93.4% of addresses contributed fewer than 100 e-mails each, with 71.2% sending fewer than 10 each. Similarly, approximately 80% of addresses were active in 3 or fewer mailing lists.</p>
+<h4>Matching e-mail addresses to Datatracker profiles</h4>
+<p>The raw IETF mail archive dataset can be noisy, with automated e-mails from notification addresses, and participants splitting their activity across multiple e-mail accounts. To tidy up the dataset, we attempted to match e-mail senders with Datatracker profiles. Names and e-mail addresses were extracted from the <em>From</em> header of the e-mail, and these were matched against the Datatracker. Many exact matches were found using e-mail addresses, but were this was not possible, a number of heuristics were applied to the name to find a match. In some cases, no Datatracker account could be matched to a given sender.</p>
+<p>In total, 88,662 e-mails were sent by participants matched to their Datatracker profile, representing 74.8% of the total e-mails in the dataset. We found that 2,088 <em>people</em> (i.e., Datatracker users) sent e-mails across 319 mailing lists.</p>
+<p><center></p>
+<figure>
+<table class="table" style="width:60%">
+  <thead>
+    <tr>
+      <th scope="col" style="width: 40%">Name</th>
+      <th scope="col">E-mail count (percentage of all e-mail)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">Martin Thomson</th>
+      <td>6577 (7.42%)</td>
+    </tr>
+    <tr>
+      <th scope="row">Jana Iyengar</th>
+      <td>2024 (2.28%)</td>
+    </tr>
+    <tr>
+      <th scope="row">Michael Richardson</th>
+      <td>1629 (1.84%)</td>
+    </tr>
+    <tr>
+      <th scope="row">Mike Bishop</th>
+      <td>1492 (1.68%)</td>
+    </tr>
+    <tr>
+      <th scope="row">Carsten Bormann</th>
+      <td>1253 (1.41%)</td>
+    </tr>
+  </tbody>
+</table>
+<figcaption><i><b>Table 1</b>: Top 5 senders in 2020 (percentages show proportion of people-matched e-mail volume)</i></figcaption>
+</figure>
+<p></center></p>
+<p><center></p>
+<figure>
+<table class="table" style="width:60%">
+  <thead>
+    <tr>
+      <th scope="col" style="width: 40%">List name</th>
+      <th scope="col">E-mail count (percentage of all e-mail)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">quic-issues</th>
+      <td>12884 (13.06%)</td>
+    </tr>
+    <tr>
+      <th scope="row">ietf</th>
+      <td>5356 (5.43%)</td>
+    </tr>
+    <tr>
+      <th scope="row">ipv6</th>
+      <td>4247 (4.31%)</td>
+    </tr>
+    <tr>
+      <th scope="row">last-call</th>
+      <td>2736 (2.77%)</td>
+    </tr>
+    <tr>
+      <th scope="row">dmarc</th>
+      <td>2008 (2.04%)</td>
+    </tr>
+  </tbody>
+</table>
+<figcaption><i><b>Table 2</b>: Top 5 e-mail lists in 2020 (percentages show proportion of people-matched e-mail volume)</i></figcaption>
+</figure>
+<p></center></p>
+<p>Tables 1 and 2 show the top 5 e-mail senders and mailing lists, respectively. Table 1 highlights the purpose of matching senders to Datatracker profiles: the significant portion of e-mail assigned to the top participants was sent via GitHub issues, previously aggregated under <em>@github.com</em> addresses.</p>
+<p><center></p>
+<table style="border: 0; width: 80%;">
+<tr>
+<td style="width: 40%">
+<figure>
+  <img src="/images/people-email-cdf.png" alt="CDF of e-mails sent per person" style="width: 100%">
+  <center><figcaption><i><b>Figure 3</b>: CDF of e-mails sent per person</i></figcaption></center>
+</figure>
+</td>
+<td style="width: 40%">
+<figure>
+  <img src="/images/people-active-list-cdf.png" alt="CDF of number of lists each person is active in" style="width: 100%">
+  <center><figcaption><i><b>Figure 4</b>: CDF of number of lists each person is active in</i></figcaption></center>
+</figure>
+</td>
+</tr>
+</table>
+<p></center></p>
+<p>Figures 3 and 4 replot Figures 1 and 2, but across the Datatracker-mapped e-mail dataset. Figure 4 highlights that 80% of people are active (i.e., send at least one e-mail) on 5 or fewer mailing lists.</p>
+<h4>Analysing ietf@ietf.org</h4>
+<p>The dataset also provides insight into the <em>ietf@ietf.org</em> mailing list. As the general IETF discussion list, the list should ideally be representative of the broader IETF community. We found that 322 people, 15.4% of the 2088 people in the dataset, sent at least one e-mail to the <em>ietf@ietf.org</em> list. In total, 5356 e-mails were sent to the <em>ietf@ietf.org</em> list in the Datatracker-mapped dataset. Of those, 29.6%, or 1589 e-mails, were sent by the top 10 most active participants; more than 50% of the e-mails sent to the <em>ietf@ietf.org</em> were sent by the top 25 contributors.</p>
+<p><center></p>
+<figure>
+  <img src="/images/people-email-ietf-all-norm-cdf.png" alt="CDF of e-mails sent per person to all lists and ietf@ietf.org" style="width: 40%">
+  <center><figcaption><i><b>Figure 5</b>: CDF of e-mails sent per person to all lists and ietf@ietf.org</i></figcaption></center>
+</figure>
+<p></center></p>
+<p>Figure 5 highlights this difference in behaviour, as compared with wider contribution trends. As shown, people that participate in the <em>ietf@ietf.org</em> list tend to send greater volumes of e-mail to that list.</p>
+<h4>Raw data tables</h4>
+<p>In order to allow for further analysis, we provide the raw data tables used in the analysis above. Each data table is a tab-separated file. Data tables are provided for each of the address-based and Datatracker-mapped person-based datasets described.</p>
+<p>All of the raw data tables can be downloaded <a href="/datasets/mailarchive_dataset_2020.zip" target="_blank">here</a>. Each data table is described below.</p>
+<p><center></p>
+<table style="border: 0; width: 100%; padding: 15px;">
+<tr>
+<td style="width: 50%; padding-right: 5px;">
+<h5>Address-based datasets</h5>
+<div class="list-group">
+  <a href="/datasets/addr/all-addrs.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">All e-mails by unique address</h5>
+    </div>
+    <p class="mb-1">Each row contains the e-mail address, the count of unique e-mails sent, and the per-list breakdown of each e-mail sent. Note that uniqueness is defined by the <i>Message-ID</i> field; per-list counts may sum to more than this number, where an e-mail is sent to multiple lists.</p>
+    <small class="text-muted">all-addrs.dat, 3616 rows</small>
+  </a>
+  <a href="/datasets/addr/addr-lists-rank.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Unique addresses by active list count</h5>
+    </div>
+    <p class="mb-1">Each row contains the e-mail address and the count of e-mail lists that the address sent at least one e-mail to.</p>
+    <small class="text-muted">addr-lists-rank.dat, 3616 rows</small>
+  </a>
+  <a href="/datasets/addr/addr-email-rank-ietf.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Unique addresses active on ietf@ietf.org</h5>
+    </div>
+    <p class="mb-1">Each row contains the e-mail address, count of e-mails sent to ietf@ietf.org, and the percentage of e-mails sent by each address to ietf@ietf.org.</p>
+    <small class="text-muted">addr-email-rank-ietf.dat, 392 rows</small>
+  </a>
+  <a href="/datasets/addr/addr-list-email-rank.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Lists ranked by e-mail volume</h5>
+    </div>
+    <p class="mb-1">Each row contains the mailing list name, count of e-mails sent, and the percentage of e-mails sent to each list.</p>
+    <small class="text-muted">addr-list-email-rank.dat, 335 rows</small>
+  </a>
+  <a href="/datasets/addr/addr-list-active-rank.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Lists ranked by active address count</h5>
+    </div>
+    <p class="mb-1">Each row contains the mailing list name and count of unique addresses that sent at least one e-mail.</p>
+    <small class="text-muted">addr-list-active-rank.dat, 335 rows</small>
+  </a>
+  <a href="/datasets/addr/addr-list-single-active-pct-volume.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Lists by e-mail volume from addresses that only contribute to a single list</h5>
+    </div>
+    <p class="mb-1">Each row contains the mailing list name and count of e-mails sent by addresses that only sent e-mail to that list.</p>
+    <small class="text-muted">addr-list-single-active-pct-volume.dat, 229 rows</small>
+  </a>
+  <a href="/datasets/addr/addr-ietf-single-volume-rank.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">List of addresses that only contributed to ietf@ietf.org</h5>
+    </div>
+    <p class="mb-1">Each row contains the address and volume of e-mail sent by addresses that only contributed to ietf@ietf.org.</p>
+    <small class="text-muted">addr-ietf-single-volume-rank.dat, 69 rows</small>
+  </a>
+</div>
+</td>
+<td style="width: 50%; padding-left: 5px">
+<h5>People-based datasets</h5>
+<div class="list-group">
+  <a href="/datasets/people/all-people.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">All e-mails by person</h5>
+    </div>
+    <p class="mb-1">Each row contains the sender's name, the count of unique e-mails sent, and the per-list breakdown of each e-mail sent. Note that uniqueness is defined by the <i>Message-ID</i> field; per-list counts may sum to more than this number, where an e-mail is sent to multiple lists.</p>
+    <small class="text-muted">all-people.dat, 2088 rows</small>
+  </a>
+  <a href="/datasets/people/people-lists-rank.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">People by active list count</h5>
+    </div>
+    <p class="mb-1">Each row contains the sender's name and the count of e-mail lists that the person sent at least one e-mail to.</p>
+    <small class="text-muted">people-lists-rank.dat, 2088 rows</small>
+  </a>
+  <a href="/datasets/people/people-email-rank-ietf.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">People active on ietf@ietf.org</h5>
+    </div>
+    <p class="mb-1">Each row contains the sender's name, count of e-mails sent to ietf@ietf.org, and the percentage of e-mails sent by each person to ietf@ietf.org.</p>
+    <small class="text-muted">people-email-rank-ietf.dat, 322 rows</small>
+  </a>
+  <a href="/datasets/people/people-list-email-rank.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Lists ranked by e-mail volume</h5>
+    </div>
+    <p class="mb-1">Each row contains the mailing list name, count of e-mails sent, and the percentage of e-mails sent to each list.</p>
+    <small class="text-muted">people-list-email-rank.dat, 319 rows</small>
+  </a>
+  <a href="/datasets/people/people-list-active-rank.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Lists ranked by active person count</h5>
+    </div>
+    <p class="mb-1">Each row contains the mailing list name and count of people that sent at least one e-mail.</p>
+    <small class="text-muted">people-list-active-rank.dat, 319 rows</small>
+  </a>
+  <a href="/datasets/people/people-list-single-active-pct-volume.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">Lists by e-mail volume from addresses that only contribute to a single list</h5>
+    </div>
+    <p class="mb-1">Each row contains the mailing list name and count of e-mails sent by people that only sent e-mail to that list.</p>
+    <small class="text-muted">people-list-single-active-pct-volume.dat, 176 rows</small>
+  </a>
+  <a href="/datasets/people/people-ietf-single-volume-rank.dat" class="list-group-item list-group-item-action">
+    <div class="d-flex w-100 justify-content-between">
+      <h5 class="mb-1">List of people that only contributed to ietf@ietf.org</h5>
+    </div>
+    <p class="mb-1">Each row contains the sender's name and volume of e-mail sent by people that only contributed to ietf@ietf.org.</p>
+    <small class="text-muted">people-ietf-single-volume-rank.dat, 32 rows</small>
+  </a>
+</div>
+</td>
+</tr>
+</table>
+<p></center></p>
+    </div>
+  </div>
+  <footer class="pt-3 my-3 text-muted border-top">
+    The sodestream project is funded by the UK Engineering and Physical Sciences Research Council, under grants EP/S033564/1 and EP/S036075/1.
+  </footer>
+</body>
+</html>

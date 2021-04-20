@@ -1,0 +1,2088 @@
+Martin Thomson                                    	      6577	7.42%
+Jana Iyengar                                      	      2024	2.28%
+Michael Richardson                                	      1629	1.84%
+Mike Bishop                                       	      1492	1.68%
+Carsten Bormann                                   	      1253	1.41%
+Benjamin Kaduk                                    	      1089	1.23%
+Brian E. Carpenter                                	      1043	1.18%
+John R. Levine                                    	       950	1.07%
+Lars Eggert                                       	       818	0.92%
+Rich Salz                                         	       774	0.87%
+Fernando Gont                                     	       764	0.86%
+Kazuho Oku                                        	       717	0.81%
+Toerless Eckert                                   	       699	0.79%
+Lucas Pardue                                      	       644	0.73%
+Gyan Mishra                                       	       640	0.72%
+Eric Rescorla                                     	       605	0.68%
+RFC Editor                                        	       589	0.66%
+Russ Housley                                      	       565	0.64%
+Pascal Thubert                                    	       552	0.62%
+Dr. John C. Klensin                               	       546	0.62%
+Magnus Westerlund                                 	       527	0.59%
+Dick Hardt                                        	       522	0.59%
+Alexandre Petrescu                                	       519	0.59%
+Stephen Farrell                                   	       514	0.58%
+Joel M. Halpern                                   	       504	0.57%
+Éric Vyncke                                       	       501	0.57%
+Ted Lemon                                         	       501	0.57%
+Robert Wilton                                     	       484	0.55%
+Barry Leiba                                       	       479	0.54%
+Mohamed Boucadair                                 	       474	0.53%
+Christian Huitema                                 	       471	0.53%
+Robert Raszuk                                     	       439	0.50%
+Ron Bonica                                        	       437	0.49%
+Robert Moskowitz                                  	       431	0.49%
+Mirja Kühlewind                                   	       430	0.49%
+Greg Mirsky                                       	       430	0.49%
+Justin Richer                                     	       411	0.46%
+David Schinazi                                    	       409	0.46%
+Eliot Lear                                        	       409	0.46%
+Keith Moore                                       	       397	0.45%
+Martin Duke                                       	       394	0.44%
+Dr. Joseph D. Touch                               	       389	0.44%
+Gorry Fairhurst                                   	       388	0.44%
+Dave Crocker                                      	       383	0.43%
+Jay Daley                                         	       381	0.43%
+Mark Nottingham                                   	       378	0.43%
+Spencer Dawkins                                   	       377	0.43%
+Julian Reschke                                    	       371	0.42%
+Marten Seemann                                    	       368	0.42%
+Alissa Cooper                                     	       363	0.41%
+Roman Danyliw                                     	       361	0.41%
+Adrian Farrel                                     	       361	0.41%
+Murray Kucherawy                                  	       353	0.40%
+Jim Schaad                                        	       343	0.39%
+Robert Sparks                                     	       325	0.37%
+Acee Lindem                                       	       324	0.37%
+Alvaro Retana                                     	       317	0.36%
+Kent Watsen                                       	       314	0.35%
+Alessandro Vesely                                 	       310	0.35%
+Warren "Ace" Kumari                               	       292	0.33%
+Alexey Melnikov                                   	       289	0.33%
+Henrik Levkowetz                                  	       282	0.32%
+Bob Hinden                                        	       269	0.30%
+Fred Templin                                      	       268	0.30%
+Lou Berger                                        	       264	0.30%
+Christer Holmberg                                 	       260	0.29%
+Rob Sayre                                         	       260	0.29%
+Randy Bush                                        	       259	0.29%
+Daniel Migault                                    	       259	0.29%
+S Moonesamy                                       	       251	0.28%
+Michael Thomas                                    	       250	0.28%
+Christopher A. Wood                               	       249	0.28%
+Tom Herbert                                       	       248	0.28%
+Laurence Lundblade                                	       244	0.28%
+Jie Dong                                          	       243	0.27%
+Sean Turner                                       	       240	0.27%
+Nicolás Williams                                  	       239	0.27%
+Susan Hares                                       	       238	0.27%
+Peter Psenak                                      	       237	0.27%
+Ole Trøan                                         	       236	0.27%
+Mike Jones                                        	       234	0.26%
+Michael StJohns                                   	       233	0.26%
+Tim McSweeney                                     	       232	0.26%
+Phillip Hallam-Baker                              	       231	0.26%
+Ketan Talaulikar                                  	       231	0.26%
+Eduard V                                          	       229	0.26%
+Erik Kline                                        	       225	0.25%
+Sebastian Moeller                                 	       223	0.25%
+Qin Wu                                            	       222	0.25%
+Jeff Tantsura                                     	       219	0.25%
+Hannes Tschofenig                                 	       216	0.24%
+Paul Wouters                                      	       211	0.24%
+Stewart Bryant                                    	       210	0.24%
+Khaled Omar Ibrahim Omar                          	       207	0.23%
+Linda Dunbar                                      	       203	0.23%
+Joe Clarke                                        	       202	0.23%
+Tirumaleswar Reddy.K                              	       200	0.23%
+Mark Smith                                        	       198	0.22%
+Henk Birkholz                                     	       195	0.22%
+Reshad Rahman                                     	       195	0.22%
+Bron Gondwana                                     	       193	0.22%
+Les Ginsberg                                      	       193	0.22%
+Pete Resnick                                      	       192	0.22%
+Christian Hopps                                   	       189	0.21%
+John Scudder                                      	       185	0.21%
+Bob Briscoe                                       	       182	0.21%
+Benjamin M. Schwartz                              	       181	0.20%
+Aijun Wang                                        	       180	0.20%
+Jordi Palet Martinez                              	       178	0.20%
+Paul Kyzivat                                      	       178	0.20%
+Denis PINKAS                                      	       175	0.20%
+Fabien Imbault                                    	       173	0.20%
+Tim Wicinski                                      	       172	0.19%
+Eric Gray                                         	       172	0.19%
+Brian Campbell                                    	       170	0.19%
+Jürgen Schönwälder                                	       169	0.19%
+Adam Roach                                        	       168	0.19%
+Paul A. Vixie                                     	       166	0.19%
+Richard Barnes                                    	       165	0.19%
+Jari Arkko                                        	       164	0.19%
+Paul E. Hoffman                                   	       163	0.18%
+Torsten Lodderstedt                               	       163	0.18%
+Dmitri Tikhonov                                   	       158	0.18%
+Scott Hollenbeck                                  	       156	0.18%
+Dhruv Dhody                                       	       156	0.18%
+Nick Hilliard                                     	       154	0.17%
+Watson Ladd                                       	       153	0.17%
+Chuck Lever                                       	       153	0.17%
+Vittorio Bertola                                  	       151	0.17%
+Loa Andersson                                     	       151	0.17%
+Jonathan Morton                                   	       149	0.17%
+Hugh Petch                                        	       148	0.17%
+Tony Przygienda                                   	       145	0.16%
+Douglas Foster                                    	       144	0.16%
+Francesca Palombini                               	       143	0.16%
+David Noveck                                      	       141	0.16%
+Donald E. Eastlake 3rd                            	       140	0.16%
+Fred Baker                                        	       140	0.16%
+Larry M Masinter                                  	       140	0.16%
+Stuart W. Card                                    	       139	0.16%
+Andy Bierman                                      	       139	0.16%
+Tony Li                                           	       138	0.16%
+Darren Dukes                                      	       138	0.16%
+Bruno Decraene                                    	       137	0.15%
+Jaehoon (Paul) Jeong                              	       136	0.15%
+Dr. Bernard D. Aboba                              	       135	0.15%
+Cheng Li                                          	       134	0.15%
+Hector Santos                                     	       132	0.15%
+Thomas Fossati                                    	       131	0.15%
+Behcet Sarikaya                                   	       130	0.15%
+Bernie Volz                                       	       128	0.14%
+Ulrich Windl                                      	       128	0.14%
+Rifaat Shekh-Yusef                                	       127	0.14%
+Ian Swett                                         	       127	0.14%
+Gunnar Hellstrom                                  	       126	0.14%
+Mario Loffredo                                    	       126	0.14%
+Mohit Sethi                                       	       125	0.14%
+Valery Smyslov                                    	       125	0.14%
+Zhaohui (Jeffrey) Zhang                           	       124	0.14%
+Jingrong Xie                                      	       124	0.14%
+Yaron Sheffer                                     	       123	0.14%
+Joseph A. Salowey                                 	       123	0.14%
+Jason Sterne                                      	       122	0.14%
+Huaimo Chen                                       	       121	0.14%
+David L. Black                                    	       120	0.14%
+Brian Dickson                                     	       120	0.14%
+Barbara Stark                                     	       118	0.13%
+Stéphane Bortzmeyer                               	       116	0.13%
+Balazs Varga                                      	       116	0.13%
+Ines Robles                                       	       115	0.13%
+Colin Perkins                                     	       114	0.13%
+Ben Campbell                                      	       114	0.13%
+Tianran Zhou                                      	       114	0.13%
+Vijay K. Gurbani                                  	       113	0.13%
+Weiqiang Cheng                                    	       113	0.13%
+Mahesh Jethanandani                               	       112	0.13%
+Tal Mizrahi                                       	       112	0.13%
+Ted Hardie                                        	       111	0.13%
+Martin Björklund                                  	       111	0.13%
+Pablo Camarillo                                   	       110	0.12%
+Tero Kivinen                                      	       109	0.12%
+Miroslav Lichvar                                  	       109	0.12%
+Mark P. Andrews                                   	       108	0.12%
+Marco Tiloca                                      	       108	0.12%
+Michael Hammer                                    	       108	0.12%
+Yoav Nir                                          	       107	0.12%
+Viktor Dukhovni                                   	       107	0.12%
+Nancy Cam-Winget                                  	       106	0.12%
+Brian Rosen                                       	       105	0.12%
+Neil Madden                                       	       105	0.12%
+Tony Finch                                        	       104	0.12%
+Andrew G. Malis                                   	       103	0.12%
+Al Morton                                         	       103	0.12%
+Nick Banks                                        	       103	0.12%
+Portia Wenze-Danley                               	       102	0.12%
+Wim Henderickx                                    	       102	0.12%
+Jen Linkova                                       	       102	0.12%
+Job Snijders                                      	       101	0.11%
+Annabelle Backman                                 	       101	0.11%
+S.J.M. Steffann                                   	       101	0.11%
+Rahul Jadhav                                      	       100	0.11%
+John Preuß Mattsson                               	        99	0.11%
+Glenn Deen                                        	        98	0.11%
+Eric Kinnear                                      	        98	0.11%
+Wesley Eddy                                       	        97	0.11%
+Ivaylo Petrov                                     	        96	0.11%
+Michael Scharf                                    	        95	0.11%
+Michael Tüxen                                     	        95	0.11%
+Kiran Makhijani                                   	        95	0.11%
+Ingemar Johansson                                 	        94	0.11%
+Yingzhen Qu                                       	        93	0.10%
+Zheng Zhang                                       	        93	0.10%
+Chris Morrow                                      	        93	0.10%
+Tom Jones                                         	        92	0.10%
+Jim Fenton                                        	        90	0.10%
+Glen Barney                                       	        89	0.10%
+Daniele Ceccarelli                                	        89	0.10%
+James Gould                                       	        89	0.10%
+Karen O'Donoghue                                  	        88	0.10%
+Jakob Heitz                                       	        88	0.10%
+Reza Rokui                                        	        88	0.10%
+Wes Hardaker                                      	        87	0.10%
+Wojciech Kozlowski                                	        87	0.10%
+Giuseppe Fioccola                                 	        86	0.10%
+Rakesh Gandhi                                     	        86	0.10%
+Eric Voit                                         	        86	0.10%
+Y. Richard Yang                                   	        85	0.10%
+Laurent Ciavaglia                                 	        85	0.10%
+Stephen Kent                                      	        85	0.10%
+Scott Kitterman                                   	        85	0.10%
+Alan DeKok                                        	        85	0.10%
+Jared Mauch                                       	        84	0.09%
+Christian Amsüss                                  	        84	0.09%
+Marie-Jose Montpetit                              	        84	0.09%
+Shuping Peng                                      	        82	0.09%
+Andrew Alston                                     	        82	0.09%
+John Drake                                        	        82	0.09%
+Xuesong Geng                                      	        82	0.09%
+Jon Shallow                                       	        82	0.09%
+Carles Gomez                                      	        81	0.09%
+Hendrik Brockhaus                                 	        81	0.09%
+Göran Selander                                    	        80	0.09%
+Lorenzo Colitti                                   	        80	0.09%
+Jeffrey Haas                                      	        79	0.09%
+Dirk Kutscher                                     	        79	0.09%
+David R. Oran                                     	        78	0.09%
+Doug Ewell                                        	        78	0.09%
+Aaron Parecki                                     	        78	0.09%
+Sara Dickinson                                    	        77	0.09%
+Dino Farinacci                                    	        77	0.09%
+Shumon Huque                                      	        77	0.09%
+Vittorio Bertocci                                 	        77	0.09%
+Kathleen Moriarty                                 	        76	0.09%
+Tim Chown                                         	        75	0.08%
+Carlos J. Bernardos                               	        75	0.08%
+Achim Kraus                                       	        75	0.08%
+Carlos Pignataro                                  	        75	0.08%
+Dr. Masataka Ohta                                 	        75	0.08%
+Tarek Saad                                        	        74	0.08%
+Brandon Long                                      	        73	0.08%
+Scott Burleigh                                    	        73	0.08%
+Harlan Stenn                                      	        73	0.08%
+Tim Bruijnzeels                                   	        73	0.08%
+Jake Holland                                      	        72	0.08%
+Bo Wu                                             	        72	0.08%
+Zafar Ali                                         	        71	0.08%
+Neil Jenkins                                      	        71	0.08%
+Balázs Lengyel                                    	        71	0.08%
+Jason Livingood                                   	        70	0.08%
+Greg Shepherd                                     	        70	0.08%
+Stanislav V. Smyshlyaev                           	        70	0.08%
+Seth Blank                                        	        69	0.08%
+Marc Petit-Huguenin                               	        68	0.08%
+Deborah Brungard                                  	        68	0.08%
+Michael Douglass                                  	        68	0.08%
+Yali Wang                                         	        68	0.08%
+Vladimir Dzhuvinov                                	        68	0.08%
+Suresh Krishnan                                   	        67	0.08%
+Brian Sipos                                       	        67	0.08%
+Scott O. Bradner                                  	        66	0.07%
+Dale R. Worley                                    	        66	0.07%
+Mankamana Prasad Mishra                           	        66	0.07%
+Nick Harper                                       	        66	0.07%
+Luis M. Contreras                                 	        65	0.07%
+Zhenbin Li                                        	        65	0.07%
+Igor Lubashev                                     	        65	0.07%
+Andrew Campling                                   	        64	0.07%
+Mike McBride                                      	        64	0.07%
+Charles Eckel                                     	        64	0.07%
+Ladislav Lhotka                                   	        64	0.07%
+Kurt Andersen                                     	        64	0.07%
+Haoyu Song                                        	        64	0.07%
+Juliusz Chroboczek                                	        63	0.07%
+Dave Thaler                                       	        63	0.07%
+Jean Mahoney                                      	        63	0.07%
+Ryan Sleevi                                       	        62	0.07%
+Brendan Moran                                     	        62	0.07%
+Xufeng Liu                                        	        62	0.07%
+Mary Barnes                                       	        61	0.07%
+Rodney Grimes                                     	        61	0.07%
+Dominique Barthel                                 	        61	0.07%
+Peter Gutmann                                     	        61	0.07%
+Mallory Knodel                                    	        61	0.07%
+Ethan Grossman                                    	        61	0.07%
+Willy Tarreau                                     	        61	0.07%
+Owen DeLong                                       	        61	0.07%
+Bence Béky                                        	        61	0.07%
+Joe Abley                                         	        60	0.07%
+Glyn Normington                                   	        60	0.07%
+Jorge Rabadan                                     	        59	0.07%
+Italo Busi                                        	        59	0.07%
+Uri Blumenthal                                    	        59	0.07%
+Yuchung Cheng                                     	        59	0.07%
+Stephane Litkowski                                	        58	0.07%
+Sasha Vainshtein                                  	        58	0.07%
+George G. Michaelson                              	        58	0.07%
+Kenneth Murchison                                 	        57	0.06%
+Mach Chen                                         	        57	0.06%
+Kyle Rose                                         	        56	0.06%
+Alexander Pelov                                   	        56	0.06%
+Ned Smith                                         	        56	0.06%
+Peter van Dijk                                    	        56	0.06%
+Daniel Fett                                       	        56	0.06%
+Esko Dijk                                         	        55	0.06%
+Sabine Randriamasy                                	        55	0.06%
+Shaofu Peng                                       	        55	0.06%
+Leslie Daigle                                     	        54	0.06%
+Matthew Bocci                                     	        54	0.06%
+János Farkas                                      	        54	0.06%
+Patrick Mevzek                                    	        54	0.06%
+Christoph Loibl                                   	        54	0.06%
+Filip Skokan                                      	        54	0.06%
+Wei Pan                                           	        53	0.06%
+Roman Shpount                                     	        53	0.06%
+Michael Welzl                                     	        53	0.06%
+Chongfeng Xie                                     	        53	0.06%
+Mohit Sahni                                       	        52	0.06%
+Mikael Abrahamsson                                	        52	0.06%
+Ruediger Geib                                     	        52	0.06%
+Frank Brockners                                   	        51	0.06%
+Dieter Beller                                     	        50	0.06%
+Sergio Belotti                                    	        50	0.06%
+Tommy Jensen                                      	        49	0.06%
+Brian Haberman                                    	        49	0.06%
+Ian Farrer                                        	        49	0.06%
+Todd Herr                                         	        49	0.06%
+Victor Kuarsingh                                  	        49	0.06%
+Olivier Gimenez                                   	        49	0.06%
+Tim Bray                                          	        48	0.05%
+Rick van Rein                                     	        48	0.05%
+Jim Guichard                                      	        48	0.05%
+Tom Pusateri                                      	        47	0.05%
+Aaron Falk                                        	        47	0.05%
+Rene Struik                                       	        47	0.05%
+Daniel Fox Franke                                 	        47	0.05%
+Roberto Polli                                     	        47	0.05%
+Vishnu Pavan Beeram                               	        47	0.05%
+Amanda Baber                                      	        46	0.05%
+Roni Even                                         	        46	0.05%
+Shuai Zhao                                        	        46	0.05%
+Nagendra Kumar Nainar                             	        46	0.05%
+Alex Davidson                                     	        46	0.05%
+Ari Keränen                                       	        46	0.05%
+Olivier Bonaventure                               	        46	0.05%
+James Galvin                                      	        46	0.05%
+Melchior Aelmans                                  	        45	0.05%
+Melinda Shore                                     	        45	0.05%
+Eric Orth                                         	        45	0.05%
+Martin J. Dürst                                   	        45	0.05%
+Zhibo Hu                                          	        45	0.05%
+Di Ma                                             	        45	0.05%
+Adam Wiethuechter                                 	        44	0.05%
+Yoshifumi Nishida                                 	        44	0.05%
+Phillip Hunt                                      	        44	0.05%
+Xiao Min                                          	        43	0.05%
+Björn Haase                                       	        43	0.05%
+Shunsuke Homma                                    	        43	0.05%
+Duane Wessels                                     	        43	0.05%
+Greg Wood                                         	        42	0.05%
+Cullen Jennings                                   	        42	0.05%
+Ludwig Seitz                                      	        42	0.05%
+Daniel Kahn Gillmor                               	        42	0.05%
+Chris Box                                         	        42	0.05%
+Dan Romascanu                                     	        42	0.05%
+Ali Sajassi                                       	        42	0.05%
+Timothy Winters                                   	        42	0.05%
+Tatuya Jinmei                                     	        42	0.05%
+David Benjamin                                    	        42	0.05%
+Leif Johansson                                    	        42	0.05%
+Antoin Verschuren                                 	        42	0.05%
+Doug Arnold                                       	        42	0.05%
+Mališa Vučinić                                    	        41	0.05%
+Keyur Patel                                       	        41	0.05%
+Yoav Weiss                                        	        41	0.05%
+Greg White                                        	        41	0.05%
+Praveen Balasubramanian                           	        41	0.05%
+Shraddha Hegde                                    	        41	0.05%
+Benoît Claise                                     	        40	0.05%
+Uma Chunduri                                      	        40	0.05%
+Justin Uberti                                     	        40	0.05%
+Jeffrey Yasskin                                   	        40	0.05%
+Matthew A. Miller                                 	        40	0.05%
+Chonggang Wang                                    	        40	0.05%
+Tony Whyman                                       	        40	0.05%
+Raphael Robert                                    	        40	0.05%
+Abdussalam Baryun                                 	        39	0.04%
+Asmus, Inc.                                       	        39	0.04%
+Martin Hoffmann                                   	        39	0.04%
+Alexander Azimov                                  	        39	0.04%
+Sam Whited                                        	        39	0.04%
+Nick Sullivan                                     	        38	0.04%
+Eve Schooler                                      	        38	0.04%
+Haomian Zheng                                     	        38	0.04%
+Don Fedyk                                         	        37	0.04%
+Bruno Rijsman                                     	        37	0.04%
+Ilari Liusvaara                                   	        37	0.04%
+Ira McDonald                                      	        37	0.04%
+Theresa Enghardt                                  	        37	0.04%
+Gert Doering                                      	        37	0.04%
+Rodney Van Meter                                  	        37	0.04%
+Lenny Giuliano                                    	        36	0.04%
+Oscar Gonzalez de Dios                            	        36	0.04%
+Sergio Garcia Murillo                             	        36	0.04%
+Anders Rundgren                                   	        36	0.04%
+Vladimír Čunát                                    	        36	0.04%
+Peter G. Heist                                    	        36	0.04%
+Dmitry Belyavsky                                  	        35	0.04%
+Rick Taylor                                       	        35	0.04%
+Jeremy Harris                                     	        35	0.04%
+Thomas Graf                                       	        35	0.04%
+Roy T. Fielding                                   	        35	0.04%
+Neal Cardwell                                     	        35	0.04%
+Cigdem Sengul                                     	        34	0.04%
+Patrik Fältström                                  	        34	0.04%
+Daniel Voyer                                      	        34	0.04%
+Zhenqiang Li                                      	        34	0.04%
+Ragnar Sundblad                                   	        34	0.04%
+Koen De Schepper                                  	        34	0.04%
+Joseph Lorenzo Hall                               	        33	0.04%
+Danny Alex Lachos Perez                           	        33	0.04%
+Martin Vigoureux                                  	        33	0.04%
+Niels ten Oever                                   	        33	0.04%
+Toke Høiland-Jørgensen                            	        33	0.04%
+Shunwan Zhuang                                    	        33	0.04%
+Thomas Hardjono                                   	        33	0.04%
+Loganaden Velvindron                              	        33	0.04%
+Guy Fedorkow                                      	        33	0.04%
+Ryan Hamilton                                     	        33	0.04%
+Sabrina Tanamal                                   	        32	0.04%
+Marc Blanchet                                     	        32	0.04%
+Gunter Van de Velde                               	        32	0.04%
+Doug Royer                                        	        32	0.04%
+Jonas Ahlberg                                     	        32	0.04%
+Jaime Jimenez                                     	        32	0.04%
+Lloyd Wood                                        	        32	0.04%
+Rafael Marin-Lopez                                	        32	0.04%
+Miika Komu                                        	        32	0.04%
+Dave Tonge                                        	        32	0.04%
+Joël Alwen                                        	        32	0.04%
+Dirk v. Hugo                                      	        31	0.03%
+Olaf Bergmann                                     	        31	0.03%
+Kai Gao                                           	        31	0.03%
+Benno Overeinder                                  	        31	0.03%
+Stephan Wenger                                    	        30	0.03%
+Markus Amend                                      	        30	0.03%
+Tomas Gustavsson                                  	        30	0.03%
+Stig Venaas                                       	        30	0.03%
+Scott Fluhrer                                     	        30	0.03%
+Fengwei Qin                                       	        30	0.03%
+Edward J. Birrane                                 	        30	0.03%
+Gustavo Lozano Ibarra                             	        30	0.03%
+Adrian Hope-Bailie                                	        30	0.03%
+John Bradley                                      	        29	0.03%
+Carrick                                           	        29	0.03%
+Jingxuan Zhang                                    	        29	0.03%
+Alexander Clemm                                   	        29	0.03%
+Randall Gellens                                   	        29	0.03%
+Julien Meuric                                     	        29	0.03%
+Klaus Hartke                                      	        29	0.03%
+Ana Minaburo                                      	        29	0.03%
+Hongji Zhao                                       	        29	0.03%
+Patrick Gelard                                    	        29	0.03%
+Stephen McQuistin                                 	        28	0.03%
+Steffen Fries                                     	        28	0.03%
+Andrew Sullivan                                   	        28	0.03%
+dave.taht@gmail.com                               	        28	0.03%
+Bob Harold                                        	        28	0.03%
+Yumi Sakemi                                       	        28	0.03%
+Alessandro Ghedini                                	        28	0.03%
+Erik Nygren                                       	        28	0.03%
+Mark Allman                                       	        28	0.03%
+Chris Bowers                                      	        28	0.03%
+Brendan McMillion                                 	        28	0.03%
+Matt Joras                                        	        28	0.03%
+Joel Jaeggli                                      	        27	0.03%
+Alex Brotman                                      	        27	0.03%
+Kyle Larose                                       	        27	0.03%
+Christopher Patton                                	        27	0.03%
+Jonathan Hammell                                  	        27	0.03%
+Arnt Gulbrandsen                                  	        27	0.03%
+Dave Cridland                                     	        27	0.03%
+Alexa Morris                                      	        26	0.03%
+Vincent Roca                                      	        26	0.03%
+Timo Sirainen                                     	        26	0.03%
+Mike Koldychev                                    	        26	0.03%
+Fabio Maino                                       	        26	0.03%
+Joerg Ott                                         	        25	0.03%
+Samita Chakrabarti                                	        25	0.03%
+Brian Trammell                                    	        25	0.03%
+Dr. Alex Gouaillard                               	        25	0.03%
+Jim Uttaro                                        	        25	0.03%
+Rishabh Parekh                                    	        25	0.03%
+Chelsea Komlo                                     	        25	0.03%
+Daniel R. L. Brown                                	        25	0.03%
+Oleg Pekar                                        	        25	0.03%
+Nicolas Kuhn                                      	        25	0.03%
+Kamran Raza                                       	        25	0.03%
+Poul-Henning Kamp                                 	        25	0.03%
+Robbie Harwood                                    	        25	0.03%
+Jérôme François                                   	        25	0.03%
+Sam Varshavchik                                   	        25	0.03%
+Marcus Dansarie                                   	        25	0.03%
+Sandra L. Murphy                                  	        24	0.03%
+Yiannis Yiakoumis                                 	        24	0.03%
+Owen Friel                                        	        24	0.03%
+Ralf Weber                                        	        24	0.03%
+Jim Reid                                          	        24	0.03%
+Zongpeng Du                                       	        24	0.03%
+Robert Stepanek                                   	        24	0.03%
+Juan-Carlos Zúñiga                                	        24	0.03%
+Victor Vasiliev                                   	        24	0.03%
+Bernie Hoeneisen                                  	        24	0.03%
+Töma Gavrichenkov                                 	        24	0.03%
+Dr. Thomas Narten                                 	        24	0.03%
+Ole J. Jacobsen                                   	        24	0.03%
+Luke Howard                                       	        24	0.03%
+Benjamin Beurdouche                               	        24	0.03%
+Nat Sakimura                                      	        24	0.03%
+Magnus Danielson                                  	        24	0.03%
+Alessandro Amirante                               	        23	0.03%
+Peng Liu                                          	        23	0.03%
+Luca Muscariello                                  	        23	0.03%
+Luigi Iannone                                     	        23	0.03%
+Tengfei Chang                                     	        23	0.03%
+Jérôme Martinez                                   	        23	0.03%
+Quynh Dang                                        	        23	0.03%
+Jeong-dong Ryoo                                   	        23	0.03%
+Henning Rogge                                     	        23	0.03%
+Jan Lindblad                                      	        23	0.03%
+Jorge Vergara                                     	        23	0.03%
+David Farmer                                      	        23	0.03%
+Andrew Stone                                      	        23	0.03%
+Tom Talpey                                        	        23	0.03%
+Dieter Sibold                                     	        23	0.03%
+Philip Prindeville                                	        23	0.03%
+George Fletcher                                   	        23	0.03%
+Akira Tsukamoto                                   	        23	0.03%
+Li Yizhou                                         	        22	0.02%
+Panos Kampanakis                                  	        22	0.02%
+Patrick McManus                                   	        22	0.02%
+Michael Peddemors                                 	        22	0.02%
+Ran Chen                                          	        22	0.02%
+Gábor Lencse                                      	        22	0.02%
+Dave Rice                                         	        22	0.02%
+James Gruessing                                   	        22	0.02%
+Roy Arends                                        	        22	0.02%
+Amelia Andersdotter                               	        22	0.02%
+Roberto Peon                                      	        22	0.02%
+David Waite                                       	        22	0.02%
+Joseph Potvin                                     	        22	0.02%
+Olle E. Johansson                                 	        22	0.02%
+Britta Hale                                       	        22	0.02%
+Warren Parad                                      	        22	0.02%
+Carlos M. Martínez                                	        21	0.02%
+Jonathan Lennox                                   	        21	0.02%
+Richard Scheffenegger                             	        21	0.02%
+Hooman Bidgoli                                    	        21	0.02%
+M. Ranganathan                                    	        21	0.02%
+denis bider                                       	        21	0.02%
+Petr Špaček                                       	        21	0.02%
+Hitoshi Asaeda                                    	        21	0.02%
+Dusan Mudric                                      	        21	0.02%
+Martin Burnicki                                   	        21	0.02%
+David Skaife                                      	        21	0.02%
+Nathalie Trenaman                                 	        21	0.02%
+Tatsuhiro Tsujikawa                               	        21	0.02%
+David C Lawrence                                  	        20	0.02%
+Peter Van der Stok                                	        20	0.02%
+Quan Xiong                                        	        20	0.02%
+Ronald Henry Tse                                  	        20	0.02%
+statements@ietf.org                               	        20	0.02%
+Derek Atkins                                      	        20	0.02%
+R. Atkinson                                       	        20	0.02%
+Ben Maddison                                      	        20	0.02%
+Ilango Ganga                                      	        20	0.02%
+Shwetha Bhandari                                  	        19	0.02%
+Laurent Toutain                                   	        19	0.02%
+Sheng Jiang                                       	        19	0.02%
+Dominique Lazanski                                	        19	0.02%
+Ka-Cheong Leung                                   	        19	0.02%
+Mark D. Baushke                                   	        19	0.02%
+Richard Patterson                                 	        19	0.02%
+Steven M Jones                                    	        19	0.02%
+Jonathan Rosenberg                                	        19	0.02%
+Markku Kojo                                       	        19	0.02%
+Raphaël Ouazana                                   	        19	0.02%
+Peter E. Yee                                      	        18	0.02%
+Bing Liu (Remy)                                   	        18	0.02%
+Richard D. Shockey                                	        18	0.02%
+Jane R Coffin                                     	        18	0.02%
+Roger Carney                                      	        18	0.02%
+Danny Mayer                                       	        18	0.02%
+Tim Hollebeek                                     	        18	0.02%
+C. M. Heard                                       	        18	0.02%
+Michelle Cotton                                   	        17	0.02%
+Bret Jordan                                       	        17	0.02%
+Sharon Barkai                                     	        17	0.02%
+Tommy Pauly                                       	        17	0.02%
+Diego Lopez                                       	        17	0.02%
+Jan Seedorf                                       	        17	0.02%
+Roland Bless                                      	        17	0.02%
+James Hamlin                                      	        17	0.02%
+Harald T. Alvestrand                              	        17	0.02%
+Dirk Trossen                                      	        17	0.02%
+Sofia Celi                                        	        17	0.02%
+Karthikeyan Bhargavan                             	        17	0.02%
+Samir Srivastava                                  	        17	0.02%
+Kotikalapudi Sriram                               	        17	0.02%
+Dr. Ross Finlayson                                	        17	0.02%
+Cory Benfield                                     	        17	0.02%
+Stefano Previdi                                   	        17	0.02%
+Mauro Cociglio                                    	        17	0.02%
+John Cowan                                        	        17	0.02%
+Jose M. Recio                                     	        17	0.02%
+Steven Valdez                                     	        17	0.02%
+Tobias Sattler                                    	        17	0.02%
+Jasdip Singh                                      	        17	0.02%
+Mike Ounsworth                                    	        17	0.02%
+Mingliang Pei                                     	        17	0.02%
+Vijay Aswadhati                                   	        17	0.02%
+Georgios Z. Papadopoulos                          	        16	0.02%
+Megan Ferguson                                    	        16	0.02%
+Yisong Liu                                        	        16	0.02%
+Mukund Sivaraman                                  	        16	0.02%
+Samuel Weiler                                     	        16	0.02%
+Andrei Gurtov                                     	        16	0.02%
+Cenk Gündoğan                                     	        16	0.02%
+Dr. Kenneth L. Calvert                            	        16	0.02%
+Barak Gafni                                       	        16	0.02%
+Konrad Kohbrok                                    	        16	0.02%
+Olga Havel                                        	        16	0.02%
+Remous-Aris Koutsiamanis                          	        16	0.02%
+Yuehua Wei                                        	        16	0.02%
+Lionel Morand                                     	        15	0.02%
+Hannu Flinck                                      	        15	0.02%
+Sarah Banks                                       	        15	0.02%
+Liang Xia                                         	        15	0.02%
+Geoff Huston                                      	        15	0.02%
+Peter Saint-Andre                                 	        15	0.02%
+Niklas Widell                                     	        15	0.02%
+Antonin Décimo                                    	        15	0.02%
+Gaurav Dawra                                      	        15	0.02%
+Haibo Wang                                        	        15	0.02%
+Yuanlong Jiang                                    	        15	0.02%
+Radek Krejčí                                      	        15	0.02%
+Stefan Santesson                                  	        15	0.02%
+Jon Peterson                                      	        15	0.02%
+Erik Wilde                                        	        15	0.02%
+Daniel Stenberg                                   	        15	0.02%
+Amos Jeffries                                     	        15	0.02%
+samier barguil                                    	        15	0.02%
+Theodore Ts'o                                     	        15	0.02%
+Flemming Andreasen                                	        15	0.02%
+Carl Wallace                                      	        15	0.02%
+Sorin Faibish                                     	        15	0.02%
+Joseph Heenan                                     	        15	0.02%
+Steven Blake                                      	        15	0.02%
+John Grant                                        	        14	0.02%
+Neil Cook                                         	        14	0.02%
+Anthony Rutkowski                                 	        14	0.02%
+Dan York                                          	        14	0.02%
+Satoru Matsushima                                 	        14	0.02%
+Yongqing Zhu                                      	        14	0.02%
+Jonathan Beri                                     	        14	0.02%
+Feng Hao                                          	        14	0.02%
+Dr. Hugo Krawczyk                                 	        14	0.02%
+Jéferson Campos Nobre                             	        14	0.02%
+Trond Myklebust                                   	        14	0.02%
+Shivan Kaul Sahib                                 	        14	0.02%
+Robin Marx                                        	        14	0.02%
+Vidhi Goel                                        	        14	0.02%
+Saulo José da Silva                               	        14	0.02%
+Jerome Henry                                      	        14	0.02%
+Erik Auerswald                                    	        14	0.02%
+Sascha Preibisch                                  	        14	0.02%
+Robert Kisteleki                                  	        14	0.02%
+Eric Wang                                         	        14	0.02%
+Simon Frost                                       	        14	0.02%
+David Waltermire                                  	        14	0.02%
+Juhamatti Kuusisaari                              	        14	0.02%
+Luke Curley                                       	        14	0.02%
+Ahmed Bashandy                                    	        13	0.01%
+Adam W. Montville                                 	        13	0.01%
+Elwyn B. Davies                                   	        13	0.01%
+Ray Bellis                                        	        13	0.01%
+Daniel King                                       	        13	0.01%
+David Kemp                                        	        13	0.01%
+Boris Khasanov                                    	        13	0.01%
+Santosh Pallagatti                                	        13	0.01%
+Steve Lhomme                                      	        13	0.01%
+Felix Günther                                     	        13	0.01%
+Philip Eardley                                    	        13	0.01%
+Sri Gundavelli                                    	        13	0.01%
+Linjian Song                                      	        13	0.01%
+Dragana Damjanovic                                	        13	0.01%
+Jungha Hong                                       	        13	0.01%
+Marc Mosko                                        	        13	0.01%
+mackermann@bcbsm.com                              	        13	0.01%
+Mark Davis                                        	        13	0.01%
+Liz Flynn                                         	        13	0.01%
+Martin Horneffer                                  	        13	0.01%
+Nov Matake                                        	        13	0.01%
+Тарас Гейченко                                    	        13	0.01%
+Tolga Asveren                                     	        13	0.01%
+Darran Rolls                                      	        13	0.01%
+Ilpo Järvinen                                     	        13	0.01%
+Joel Höglund                                      	        12	0.01%
+James Manger                                      	        12	0.01%
+Nicolai Leymann                                   	        12	0.01%
+Simon Pietro Romano                               	        12	0.01%
+Timothy Carlin                                    	        12	0.01%
+Young Lee                                         	        12	0.01%
+Stephen Cheng                                     	        12	0.01%
+Emmanuel Baccelli                                 	        12	0.01%
+Jean-Philippe Aumasson                            	        12	0.01%
+Xavier de Foy                                     	        12	0.01%
+Hubert Kario                                      	        12	0.01%
+Li Huang                                          	        12	0.01%
+Emad Omara                                        	        12	0.01%
+Kazunori Fujiwara                                 	        12	0.01%
+Willem Toorop                                     	        12	0.01%
+Tim Cappalli                                      	        12	0.01%
+Xiaoqing Zhu                                      	        12	0.01%
+William Denniss                                   	        12	0.01%
+Oliver Borchert                                   	        12	0.01%
+Randy Presuhn                                     	        12	0.01%
+Mehmet Ersue                                      	        12	0.01%
+Florin Baboescu                                   	        12	0.01%
+Igor Bryskin                                      	        12	0.01%
+Werner Koch                                       	        12	0.01%
+Dr. Santosh Chokhani                              	        12	0.01%
+Peter Wu                                          	        12	0.01%
+Nevil Brownlee                                    	        12	0.01%
+Jay Borkenhagen                                   	        12	0.01%
+Rejesh Shetty                                     	        12	0.01%
+Olivier Tilmans                                   	        12	0.01%
+Devin Mullins                                     	        12	0.01%
+Roland Jesske                                     	        11	0.01%
+Kireeti Kompella                                  	        11	0.01%
+Tim Evens                                         	        11	0.01%
+Simon Ser                                         	        11	0.01%
+John Heasley                                      	        11	0.01%
+J. William Atwood                                 	        11	0.01%
+Kaustubh Inamdar                                  	        11	0.01%
+Richard Vallee                                    	        11	0.01%
+Vladimir Vassilev                                 	        11	0.01%
+Yiu Lee                                           	        11	0.01%
+Riad S. Wahby                                     	        11	0.01%
+Mike Hamburg                                      	        11	0.01%
+Kaname Nishizuka                                  	        11	0.01%
+Michael Slusarz                                   	        11	0.01%
+Jeff Ahrenholz                                    	        11	0.01%
+Cong Li                                           	        11	0.01%
+Liu Yao                                           	        11	0.01%
+Michael Rossberg                                  	        11	0.01%
+Stefano Salsano                                   	        11	0.01%
+Ronald in 't Velt                                 	        11	0.01%
+Eric Cornelissen                                  	        11	0.01%
+James Fields                                      	        11	0.01%
+Kristof Teichel                                   	        11	0.01%
+Hariharan Ananthakrishnan                         	        11	0.01%
+Corinna Schmitt                                   	        11	0.01%
+Kenichi Ogaki                                     	        11	0.01%
+Jonathan Hoyland                                  	        11	0.01%
+Juna Hakala                                       	        11	0.01%
+Cindy Morgan                                      	        10	0.01%
+Julien Maisonneuve                                	        10	0.01%
+Charles E. Perkins                                	        10	0.01%
+Dan Garcia-Carrillo                               	        10	0.01%
+Erik Andersen                                     	        10	0.01%
+Scott Mansfield                                   	        10	0.01%
+Jouni Korhonen                                    	        10	0.01%
+LucAndré Burdet                                   	        10	0.01%
+Wen Lin                                           	        10	0.01%
+Kausik Majumdar                                   	        10	0.01%
+Hongwei Li                                        	        10	0.01%
+Ran Pang                                          	        10	0.01%
+Xiaohu Xu                                         	        10	0.01%
+Benoît Viguier                                    	        10	0.01%
+Kirsty Paine                                      	        10	0.01%
+Jon Callas                                        	        10	0.01%
+Ron Frederick                                     	        10	0.01%
+Julien ÉLIE                                       	        10	0.01%
+Ekow Sam                                          	        10	0.01%
+Darrel Miller                                     	        10	0.01%
+Ólafur Guðmundsson                                	        10	0.01%
+chenmeiling                                       	        10	0.01%
+Leandro Navarro                                   	        10	0.01%
+Yunan Gu                                          	        10	0.01%
+Gonzalo Camarillo                                 	        10	0.01%
+Stéphane Couture                                  	        10	0.01%
+Avri Doria                                        	        10	0.01%
+Huanan Chen                                       	        10	0.01%
+Wei Wang                                          	        10	0.01%
+Fabio Bulgarella                                  	        10	0.01%
+Enke Chen                                         	        10	0.01%
+Nalini Elkins                                     	        10	0.01%
+Francois Clad                                     	        10	0.01%
+Mark McFadden                                     	        10	0.01%
+Yimin Shen                                        	        10	0.01%
+Jiao Kang                                         	        10	0.01%
+Anthony Nadalin                                   	        10	0.01%
+Karsten Meyer zu Selhausen                        	        10	0.01%
+Joseph Yee                                        	        10	0.01%
+Tom Harrison                                      	        10	0.01%
+Li Zhao                                           	        10	0.01%
+Russ A. Penar                                     	        10	0.01%
+Jack Rickard                                      	        10	0.01%
+Sandy Ginoza                                      	         9	0.01%
+Lixia Zhang                                       	         9	0.01%
+Pascal Urien                                      	         9	0.01%
+Szilveszter Nadas                                 	         9	0.01%
+Derrell Piper                                     	         9	0.01%
+Stefanie Gerdes                                   	         9	0.01%
+Emmanuel Bretelle                                 	         9	0.01%
+Dan Wing                                          	         9	0.01%
+Börje Ohlman                                      	         9	0.01%
+Qiao Xiang                                        	         9	0.01%
+Brian Weis                                        	         9	0.01%
+Chunshan Xiong                                    	         9	0.01%
+IAB Chair                                         	         9	0.01%
+Yakov Shafranovich                                	         9	0.01%
+Sreekanth Narayanan                               	         9	0.01%
+krishnaswamy ananthamurthy                        	         9	0.01%
+Sami Boutros                                      	         9	0.01%
+Yubao Wang                                        	         9	0.01%
+Dirk Steinberg                                    	         9	0.01%
+Leonard Rosenthol                                 	         9	0.01%
+Rafael Belchior                                   	         9	0.01%
+Maciek Konstantynowicz                            	         9	0.01%
+Kio Smallwood                                     	         9	0.01%
+xiaobingNIU                                       	         9	0.01%
+Roque Gagliano                                    	         9	0.01%
+Manu Sporny                                       	         9	0.01%
+Abhijan Bhattacharyya                             	         9	0.01%
+Fabrice Theoleyre                                 	         9	0.01%
+Dmytro Shytyi                                     	         9	0.01%
+Evan Hunt                                         	         9	0.01%
+Matthijs Mekking                                  	         9	0.01%
+Wassim Haddad                                     	         9	0.01%
+Will Law                                          	         9	0.01%
+Evert Pot                                         	         9	0.01%
+Matthew Kerwin                                    	         9	0.01%
+Donatas Abraitis                                  	         9	0.01%
+Michal Krsek                                      	         9	0.01%
+Bjoern A. Zeeb                                    	         9	0.01%
+Matt Mathis                                       	         9	0.01%
+Alice Russo                                       	         9	0.01%
+Ash Wilson                                        	         9	0.01%
+Peter Blomqvist                                   	         9	0.01%
+Shawn M Emery                                     	         9	0.01%
+Ivan Arce                                         	         9	0.01%
+Chen Li                                           	         9	0.01%
+Steven Allen                                      	         9	0.01%
+Matthew de Haast                                  	         9	0.01%
+Shota Nagayama                                    	         9	0.01%
+Qing An                                           	         9	0.01%
+Rui Paulo                                         	         9	0.01%
+Jody Kolker                                       	         9	0.01%
+Tony Hansen                                       	         9	0.01%
+Chris Wendt                                       	         9	0.01%
+Stephen R Moore                                   	         9	0.01%
+Puneet Sood                                       	         8	0.01%
+Ryan Cross                                        	         8	0.01%
+Younghwan Choi                                    	         8	0.01%
+Robin Wilton                                      	         8	0.01%
+Mo Zanaty                                         	         8	0.01%
+Ye-Kui Wang                                       	         8	0.01%
+Theophile Bastian                                 	         8	0.01%
+Anoop Ghanwani                                    	         8	0.01%
+daniel.bernier@bell.ca                            	         8	0.01%
+Brian Monkman                                     	         8	0.01%
+David Bird                                        	         8	0.01%
+Aihua Guo                                         	         8	0.01%
+Filippo Valsorda                                  	         8	0.01%
+Hemant Singh                                      	         8	0.01%
+Naveen Kottapalli                                 	         8	0.01%
+Brad Peabody                                      	         8	0.01%
+R. (Miek) Gieben                                  	         8	0.01%
+Suzanne Woolf                                     	         8	0.01%
+Timothy Morizot                                   	         8	0.01%
+Giovane C. M. Moura                               	         8	0.01%
+Libor Peltan                                      	         8	0.01%
+Andrew McConachie                                 	         8	0.01%
+Meral Shirazipour                                 	         8	0.01%
+Yuhei Hayashi                                     	         8	0.01%
+Ebben Aries                                       	         8	0.01%
+Stephan Bosch                                     	         8	0.01%
+Jiankang Yao                                      	         8	0.01%
+Austin Wright                                     	         8	0.01%
+Mike West                                         	         8	0.01%
+Junxiao Shi                                       	         8	0.01%
+Rute C. Sofia                                     	         8	0.01%
+Mehmet Toy                                        	         8	0.01%
+Paul Congdon                                      	         8	0.01%
+Jxck                                              	         8	0.01%
+Iain R. Learmonth                                 	         8	0.01%
+José Ignacio Alvarez-Hamelin                      	         8	0.01%
+William A. Simpson                                	         8	0.01%
+Parag Kaneriya                                    	         8	0.01%
+Loba Olopade                                      	         8	0.01%
+AlbertoRodriguezNatal                             	         8	0.01%
+Albert Cabellos                                   	         8	0.01%
+Henk Smit                                         	         8	0.01%
+Rohit Abhishek                                    	         8	0.01%
+Michael Peck                                      	         8	0.01%
+Marcus Brinkmann                                  	         8	0.01%
+Guy Harris                                        	         8	0.01%
+Timo Voelker                                      	         8	0.01%
+Giridhar Mandyam                                  	         8	0.01%
+Phil Hunt                                         	         8	0.01%
+Douglas Stebila                                   	         8	0.01%
+Yi Huang                                          	         8	0.01%
+Matthew Hodgson                                   	         8	0.01%
+Joanna Dang                                       	         7	0.01%
+Lucy Lynch                                        	         7	0.01%
+Diego Roberto Dujovne                             	         7	0.01%
+Kerry Lynn                                        	         7	0.01%
+Roland Bracewell Shoemaker                        	         7	0.01%
+Kenji Baheux                                      	         7	0.01%
+Pan Lanlan                                        	         7	0.01%
+Shane Kerr                                        	         7	0.01%
+Xun Xiao                                          	         7	0.01%
+Jie Yang                                          	         7	0.01%
+Joachim Fabini                                    	         7	0.01%
+Wouter van der Beek                               	         7	0.01%
+Neeraj Malhotra                                   	         7	0.01%
+He Jiang                                          	         7	0.01%
+Hao Weiguo                                        	         7	0.01%
+Clarence Filsfils                                 	         7	0.01%
+John Leddy                                        	         7	0.01%
+Suhas Nandakumar                                  	         7	0.01%
+Liang Geng                                        	         7	0.01%
+Michael Menth                                     	         7	0.01%
+Ujjwal Sharma                                     	         7	0.01%
+Gert Grammel                                      	         7	0.01%
+Leonid Reyzin                                     	         7	0.01%
+Allison Mankin                                    	         7	0.01%
+Ian Goldberg                                      	         7	0.01%
+Aaron Ding                                        	         7	0.01%
+Yeoncheol Ryoo                                    	         7	0.01%
+Eric Burger                                       	         7	0.01%
+Zhiwei Yan                                        	         7	0.01%
+Alexander Mayrhofer                               	         7	0.01%
+Tuomas Aura                                       	         7	0.01%
+Terry Burton                                      	         7	0.01%
+Wayne Cutler                                      	         7	0.01%
+John Border                                       	         7	0.01%
+Scott Morgan                                      	         7	0.01%
+Stefan Eissing                                    	         7	0.01%
+Rui Miao                                          	         7	0.01%
+Paulo Mendes                                      	         7	0.01%
+Srihari R. Sangli                                 	         7	0.01%
+Yanhe Fan                                         	         7	0.01%
+David Smith                                       	         7	0.01%
+Robert Varga                                      	         7	0.01%
+Dr. Craig Partridge                               	         7	0.01%
+Brian Pawlowski                                   	         7	0.01%
+Paul D. Smith                                     	         7	0.01%
+Olufemi Komolafe                                  	         7	0.01%
+Jon Maloy                                         	         7	0.01%
+Jaganbabu Rajamanickam                            	         7	0.01%
+Marko Mikulicic                                   	         7	0.01%
+Olivier Dugeon                                    	         7	0.01%
+Pushpasis Sarkar                                  	         7	0.01%
+Alex Chernyakhovsky                               	         7	0.01%
+Siva Sivabalan                                    	         7	0.01%
+Per Andersson                                     	         7	0.01%
+Amina Boubendir                                   	         7	0.01%
+Pedro Martinez-Julia                              	         7	0.01%
+Lee McGovern                                      	         7	0.01%
+Andrii Deinega                                    	         7	0.01%
+Yanmei Liu                                        	         7	0.01%
+Quentin De Coninck                                	         7	0.01%
+Matt Olson                                        	         7	0.01%
+Eugene Christensen                                	         7	0.01%
+Magnus Nystrom                                    	         7	0.01%
+Oleg Muravskiy                                    	         7	0.01%
+Lijun Liao                                        	         7	0.01%
+Nimrod Aviram                                     	         7	0.01%
+Maksim Proshin                                    	         7	0.01%
+Tobias Looker                                     	         7	0.01%
+Virat Tara                                        	         7	0.01%
+Frode Kileng                                      	         6	0.01%
+Dean Bogdanović                                   	         6	0.01%
+Fraser Tweedale                                   	         6	0.01%
+Joey Salazar                                      	         6	0.01%
+Shuanglong Chen                                   	         6	0.01%
+Bill Woodcock                                     	         6	0.01%
+Phil Archer                                       	         6	0.01%
+Michael Koster                                    	         6	0.01%
+Yong Xin                                          	         6	0.01%
+Swadesh Agrawal                                   	         6	0.01%
+Bin Wen                                           	         6	0.01%
+Christian Jacquenet                               	         6	0.01%
+Basil Najem                                       	         6	0.01%
+Himanshu C. Shah                                  	         6	0.01%
+Alan Ford                                         	         6	0.01%
+Chang Liu                                         	         6	0.01%
+Martin Hargreaves                                 	         6	0.01%
+Subash Tirupachur Comerica                        	         6	0.01%
+Michael Toomim                                    	         6	0.01%
+Gabriele Galimberti                               	         6	0.01%
+Moritz Bunkus                                     	         6	0.01%
+Julia Len                                         	         6	0.01%
+Armando Faz-Hernández                             	         6	0.01%
+Ike Kunze                                         	         6	0.01%
+Martin Schanzenbach                               	         6	0.01%
+Jan Včelák                                        	         6	0.01%
+Ondřej Surý                                       	         6	0.01%
+Hugo Salgado                                      	         6	0.01%
+Robert Edmonds                                    	         6	0.01%
+Jonathan Huii                                     	         6	0.01%
+Jouni Malinen                                     	         6	0.01%
+Marcus Ihlar                                      	         6	0.01%
+Mingui Zhang                                      	         6	0.01%
+Greg Skinner                                      	         6	0.01%
+Paolo Lucente                                     	         6	0.01%
+James Fuller                                      	         6	0.01%
+Kari Hurtta                                       	         6	0.01%
+James M. Snell                                    	         6	0.01%
+Gareth Tyson                                      	         6	0.01%
+Bjorn Hjelm                                       	         6	0.01%
+Kaliraj Vairavakkalai                             	         6	0.01%
+Sergey Fomin                                      	         6	0.01%
+Ramesh Sivakolundu                                	         6	0.01%
+John T. Wroclawski                                	         6	0.01%
+Nadim Kobeissi                                    	         6	0.01%
+Mickey Spiegel                                    	         6	0.01%
+Jianglong Wang                                    	         6	0.01%
+Steffen Klassert                                  	         6	0.01%
+XiPeng Xiao                                       	         6	0.01%
+Simon Josefsson                                   	         6	0.01%
+Sarah Chen                                        	         6	0.01%
+Ian Duncan                                        	         6	0.01%
+Richard Li                                        	         6	0.01%
+Rob Austein                                       	         6	0.01%
+Jonathan Reed                                     	         6	0.01%
+Keith Drage                                       	         6	0.01%
+Chandrasekar R                                    	         6	0.01%
+Christoph Paasch                                  	         6	0.01%
+Ran Tao                                           	         6	0.01%
+Vincent Breitmoser                                	         6	0.01%
+dcmgash@cisco.com                                 	         6	0.01%
+Mahendra Singh Negi                               	         6	0.01%
+Bill Munyan                                       	         6	0.01%
+Hilarie Orman                                     	         6	0.01%
+Charlie Kaufman                                   	         6	0.01%
+Ties de Kock                                      	         6	0.01%
+Miguel Angel Reina Ortega                         	         6	0.01%
+Wayne Chang                                       	         6	0.01%
+Sean Croghan                                      	         5	0.01%
+Jacob Uecker                                      	         5	0.01%
+David Lake                                        	         5	0.01%
+Sanjay Mishra                                     	         5	0.01%
+Dorothy Cooley                                    	         5	0.01%
+Alister Winfield                                  	         5	0.01%
+Kevin Smith                                       	         5	0.01%
+John Woodworth                                    	         5	0.01%
+Gonzalo Salgueiro                                 	         5	0.01%
+Lorenzo Miniero                                   	         5	0.01%
+Russ White                                        	         5	0.01%
+Jordan Head                                       	         5	0.01%
+satyamoh@cisco.com                                	         5	0.01%
+IJsbrand Wijnands                                 	         5	0.01%
+Luay Jalil                                        	         5	0.01%
+Vengada Prasad Govindan                           	         5	0.01%
+Zitao Wang                                        	         5	0.01%
+Ahmed Abdelsalam                                  	         5	0.01%
+MooChang Shin                                     	         5	0.01%
+Miguel Correia                                    	         5	0.01%
+KJ Sun                                            	         5	0.01%
+David Dolson                                      	         5	0.01%
+Joerg Richter                                     	         5	0.01%
+Sean Leonard                                      	         5	0.01%
+Min Ye                                            	         5	0.01%
+Michael Niedermayer                               	         5	0.01%
+Florian Weimer                                    	         5	0.01%
+Andrey Jivsov                                     	         5	0.01%
+David McGrew                                      	         5	0.01%
+Spyridon Mastorakis                               	         5	0.01%
+Thomas Pornin                                     	         5	0.01%
+David von Oheimb                                  	         5	0.01%
+Vaibhav Bajpai                                    	         5	0.01%
+Anton Tveretin                                    	         5	0.01%
+Joonwoong Kim                                     	         5	0.01%
+Yeshwant Muthusamy                                	         5	0.01%
+Autumn Tyr-Salvia                                 	         5	0.01%
+Miya Kohno                                        	         5	0.01%
+Ralph Dolmans                                     	         5	0.01%
+Roy Arends                                        	         5	0.01%
+Pieter Lexis                                      	         5	0.01%
+Zhen Cao                                          	         5	0.01%
+scott weeks                                       	         5	0.01%
+Luis Martinez                                     	         5	0.01%
+David Allan                                       	         5	0.01%
+Corinne Cath                                      	         5	0.01%
+Colm Divilly                                      	         5	0.01%
+Glenn Parsons                                     	         5	0.01%
+Rong Pan                                          	         5	0.01%
+Thomas C. Schmidt                                 	         5	0.01%
+Rajiv Asati                                       	         5	0.01%
+Takeshi Takahashi                                 	         5	0.01%
+Dorothy Stanley                                   	         5	0.01%
+Narelle Clark                                     	         5	0.01%
+Sara Marcolla                                     	         5	0.01%
+Kjetil Torgrim Homme                              	         5	0.01%
+Christopher Inacio                                	         5	0.01%
+Richard Clayton                                   	         5	0.01%
+Rob Brew                                          	         5	0.01%
+Vladimir Olteanu                                  	         5	0.01%
+Paul Aitken                                       	         5	0.01%
+Xing Li                                           	         5	0.01%
+Jan Zorz                                          	         5	0.01%
+Joris Baum                                        	         5	0.01%
+Albert López Brescó                               	         5	0.01%
+Zhiwen Liu                                        	         5	0.01%
+Morten Pedersen                                   	         5	0.01%
+Rex Buddenberg                                    	         5	0.01%
+Dave Plonka                                       	         5	0.01%
+Hubert Chathi                                     	         5	0.01%
+Bo Burman                                         	         5	0.01%
+Waqar Zia                                         	         5	0.01%
+Mustapha Aissaoui                                 	         5	0.01%
+Joey Boyd                                         	         5	0.01%
+Adriana Olariu                                    	         5	0.01%
+Toshio Ito                                        	         5	0.01%
+Daniel Massameno                                  	         5	0.01%
+Sandeep Rao                                       	         5	0.01%
+Andrei Popov                                      	         5	0.01%
+Mariana Raykova                                   	         5	0.01%
+Antoine Delignat-Lavaud                           	         5	0.01%
+Yunfei Ma                                         	         5	0.01%
+Huimin She                                        	         5	0.01%
+Daniel Haynes                                     	         5	0.01%
+Radia Perlman                                     	         5	0.01%
+Markku-Juhani O. Saarinen                         	         5	0.01%
+John Curran                                       	         5	0.01%
+Tomonobu Niwa                                     	         5	0.01%
+Paul Yang                                         	         5	0.01%
+Henry S. Thompson                                 	         5	0.01%
+Hoang Long                                        	         4	0.00%
+Nabil Benamar                                     	         4	0.00%
+Yong-Geun Hong                                    	         4	0.00%
+Matt Palmer                                       	         4	0.00%
+Normen B. Kowalewski                              	         4	0.00%
+Iain Sharp                                        	         4	0.00%
+P Ebersman                                        	         4	0.00%
+Sebastian Kiesel                                  	         4	0.00%
+Artur Hecker                                      	         4	0.00%
+Henning Schulzrinne                               	         4	0.00%
+Yago Sanchez                                      	         4	0.00%
+Julian Lucek                                      	         4	0.00%
+Arkadiy Gulko                                     	         4	0.00%
+Ben Niven-Jenkins                                 	         4	0.00%
+Tanmoy Kundu                                      	         4	0.00%
+Nabeel Cocker                                     	         4	0.00%
+Marc Bradshaw                                     	         4	0.00%
+Remi NGUYEN VAN                                   	         4	0.00%
+Gurshabad Grover                                  	         4	0.00%
+Daniela Spreafico                                 	         4	0.00%
+Fatai Zhang                                       	         4	0.00%
+Giles Van Assche                                  	         4	0.00%
+Dmitry Khovratovich                               	         4	0.00%
+Mihir Bellare                                     	         4	0.00%
+Greg Hudson                                       	         4	0.00%
+Russ Allbery                                      	         4	0.00%
+Maxim Sharabayko                                  	         4	0.00%
+Kévin Dunglas                                     	         4	0.00%
+Jordi Paillisse                                   	         4	0.00%
+Takuya Miyasaka                                   	         4	0.00%
+Steve Crocker                                     	         4	0.00%
+Richard Franks                                    	         4	0.00%
+Jaap Akkerhuis                                    	         4	0.00%
+Mats Dufberg                                      	         4	0.00%
+Vasily Dolmatov                                   	         4	0.00%
+Havard Eidnes                                     	         4	0.00%
+Tim April                                         	         4	0.00%
+Brian Wellington                                  	         4	0.00%
+Ulrich Wisser                                     	         4	0.00%
+Li Su                                             	         4	0.00%
+Graham Klyne                                      	         4	0.00%
+Lucien Loiseau                                    	         4	0.00%
+Eduardo Ingles Sanchez                            	         4	0.00%
+Nick Doty                                         	         4	0.00%
+Pedro A. Aranda Gutierrez                         	         4	0.00%
+Martin Langer                                     	         4	0.00%
+Ali C. Begen                                      	         4	0.00%
+Felix Handte                                      	         4	0.00%
+Greg Wilkins                                      	         4	0.00%
+Akbar Rahman                                      	         4	0.00%
+Doug Montgomery                                   	         4	0.00%
+Shawn Zandi                                       	         4	0.00%
+Nitin K Sookun                                    	         4	0.00%
+Dr. Nathaniel S. Borenstein                       	         4	0.00%
+R. Signes                                         	         4	0.00%
+Kannan Jayaraman                                  	         4	0.00%
+Mohit P. Tahiliani                                	         4	0.00%
+Addison Phillips                                  	         4	0.00%
+chet.ensign@oasis-open.org                        	         4	0.00%
+Henrik Nydell                                     	         4	0.00%
+Srihari Raghavan                                  	         4	0.00%
+Ruizhao Hu                                        	         4	0.00%
+Jiang Li                                          	         4	0.00%
+William Whyte                                     	         4	0.00%
+Klaas Wierenga                                    	         4	0.00%
+Martin Rex                                        	         4	0.00%
+Gary Gapinski                                     	         4	0.00%
+Victor Moreno                                     	         4	0.00%
+David Mandelberg                                  	         4	0.00%
+Arunprabhu Kandasamy                              	         4	0.00%
+Julien Catalano                                   	         4	0.00%
+Philip Christian                                  	         4	0.00%
+Alankar Sharma                                    	         4	0.00%
+Hannes Gredler                                    	         4	0.00%
+Muthu Arul Mozhi Perumal                          	         4	0.00%
+Qiufang Ma                                        	         4	0.00%
+Alexander Okonnikov                               	         4	0.00%
+David Wiggins                                     	         4	0.00%
+Maxime Piraux                                     	         4	0.00%
+Christian Grothoff                                	         4	0.00%
+Cas Cremers                                       	         4	0.00%
+Anil Kumar Vengalil                               	         4	0.00%
+Olof Hagsand                                      	         4	0.00%
+Jeffrey Ladouceur                                 	         4	0.00%
+William Lupton                                    	         4	0.00%
+Xueyuan Sun                                       	         4	0.00%
+Kohei Shiomoto                                    	         4	0.00%
+Christer Weinigel                                 	         4	0.00%
+Pedro Igor Silva                                  	         4	0.00%
+Nikos Fotoiu                                      	         4	0.00%
+Justus Winter                                     	         4	0.00%
+Roelof DuToit                                     	         4	0.00%
+Cyril Margaria                                    	         4	0.00%
+Colby Barth                                       	         4	0.00%
+Quintin Zhao                                      	         4	0.00%
+Gangadhara Reddy Chavva                           	         4	0.00%
+Michele Orrù                                      	         4	0.00%
+Florentin Rochet                                  	         4	0.00%
+Will Hawkins                                      	         4	0.00%
+Baptiste Jonglez                                  	         4	0.00%
+Jessica Fitzgerald-McKay                          	         4	0.00%
+Thomas Gräupl                                     	         4	0.00%
+Xavier Vilajosana                                 	         4	0.00%
+Maurizio Martinelli                               	         4	0.00%
+Bruno Rijsman                                     	         4	0.00%
+Konrad Iwanicki                                   	         4	0.00%
+Rabi Narayan Sahoo                                	         4	0.00%
+Jim Malloy                                        	         4	0.00%
+Scott G. Kelly                                    	         4	0.00%
+Chris M. Lonvick                                  	         4	0.00%
+Øyvind Rønningstad                                	         4	0.00%
+Ashutosh Srivastava                               	         4	0.00%
+Dave Sinicrope                                    	         4	0.00%
+Felipe Garrido                                    	         4	0.00%
+Tom Henderson                                     	         4	0.00%
+Eld Maj-Britt Olmuetz Zierau                      	         4	0.00%
+Alejandro D'Egidio                                	         4	0.00%
+Roger Price                                       	         4	0.00%
+Ed Juskevicius                                    	         3	0.00%
+Praneet Kaur                                      	         3	0.00%
+Hudson Ayers                                      	         3	0.00%
+S.V.R Anand                                       	         3	0.00%
+Catherine Meadows                                 	         3	0.00%
+Abdulkadir Karaagac                               	         3	0.00%
+Daniel McCarney                                   	         3	0.00%
+Jacob Hoffman-Andrews                             	         3	0.00%
+Alec Muffett                                      	         3	0.00%
+Arnaud Taddei                                     	         3	0.00%
+Brett Carr                                        	         3	0.00%
+Yunfei Zhang                                      	         3	0.00%
+Deng Lingli                                       	         3	0.00%
+Michael H. Behringer                              	         3	0.00%
+Scott W. Brim                                     	         3	0.00%
+Cedric Westphal                                   	         3	0.00%
+Olaf Kolkman                                      	         3	0.00%
+Paul Jensen                                       	         3	0.00%
+Herbert Van de Sompel                             	         3	0.00%
+Milan                                             	         3	0.00%
+Bruce Nordman                                     	         3	0.00%
+Antonin Descampe                                  	         3	0.00%
+Martin Pettersson                                 	         3	0.00%
+Gabriel Kerneis                                   	         3	0.00%
+Patrice Brissette                                 	         3	0.00%
+Ravi Singh                                        	         3	0.00%
+Sam Aldrin                                        	         3	0.00%
+Parag Jain                                        	         3	0.00%
+Christian Schmutzer                               	         3	0.00%
+Arvind Venkateswaran                              	         3	0.00%
+Ehsan Hemmati                                     	         3	0.00%
+Suneesh Babu                                      	         3	0.00%
+Nils Warnke                                       	         3	0.00%
+Vratko Polák                                      	         3	0.00%
+Raphael Vicente Rosa                              	         3	0.00%
+Cyrus Daboo                                       	         3	0.00%
+Heng Liu                                          	         3	0.00%
+Qilei Wang                                        	         3	0.00%
+Scott Arciszewski                                 	         3	0.00%
+Michael Scott                                     	         3	0.00%
+Kevin Jacobs                                      	         3	0.00%
+Stefan-Lukas Gazdag                               	         3	0.00%
+Terry Manderson                                   	         3	0.00%
+Josh Howlett                                      	         3	0.00%
+Stefan Hristozov                                  	         3	0.00%
+Simo Sorce                                        	         3	0.00%
+Henrik Austad                                     	         3	0.00%
+Rodney Cummings                                   	         3	0.00%
+Lin He                                            	         3	0.00%
+Tomek Mrugalski                                   	         3	0.00%
+Roger Marks                                       	         3	0.00%
+Steve Atkins                                      	         3	0.00%
+Rolf Sonneveld                                    	         3	0.00%
+Peter Koch                                        	         3	0.00%
+Matt Larson                                       	         3	0.00%
+Stephen Morris                                    	         3	0.00%
+Marek Majkowski                                   	         3	0.00%
+Yasuaki Morita                                    	         3	0.00%
+Simon Perreault                                   	         3	0.00%
+Vinayak Hegde                                     	         3	0.00%
+David B. Nelson                                   	         3	0.00%
+Steve Hanna                                       	         3	0.00%
+Lyndon Nerenberg                                  	         3	0.00%
+Francis Dupont                                    	         3	0.00%
+Martijn Schmidt                                   	         3	0.00%
+Weihing Wu                                        	         3	0.00%
+Juliana Guerra                                    	         3	0.00%
+Farzaneh Badiei                                   	         3	0.00%
+Bradford Lassey                                   	         3	0.00%
+Gabriel Lopez-Millan                              	         3	0.00%
+Fernando Pereniguez-Garcia                        	         3	0.00%
+Kevin (Yudong) Yang                               	         3	0.00%
+Yinghua Li                                        	         3	0.00%
+Jeff Burke                                        	         3	0.00%
+Ruidong Li                                        	         3	0.00%
+Matthias Wählisch                                 	         3	0.00%
+Christian Tschudin                                	         3	0.00%
+Jun Hu                                            	         3	0.00%
+John Kristoff                                     	         3	0.00%
+Ahmed El Sawaf                                    	         3	0.00%
+Eugene Bogomazov                                  	         3	0.00%
+Luuk Hendriks                                     	         3	0.00%
+Jonathan Hardwick                                 	         3	0.00%
+Roberta Maglione                                  	         3	0.00%
+Jon Crowcroft                                     	         3	0.00%
+Martin Dolly                                      	         3	0.00%
+Ben Laurie                                        	         3	0.00%
+Alia Atlas                                        	         3	0.00%
+Francesco Gennai                                  	         3	0.00%
+cloos                                             	         3	0.00%
+Yihao Jia                                         	         3	0.00%
+Hongwei Yang                                      	         3	0.00%
+Tore Anderson                                     	         3	0.00%
+Roland van Rijswijk-Deij                          	         3	0.00%
+Park Jung-Soo                                     	         3	0.00%
+Zeung Il Kim                                      	         3	0.00%
+John Kenney                                       	         3	0.00%
+René Cordier                                      	         3	0.00%
+Benoit Tellier                                    	         3	0.00%
+Stefan Hagen                                      	         3	0.00%
+Dr. David W. Chadwick                             	         3	0.00%
+Asmus Freytag                                     	         3	0.00%
+Robert Cragie                                     	         3	0.00%
+Marc Portoles-Comeras                             	         3	0.00%
+Lorand Jakab                                      	         3	0.00%
+Mitchell Erblich                                  	         3	0.00%
+Yi Yang                                           	         3	0.00%
+ANIL KUMAR S N                                    	         3	0.00%
+Alex Galis                                        	         3	0.00%
+David Oliver                                      	         3	0.00%
+tathagata nandy                                   	         3	0.00%
+Amy Guy                                           	         3	0.00%
+Franziskus Kiefer                                 	         3	0.00%
+Qingsi Wang                                       	         3	0.00%
+Matthew Stock                                     	         3	0.00%
+Renan Krishna                                     	         3	0.00%
+Tim Carey                                         	         3	0.00%
+Pierre Francois                                   	         3	0.00%
+Walter Cerroni                                    	         3	0.00%
+Thomast Peterson                                  	         3	0.00%
+Professor David L. Mills                          	         3	0.00%
+Shenghao Yang                                     	         3	0.00%
+Bruno Brito                                       	         3	0.00%
+Andreas Falk                                      	         3	0.00%
+Colin Doyle                                       	         3	0.00%
+Scott Rose                                        	         3	0.00%
+Tobias Mayer                                      	         3	0.00%
+Luc-Fabrice Ndifor                                	         3	0.00%
+David Turner                                      	         3	0.00%
+Axel Dahlberg                                     	         3	0.00%
+Kevinsisco                                        	         3	0.00%
+Philipp S. Tiesel                                 	         3	0.00%
+Jeremy O'Donoghue                                 	         3	0.00%
+Martin Casanova                                   	         3	0.00%
+Yuying Chen                                       	         3	0.00%
+Richard Wilhelm                                   	         3	0.00%
+Gavin Brown                                       	         3	0.00%
+Mariano Scazzariello                              	         3	0.00%
+Manav Bhatia                                      	         3	0.00%
+Liu Aihua                                         	         3	0.00%
+Daniel Van Geest                                  	         3	0.00%
+Matt Domsch                                       	         3	0.00%
+Maksym Sobolyev                                   	         3	0.00%
+Pierce Gorman                                     	         3	0.00%
+Piotr Gregor                                      	         3	0.00%
+Koen Zandberg                                     	         3	0.00%
+Deepak Kumaraswamy                                	         3	0.00%
+Nicolae Paladi                                    	         3	0.00%
+Raja Ashok V K                                    	         3	0.00%
+Amy K. Vezza                                      	         3	0.00%
+Anthony Minessale                                 	         3	0.00%
+Sonia Compans                                     	         3	0.00%
+Abdel rahman Nji panso mounchili                  	         2	0.00%
+Muhammad waseem Akhtar                            	         2	0.00%
+Mohammad Faisal                                   	         2	0.00%
+Darshak Thakore                                   	         2	0.00%
+சிவசுப்பிரமணியன் முத்துசாமி                       	         2	0.00%
+K Mohan Raidu                                     	         2	0.00%
+Mihail Yanev                                      	         2	0.00%
+Seyed Mahdi Darroudi                              	         2	0.00%
+Jianqiang Hou                                     	         2	0.00%
+Yasuyuki Tanaka                                   	         2	0.00%
+Chuck Mortimore                                   	         2	0.00%
+Rob Stradling                                     	         2	0.00%
+Bob Sleigh                                        	         2	0.00%
+Gianpaolo A Scalone                               	         2	0.00%
+Kevin J. Ma                                       	         2	0.00%
+Hans Seidel                                       	         2	0.00%
+Gang Li                                           	         2	0.00%
+Wendy Roome                                       	         2	0.00%
+Bing Liu                                          	         2	0.00%
+Thomas Werner                                     	         2	0.00%
+Feng Yang                                         	         2	0.00%
+Shuai Zhang                                       	         2	0.00%
+Frode Sorensen                                    	         2	0.00%
+Lizhong Jin                                       	         2	0.00%
+Heiner Hummel                                     	         2	0.00%
+Takahiro Nemoto                                   	         2	0.00%
+Scott Shenker                                     	         2	0.00%
+Sávyo Morais                                      	         2	0.00%
+Victor Demjanenko                                 	         2	0.00%
+Roger Marshall                                    	         2	0.00%
+Teco Boot                                         	         2	0.00%
+Margaret Cullen                                   	         2	0.00%
+Rob Evans                                         	         2	0.00%
+Kesavan Thiruvenkatasamy                          	         2	0.00%
+Senthil Sathappan                                 	         2	0.00%
+Brian Walsh                                       	         2	0.00%
+Eric C. Rosen                                     	         2	0.00%
+Ayan Banerjee                                     	         2	0.00%
+Samer Salam                                       	         2	0.00%
+David Carrel                                      	         2	0.00%
+Clayton Hassen                                    	         2	0.00%
+Dongling Duan                                     	         2	0.00%
+Yuanchao Su                                       	         2	0.00%
+Zhuangzhuang Qin                                  	         2	0.00%
+Andrew Dolganow                                   	         2	0.00%
+Simon Edwards                                     	         2	0.00%
+sudhin jacob                                      	         2	0.00%
+Ryan Gunter                                       	         2	0.00%
+Bin-Yeong Yoon                                    	         2	0.00%
+Zheng Yanlei                                      	         2	0.00%
+Victor Lopez                                      	         2	0.00%
+Esther Le Rouzic                                  	         2	0.00%
+Yuji Tochio                                       	         2	0.00%
+Kenny Paterson                                    	         2	0.00%
+Henry B. Hotz                                     	         2	0.00%
+Denis Kolegov                                     	         2	0.00%
+Marek Jankowski                                   	         2	0.00%
+Nick Mathewson                                    	         2	0.00%
+Mat Ford                                          	         2	0.00%
+Kai Mindermann                                    	         2	0.00%
+Ina Berenice Fink                                 	         2	0.00%
+Alan Soloway                                      	         2	0.00%
+Jürgen Schmitt                                    	         2	0.00%
+Kingshuk Mandal                                   	         2	0.00%
+Norman Finn                                       	         2	0.00%
+Yannis Nikolopoulos                               	         2	0.00%
+Chris Newman                                      	         2	0.00%
+Philip M. Williams                                	         2	0.00%
+Myles Borins                                      	         2	0.00%
+Timothy Panton                                    	         2	0.00%
+Hannu Aronsson                                    	         2	0.00%
+Niall O'Reilly                                    	         2	0.00%
+Eberhard Lisse                                    	         2	0.00%
+Ali Hussain                                       	         2	0.00%
+Daniel Kaiser                                     	         2	0.00%
+Manuel                                            	         2	0.00%
+Will Ivancic                                      	         2	0.00%
+Nobody Nohow                                      	         2	0.00%
+Henry Stark                                       	         2	0.00%
+Philip Ginzboorg                                  	         2	0.00%
+Aleksi Peltonen                                   	         2	0.00%
+Menachem Dodge                                    	         2	0.00%
+Chi-Jiun Su                                       	         2	0.00%
+Jörg Deutschmann                                  	         2	0.00%
+Enrico Francesconi                                	         2	0.00%
+Tadahiko Ito                                      	         2	0.00%
+M. Daly                                           	         2	0.00%
+Camilo Cardona                                    	         2	0.00%
+Benson Muite                                      	         2	0.00%
+Nigel Megitt                                      	         2	0.00%
+Piers O'Hanlon                                    	         2	0.00%
+Graham Leggett                                    	         2	0.00%
+Alex Rousskov                                     	         2	0.00%
+Naeem Khademi                                     	         2	0.00%
+Marcelo Bagnulo                                   	         2	0.00%
+Huichen Dai                                       	         2	0.00%
+K. Ramakrishnan                                   	         2	0.00%
+Alex Afanasyev                                    	         2	0.00%
+Kazuhisa Matsuzono                                	         2	0.00%
+Lotfi Benmohamed                                  	         2	0.00%
+Martine Sophie Lenders                            	         2	0.00%
+Nandan Saha                                       	         2	0.00%
+Dmitry Afanasiev                                  	         2	0.00%
+Andrei Robachevsky                                	         2	0.00%
+Sujian Lu                                         	         2	0.00%
+Liang Ou                                          	         2	0.00%
+Yujia Luo                                         	         2	0.00%
+Tao He                                            	         2	0.00%
+Muhammad Durrani                                  	         2	0.00%
+William McCall                                    	         2	0.00%
+Stan O. Barber                                    	         2	0.00%
+Ben Ramsey                                        	         2	0.00%
+Jonne Soininen                                    	         2	0.00%
+Philipp Hancke                                    	         2	0.00%
+Jeff Hodges                                       	         2	0.00%
+Ralph Droms                                       	         2	0.00%
+ADARSH                                            	         2	0.00%
+Andy Smith                                        	         2	0.00%
+Jack Visoky                                       	         2	0.00%
+Riccardo Sisto                                    	         2	0.00%
+Justin Iurman                                     	         2	0.00%
+Tobias Brunner                                    	         2	0.00%
+Florian Obser                                     	         2	0.00%
+Antonio Cianfrani                                 	         2	0.00%
+Feng Zhao                                         	         2	0.00%
+Kenneth Vaughn                                    	         2	0.00%
+Seph Gentle                                       	         2	0.00%
+Ulysse Carion                                     	         2	0.00%
+Jeffrey E. Altman                                 	         2	0.00%
+Shahid Raza                                       	         2	0.00%
+Paul Wells                                        	         2	0.00%
+Ning So                                           	         2	0.00%
+Piotr Strzyżewski                                 	         2	0.00%
+Dallas McCall                                     	         2	0.00%
+Chris Lilley                                      	         2	0.00%
+Eric Prud'hommeaux                                	         2	0.00%
+Divyank Katira                                    	         2	0.00%
+Sean Byrne                                        	         2	0.00%
+Andrew S                                          	         2	0.00%
+Steve Donovan                                     	         2	0.00%
+Samson Ninan                                      	         2	0.00%
+Kapil Arora                                       	         2	0.00%
+Fan Yang                                          	         2	0.00%
+Matthieu Baerts                                   	         2	0.00%
+Maurice Angermann                                 	         2	0.00%
+Anton Snitser                                     	         2	0.00%
+LiuYongbo                                         	         2	0.00%
+Bill Baker                                        	         2	0.00%
+Thomas Haynes                                     	         2	0.00%
+Olga Kornievskaia                                 	         2	0.00%
+Craig Everhart                                    	         2	0.00%
+Mehdi Bezahaf                                     	         2	0.00%
+Heiko Gerstung                                    	         2	0.00%
+Sanjeev Gupta                                     	         2	0.00%
+Neta Rozen Schiff                                 	         2	0.00%
+Emmanuel Lochin                                   	         2	0.00%
+Raymond W. Yeung                                  	         2	0.00%
+Hans Zandbelt                                     	         2	0.00%
+Thomas Broyer                                     	         2	0.00%
+Breno de Medeiros                                 	         2	0.00%
+Ángel González                                    	         2	0.00%
+brian m. carlson                                  	         2	0.00%
+erez segev                                        	         2	0.00%
+Massimo Candela                                   	         2	0.00%
+Samuel Sidor                                      	         2	0.00%
+Chao Zhou                                         	         2	0.00%
+Harish Sitaraman                                  	         2	0.00%
+Ramakrishnan Cokkanathapuram Sundaram             	         2	0.00%
+Subodh Iyengar                                    	         2	0.00%
+David Ros                                         	         2	0.00%
+Marcello Caleffi                                  	         2	0.00%
+Jan Rüth                                          	         2	0.00%
+Cyrill Krähenbühl                                 	         2	0.00%
+Apostolis K. Salkintzis                           	         2	0.00%
+გიორგი გულბანი                                    	         2	0.00%
+Andy Grover                                       	         2	0.00%
+Daiki Ueno                                        	         2	0.00%
+Alexis La Goutte                                  	         2	0.00%
+Luca Niccolini                                    	         2	0.00%
+William Bellingrath                               	         2	0.00%
+Bin Cao                                           	         2	0.00%
+Lijo Thomas                                       	         2	0.00%
+Nils Mäurer                                       	         2	0.00%
+Andrew Newton                                     	         2	0.00%
+BenChong Xu                                       	         2	0.00%
+Tommaso Caiazzi                                   	         2	0.00%
+Sonal Agarwal                                     	         2	0.00%
+Morteza Ansari                                    	         2	0.00%
+Jiang Wenying                                     	         2	0.00%
+Ilya Varlashkin                                   	         2	0.00%
+Adrian L. Shaw                                    	         2	0.00%
+Zaheduzzaman Sarker                               	         2	0.00%
+Anna Brunstrom                                    	         2	0.00%
+Matt Hartley                                      	         2	0.00%
+Fabio Peruzzini                                   	         2	0.00%
+Xueyan Song                                       	         2	0.00%
+Dave Wheeler                                      	         2	0.00%
+Darin Pettis                                      	         2	0.00%
+Stefano Faccin                                    	         2	0.00%
+David M. Täht                                     	         2	0.00%
+Karl-Johan Grinnemo                               	         2	0.00%
+Claudio Porfiri                                   	         2	0.00%
+Lars G. Svensson                                  	         2	0.00%
+Ralph Holz                                        	         2	0.00%
+Alan Frindell                                     	         2	0.00%
+Yutaka Hirano                                     	         2	0.00%
+Daniel Ehrenberg                                  	         2	0.00%
+Jean Quilbeuf                                     	         2	0.00%
+Ibrahim Khalil                                    	         1	0.00%
+Roufique tours                                    	         1	0.00%
+Sam Gammon                                        	         1	0.00%
+Patrick Georges                                   	         1	0.00%
+Clement Genty                                     	         1	0.00%
+Andre B. Bondi                                    	         1	0.00%
+Tom Hill                                          	         1	0.00%
+Nabeel Omer                                       	         1	0.00%
+Disna                                             	         1	0.00%
+Aeneas Noble                                      	         1	0.00%
+Teemu Savolainen                                  	         1	0.00%
+Michael Spoerk                                    	         1	0.00%
+Xiaojun Tang                                      	         1	0.00%
+Gabriel Montenegro                                	         1	0.00%
+Ned Freed                                         	         1	0.00%
+James Kasten                                      	         1	0.00%
+Erica Portnoy                                     	         1	0.00%
+Carl Mehner                                       	         1	0.00%
+Patrik Wallstrom                                  	         1	0.00%
+Hugh Dixon                                        	         1	0.00%
+Paul Adair                                        	         1	0.00%
+Nigel Tedeschi                                    	         1	0.00%
+Patrick Tarpey                                    	         1	0.00%
+Simon Hicks                                       	         1	0.00%
+Max Pritikin                                      	         1	0.00%
+Guangpeng Li                                      	         1	0.00%
+Christian Esteve Rothenberg                       	         1	0.00%
+Hesham ElBakoury                                  	         1	0.00%
+Claudio Allocchio                                 	         1	0.00%
+Ram R                                             	         1	0.00%
+Nigel Davis                                       	         1	0.00%
+Andreas Reisenbauer                               	         1	0.00%
+Simão Ferraz de Campos                            	         1	0.00%
+Tim Bruylants                                     	         1	0.00%
+Ondřej Zajíček                                    	         1	0.00%
+Markus Stenberg                                   	         1	0.00%
+He Jia                                            	         1	0.00%
+Adam Simpson                                      	         1	0.00%
+Avinash Lingala                                   	         1	0.00%
+Samir Thoria                                      	         1	0.00%
+Dante Pacella                                     	         1	0.00%
+Kishore Tiruveedhula                              	         1	0.00%
+Selvakumar Sivaraj                                	         1	0.00%
+Vishal Garg                                       	         1	0.00%
+Vikram Nagarajan                                  	         1	0.00%
+Roberto Oya Luengo                                	         1	0.00%
+Sandy Breeze                                      	         1	0.00%
+Eduard Metz                                       	         1	0.00%
+Lukas Krattiger                                   	         1	0.00%
+Mallik Mudigonda                                  	         1	0.00%
+Kiran Nagaraj                                     	         1	0.00%
+Bernard Sales                                     	         1	0.00%
+Chris Brown                                       	         1	0.00%
+Yaakov (J) Stein                                  	         1	0.00%
+Dhananjaya Rao                                    	         1	0.00%
+Jayant Kotalwar                                   	         1	0.00%
+Bart Peirens                                      	         1	0.00%
+Shyam Sethuram                                    	         1	0.00%
+Xing Jiang                                        	         1	0.00%
+Tom Kristensen                                    	         1	0.00%
+Senthil Dhanaraj                                  	         1	0.00%
+Aetienne Sardon                                   	         1	0.00%
+Luke Riley                                        	         1	0.00%
+David Newman                                      	         1	0.00%
+Carsten Rossenhoevel                              	         1	0.00%
+Tim Hare                                          	         1	0.00%
+Jason Weil                                        	         1	0.00%
+Rolf Winter                                       	         1	0.00%
+Stuart Cheshire                                   	         1	0.00%
+Stefan Vallin                                     	         1	0.00%
+Xi Li                                             	         1	0.00%
+Ricard Vilalta                                    	         1	0.00%
+Griseri Enrico                                    	         1	0.00%
+Satoru Okamoto                                    	         1	0.00%
+Phil Sorber                                       	         1	0.00%
+Nir Baruch Sopher                                 	         1	0.00%
+Julia Hesse                                       	         1	0.00%
+Andreas Huelsing                                  	         1	0.00%
+Jianfei(Jeffrey) HE                               	         1	0.00%
+Michel Abdalla                                    	         1	0.00%
+Benjamin Lipp                                     	         1	0.00%
+Dan Harkins                                       	         1	0.00%
+Guilin WANG                                       	         1	0.00%
+Adam Langley                                      	         1	0.00%
+Eduardo Jacob                                     	         1	0.00%
+Joo-Sang Youn                                     	         1	0.00%
+Hirochika Asai                                    	         1	0.00%
+Bill Silverajan                                   	         1	0.00%
+David Navarro                                     	         1	0.00%
+Randy Turner                                      	         1	0.00%
+Karen Nielsen                                     	         1	0.00%
+Quynh Dang                                        	         1	0.00%
+Vesna Manojlović                                  	         1	0.00%
+Tsunekazu Saito                                   	         1	0.00%
+Dmitry Eremin-Solenikov                           	         1	0.00%
+Tomonori Takeda                                   	         1	0.00%
+Ehsan Mohammadpour                                	         1	0.00%
+Subir Das                                         	         1	0.00%
+Franz-Josef Goetz                                 	         1	0.00%
+Jean-Yves Le Boudec                               	         1	0.00%
+Thomas Haag                                       	         1	0.00%
+Marco Liebsch                                     	         1	0.00%
+Stefan Schmid                                     	         1	0.00%
+Shigeya Suzuki                                    	         1	0.00%
+Erik Nordmark                                     	         1	0.00%
+Mathias Bynens                                    	         1	0.00%
+Bradley Farias                                    	         1	0.00%
+Mike Amundsen                                     	         1	0.00%
+Wenbo Zhu                                         	         1	0.00%
+David Singer                                      	         1	0.00%
+Ian Levy                                          	         1	0.00%
+Andrew Kennedy                                    	         1	0.00%
+Freddie Leeman                                    	         1	0.00%
+Jesse Thompson                                    	         1	0.00%
+Tim Draegen                                       	         1	0.00%
+Masaki Kase                                       	         1	0.00%
+Gren Elliot                                       	         1	0.00%
+Alwin de Bruin                                    	         1	0.00%
+Emil Gustafsson                                   	         1	0.00%
+John Kaippallimalil                               	         1	0.00%
+Jean-Michel Combes                                	         1	0.00%
+Robin Geuze                                       	         1	0.00%
+Brian Hartvigsen                                  	         1	0.00%
+Frederico Neves                                   	         1	0.00%
+Anthony Eden                                      	         1	0.00%
+Richard Gibson                                    	         1	0.00%
+Linus Nordberg                                    	         1	0.00%
+Jacques Latour                                    	         1	0.00%
+M. Groeneweg                                      	         1	0.00%
+Matthew Pounsett                                  	         1	0.00%
+Bob Halley                                        	         1	0.00%
+Prashanth Patil                                   	         1	0.00%
+Nik Teague                                        	         1	0.00%
+Ehud Doron                                        	         1	0.00%
+Mike Geller                                       	         1	0.00%
+Takahiko Nagata                                   	         1	0.00%
+Xingwang Zhou                                     	         1	0.00%
+Gilbert Clark                                     	         1	0.00%
+Marius Feldmann                                   	         1	0.00%
+Michael Smith                                     	         1	0.00%
+Christian O'Flaherty                              	         1	0.00%
+Mirjam Kuehne                                     	         1	0.00%
+Mike English                                      	         1	0.00%
+Sandeep Tamrakar                                  	         1	0.00%
+Jan-Frederik Rieckers                             	         1	0.00%
+Massimiliano Pala                                 	         1	0.00%
+Michael Weiss                                     	         1	0.00%
+David Lloyd Johnson                               	         1	0.00%
+Carlos Rey-Moreno                                 	         1	0.00%
+Matthew Johnson                                   	         1	0.00%
+A. Doyle                                          	         1	0.00%
+Colin Petrie                                      	         1	0.00%
+Lilia Hannachi                                    	         1	0.00%
+Serpil Bayraktar                                  	         1	0.00%
+Manish Bhardwaj                                   	         1	0.00%
+Jamal Hadi Salim                                  	         1	0.00%
+Emeline                                           	         1	0.00%
+Barbara Martini                                   	         1	0.00%
+Anurag Prakash                                    	         1	0.00%
+Demian Pecile                                     	         1	0.00%
+Emely Robert Norris Banda                         	         1	0.00%
+Roger Pantos                                      	         1	0.00%
+Rufael Mekuria                                    	         1	0.00%
+Malay Vadher                                      	         1	0.00%
+Ray Hunter                                        	         1	0.00%
+Sandra Braman                                     	         1	0.00%
+Alex Martínez Ruiz                                	         1	0.00%
+Eric Mill                                         	         1	0.00%
+Irakli Nadareishvili                              	         1	0.00%
+Andre Cedik                                       	         1	0.00%
+Lily Chen                                         	         1	0.00%
+John Wilander                                     	         1	0.00%
+Lisandro Zambenedetti Granville                   	         1	0.00%
+Daniel Havey                                      	         1	0.00%
+Saverio Mascolo                                   	         1	0.00%
+University Essex                                  	         1	0.00%
+Ioannis Psaras                                    	         1	0.00%
+Christian Timmerer                                	         1	0.00%
+George Xylomenos                                  	         1	0.00%
+Alberto Compagno                                  	         1	0.00%
+Anil Jangam                                       	         1	0.00%
+Jong-Hyouk Lee                                    	         1	0.00%
+Nicola Blefari-Melazzi                            	         1	0.00%
+Xiaoming Fu                                       	         1	0.00%
+Deniz Bahadir                                     	         1	0.00%
+Jin Zhou                                          	         1	0.00%
+Kirill Kasavchenko                                	         1	0.00%
+Gang Yan                                          	         1	0.00%
+Brendon Holm                                      	         1	0.00%
+Ignas Bagdonas                                    	         1	0.00%
+Danny R. McPherson                                	         1	0.00%
+Philippe BERGEON                                  	         1	0.00%
+Massimo Nilo                                      	         1	0.00%
+Farni Boten                                       	         1	0.00%
+Arleen Elliott                                    	         1	0.00%
+John Dickinson                                    	         1	0.00%
+Alex Bogdanov                                     	         1	0.00%
+Benjamin Damm                                     	         1	0.00%
+Michael Breuer                                    	         1	0.00%
+Yuefeng Qiu                                       	         1	0.00%
+Michael F. Speer                                  	         1	0.00%
+Robert Elz                                        	         1	0.00%
+Dirk-Willem van Gulik                             	         1	0.00%
+Harish Pillay                                     	         1	0.00%
+Alejandro Acosta                                  	         1	0.00%
+Juan P. Cerezo                                    	         1	0.00%
+Daniel Karrenberg                                 	         1	0.00%
+Brad Biddle                                       	         1	0.00%
+Steve Todd                                        	         1	0.00%
+Gene F. Hastings II                               	         1	0.00%
+Dave Burstein                                     	         1	0.00%
+Dorian R. Kim                                     	         1	0.00%
+Wendy Seltzer                                     	         1	0.00%
+Stephen Strowes                                   	         1	0.00%
+Andrew Gray                                       	         1	0.00%
+Antonio Diaz Diaz                                 	         1	0.00%
+Mans Nilsson                                      	         1	0.00%
+S. Umamaheswari                                   	         1	0.00%
+Shawn Steele                                      	         1	0.00%
+Manoj Nayak                                       	         1	0.00%
+Hitesh Mali                                       	         1	0.00%
+Amedeo Sapio                                      	         1	0.00%
+Adi Masputra                                      	         1	0.00%
+Ernesto Ruffini                                   	         1	0.00%
+Richard "Footer" Foote                            	         1	0.00%
+Cheng Zhou                                        	         1	0.00%
+Lei Bo                                            	         1	0.00%
+Alpesh Patel                                      	         1	0.00%
+Praveen Sathyanarayan                             	         1	0.00%
+Vishwas Manral                                    	         1	0.00%
+Haitham Cruickshank                               	         1	0.00%
+Xia Chen                                          	         1	0.00%
+Jianwei Mao                                       	         1	0.00%
+Vishal Singh                                      	         1	0.00%
+Reji Thomas                                       	         1	0.00%
+Tetsuya Murakami                                  	         1	0.00%
+Kalyani Rajaraman                                 	         1	0.00%
+XiaoLan Wan                                       	         1	0.00%
+Kentaro Ebisawa                                   	         1	0.00%
+Kihoon LEE                                        	         1	0.00%
+Kris Michielsen                                   	         1	0.00%
+Wes Beebee                                        	         1	0.00%
+Rob Shakir                                        	         1	0.00%
+Guido Marchetto                                   	         1	0.00%
+Arjuna Sathiaseelan                               	         1	0.00%
+Simon Leinen                                      	         1	0.00%
+Sandra Cespedes                                   	         1	0.00%
+YongJoon Joe                                      	         1	0.00%
+Jerome Haerri                                     	         1	0.00%
+Yiwen (Chris) Shen                                	         1	0.00%
+Eric Wong                                         	         1	0.00%
+Ricardo Signes                                    	         1	0.00%
+Eric Ramos                                        	         1	0.00%
+Douglas Crockford                                 	         1	0.00%
+Daniel C. Burnett                                 	         1	0.00%
+Florian Schmaus                                   	         1	0.00%
+Nathaniel McCallum                                	         1	0.00%
+Scott Cantor                                      	         1	0.00%
+Timothy Claeys                                    	         1	0.00%
+Karl Norrman                                      	         1	0.00%
+Rikard Höglund                                    	         1	0.00%
+Sandoche Balakrichenan                            	         1	0.00%
+Niclas Comstedt                                   	         1	0.00%
+Daniel Lublin                                     	         1	0.00%
+Greg Dowd                                         	         1	0.00%
+Aanchal Malhotra                                  	         1	0.00%
+David Woolley                                     	         1	0.00%
+Michael Ströder                                   	         1	0.00%
+Prakash Jain                                      	         1	0.00%
+Rotem Tamir                                       	         1	0.00%
+sbarkai@gmail.com                                 	         1	0.00%
+Sergio Aguilar                                    	         1	0.00%
+Bart Moons                                        	         1	0.00%
+Vincent AUDEBERT                                  	         1	0.00%
+Ricardo Andreasen                                 	         1	0.00%
+Derek M. Yeung                                    	         1	0.00%
+Lei Liu                                           	         1	0.00%
+Longfei Dai                                       	         1	0.00%
+steve ulrich                                      	         1	0.00%
+Vic Liu                                           	         1	0.00%
+Yan Filyurin                                      	         1	0.00%
+William Britto                                    	         1	0.00%
+Cathy Aronson                                     	         1	0.00%
+Ronald van der Pol                                	         1	0.00%
+Tobias Fiebig                                     	         1	0.00%
+Andreas Kassler                                   	         1	0.00%
+Maximilian Franke                                 	         1	0.00%
+William Zhang                                     	         1	0.00%
+Ben Harris                                        	         1	0.00%
+Jose Montoya                                      	         1	0.00%
+Dr. Robert C. Moore                               	         1	0.00%
+Kelvin Ritland                                    	         1	0.00%
+Katriel Cohn-Gordon                               	         1	0.00%
+Jon Millican                                      	         1	0.00%
+Youenn Fablet                                     	         1	0.00%
+Nils Ohlmeier                                     	         1	0.00%
+Scott M Davis                                     	         1	0.00%
+Marc Cymontkowski                                 	         1	0.00%
+Mukul Srivastava                                  	         1	0.00%
+Paul Thomas Watrobski                             	         1	0.00%
+Tim Jenkins                                       	         1	0.00%
+Miroslav Kovac                                    	         1	0.00%
+Douglas Hubler                                    	         1	0.00%
+Curtis Villamizar                                 	         1	0.00%
+Wang Wei                                          	         1	0.00%
+Zidago Sako                                       	         1	0.00%
+Spencer Shepler                                   	         1	0.00%
+Bob Natale                                        	         1	0.00%
+Abdelkader Lahmadi                                	         1	0.00%
+Will (Shucheng) LIU                               	         1	0.00%
+Sun Qiong                                         	         1	0.00%
+ozgu@simula.no                                    	         1	0.00%
+Ali Rezaki                                        	         1	0.00%
+Danyang Chen                                      	         1	0.00%
+Roberto Riggio                                    	         1	0.00%
+Steven Latre                                      	         1	0.00%
+Michael Cardell Widerkrantz                       	         1	0.00%
+Denis Reilly                                      	         1	0.00%
+Cédric Adjih                                      	         1	0.00%
+Bhupinder Singh                                   	         1	0.00%
+Naveen Agarwal                                    	         1	0.00%
+Travis Spencer                                    	         1	0.00%
+Karl McGuinness                                   	         1	0.00%
+Michael C. Thornburgh                             	         1	0.00%
+Kazuki Tsuzuku                                    	         1	0.00%
+Garret Fick                                       	         1	0.00%
+Robert Hansen                                     	         1	0.00%
+g新部 裕                                             	         1	0.00%
+Ishan Vaishnavi                                   	         1	0.00%
+Manuel Julian Lopez Morillo                       	         1	0.00%
+Luis Angel Munoz                                  	         1	0.00%
+Dan Li                                            	         1	0.00%
+Korian Edeline                                    	         1	0.00%
+Moti Morgenstern                                  	         1	0.00%
+Marta Seda                                        	         1	0.00%
+Venkata Naga Chaitanya Munukutla                  	         1	0.00%
+Devendra Vishwakarma                              	         1	0.00%
+Stefan Winter                                     	         1	0.00%
+Richard Michael Hartmann                          	         1	0.00%
+Ashutosh Singh                                    	         1	0.00%
+Giles Heron                                       	         1	0.00%
+Victoria Pritchard                                	         1	0.00%
+Kris Shrishak                                     	         1	0.00%
+Matthew Finkel                                    	         1	0.00%
+Saranya Rajarathinam                              	         1	0.00%
+saeed sami                                        	         1	0.00%
+Eli-Shaoul Khedouri                               	         1	0.00%
+Angela Sara Cacciapuoti                           	         1	0.00%
+tim costello                                      	         1	0.00%
+Stephan Emile                                     	         1	0.00%
+Renjie Tang                                       	         1	0.00%
+Madhan Raj Kanagarathinam                         	         1	0.00%
+Sho Miyamoto                                      	         1	0.00%
+Patrick Uiterwijk                                 	         1	0.00%
+Bill Sulzen                                       	         1	0.00%
+Monty Wiseman                                     	         1	0.00%
+Justin Dean                                       	         1	0.00%
+Antonio de la Oliva                               	         1	0.00%
+Francisco Obispo                                  	         1	0.00%
+Francisco Arias                                   	         1	0.00%
+Jothan Frakes                                     	         1	0.00%
+Zaid AlBanna                                      	         1	0.00%
+Lisa Winkler                                      	         1	0.00%
+Jaroslaw Kowalczyk                                	         1	0.00%
+Tom Verhaeg                                       	         1	0.00%
+Martin Stiemerling                                	         1	0.00%
+Sergio Mena de la Cruz                            	         1	0.00%
+Lars-Erik Jonsson                                 	         1	0.00%
+Ashesh Mishra                                     	         1	0.00%
+Ruixue Wang                                       	         1	0.00%
+Juan Alcaide                                      	         1	0.00%
+Peng Wu                                           	         1	0.00%
+Shyam Bandyopadhyay                               	         1	0.00%
+Prodosh Mohapatra                                 	         1	0.00%
+Mark Wahl                                         	         1	0.00%
+Pamela Dingle                                     	         1	0.00%
+John Gray                                         	         1	0.00%
+Sashank Dara                                      	         1	0.00%
+Akshaya Nadahalli                                 	         1	0.00%
+Bobo Bose-Kolanu                                  	         1	0.00%
+David R. Conrad                                   	         1	0.00%
+Rifqy Hakimi                                      	         1	0.00%
+Amreesh Phokeer                                   	         1	0.00%
+Chriztoffer Hansen                                	         1	0.00%
+Mikhail Puzanov                                   	         1	0.00%
+Taiji Kimura                                      	         1	0.00%
+Thomas King                                       	         1	0.00%
+Doug Madory                                       	         1	0.00%
+Filippos Vasilakis                                	         1	0.00%
+Daniel-Constantin Mierla                          	         1	0.00%
+Sean Mullan                                       	         1	0.00%
+Corey Bonnell                                     	         1	0.00%
+Hans Aschauer                                     	         1	0.00%
+Arthi Ayyangar                                    	         1	0.00%
+Prem Jonnalagadda                                 	         1	0.00%
+Hiroki Shirokura                                  	         1	0.00%
+Kotesh Babu Chundu                                	         1	0.00%
+Kurtis Gillis                                     	         1	0.00%
+Thierry Couture                                   	         1	0.00%
+Iftekhar Hussain                                  	         1	0.00%
+Chenhao Ma                                        	         1	0.00%
+Feng Xu                                           	         1	0.00%
+Bhupendra Yadav                                   	         1	0.00%
+David Hancock                                     	         1	0.00%
+hala.mowafy@ericsson.com                          	         1	0.00%
+Ryan Paderna                                      	         1	0.00%
+Michael McCool                                    	         1	0.00%
+Dr. Vern Paxson                                   	         1	0.00%
+Ethan Blanton                                     	         1	0.00%
+Sandor Laki                                       	         1	0.00%
+Yi Lin                                            	         1	0.00%
+Chun Zhu                                          	         1	0.00%
+Jean-Francois Bouquier                            	         1	0.00%
+Abhishek Deshmukh                                 	         1	0.00%
+Paolo Volpato                                     	         1	0.00%
+Carl Moberg                                       	         1	0.00%
+Yuichi Takita                                     	         1	0.00%
+Jingfei Lv                                        	         1	0.00%
+Imran Ahmed                                       	         1	0.00%
+czepczor jaroslaw                                 	         1	0.00%
+Richard voyles                                    	         1	0.00%
+Kyle Nekritz                                      	         1	0.00%
+Jack E. Lloyd                                     	         1	0.00%
+Dan McArdle                                       	         1	0.00%
+David Woodhouse                                   	         1	0.00%
+Raymond Young                                     	         1	0.00%
+Philip Hall                                       	         1	0.00%
+Silvia Botros                                     	         1	0.00%
+S. Kippe                                          	         1	0.00%
+Rohan Mahy                                        	         1	0.00%
+Raffaele Zullo                                    	         1	0.00%
+John Leslie                                       	         1	0.00%
+Jeff Finkelstein                                  	         1	0.00%
+Ram Ranganathan                                   	         1	0.00%
+Asad Sajjad Ahmed                                 	         1	0.00%
+Andreas Petlund                                   	         1	0.00%
+Joakim Misund                                     	         1	0.00%
+Vividh Siddha                                     	         1	0.00%
+Karthik Sundaresan                                	         1	0.00%
+Eve Maler                                         	         1	0.00%
+Partha Pal                                        	         1	0.00%
+Simon Moffatt                                     	         1	0.00%
+Paul Eggert                                       	         1	0.00%
+Daniel Margolis                                   	         1	0.00%
+Nick Heatley                                      	         1	0.00%
+Rajesh Shinde                                     	         1	0.00%
+Lennart Grahl                                     	         1	0.00%
+Jasmine Magallanes                                	         1	0.00%
+Ed Summers                                        	         1	0.00%
