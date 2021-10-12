@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>sodestream - sodestream Project</title><link href="/" rel="alternate"></link><link href="/feeds/sodestream-project.atom.xml" rel="self"></link><id>/</id><updated>2021-10-12T15:30:00+01:00</updated><entry><title>Paper: Characterising the IETF Through the Lens of RFC Deployment</title><link href="/paper-characterising-the-ietf-through-the-lens-of-rfc-deployment.html" rel="alternate"></link><published>2021-10-12T15:30:00+01:00</published><updated>2021-10-12T15:30:00+01:00</updated><author><name>sodestream Project</name></author><id>tag:None,2021-10-12:/paper-characterising-the-ietf-through-the-lens-of-rfc-deployment.html</id><summary type="html">&lt;h4&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Protocol standards, defined by the Internet Engineering Task Force
+(IETF), are crucial to the successful operation of the Internet. This
+paper presents a large-scale empirical study of IETF activities, with a
+focus on understanding collaborative activities, and how these underpin
+the publication of standards documents (RFCs). Using a unique …&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Protocol standards, defined by the Internet Engineering Task Force
+(IETF), are crucial to the successful operation of the Internet. This
+paper presents a large-scale empirical study of IETF activities, with a
+focus on understanding collaborative activities, and how these underpin
+the publication of standards documents (RFCs). Using a unique dataset of
+2.4 million emails, 8,711 RFCs and 4,512 authors, we examine the shifts
+and trends within the standards development process, showing how
+protocol complexity and time to produce standards has increased. With
+these observations in mind, we develop statistical models to understand
+the factors that lead to successful uptake and deployment of protocols,
+deriving insights to improve the standardisation process.&lt;/p&gt;
+&lt;div class="list-group" style="width: 200px;"&gt;
+  &lt;a href="/publications/characterising-ietf-rfc-deployment.pdf" class="list-group-item list-group-item-action"&gt;
+    &lt;div class="d-flex w-100 justify-content-between"&gt;
+          &lt;img src="{{ SITEURL }}/theme/images/arrow-right-square.svg" width="32" height="32"&gt;&lt;h5 class="mb-1"&gt;PDF&lt;/h5&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</content><category term="Publications"></category></entry></feed>

@@ -1,5 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>sodestream</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2021-04-02T15:30:00+01:00</updated><entry><title>Impact of early engagement on longevity of IETF participation</title><link href="/impact-of-early-engagement-on-longevity-of-ietf-participation.html" rel="alternate"></link><published>2021-04-02T15:30:00+01:00</published><updated>2021-04-02T15:30:00+01:00</updated><author><name>Prashant Khare</name></author><id>tag:None,2021-04-02:/impact-of-early-engagement-on-longevity-of-ietf-participation.html</id><summary type="html">&lt;p&gt;Higher engagement with the community in the early years influences longevity of association with IETF&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Introduction&lt;/h4&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>sodestream</title><link href="/" rel="alternate"></link><link href="/feeds/all.atom.xml" rel="self"></link><id>/</id><updated>2021-10-12T15:30:00+01:00</updated><entry><title>Paper: Characterising the IETF Through the Lens of RFC Deployment</title><link href="/paper-characterising-the-ietf-through-the-lens-of-rfc-deployment.html" rel="alternate"></link><published>2021-10-12T15:30:00+01:00</published><updated>2021-10-12T15:30:00+01:00</updated><author><name>sodestream Project</name></author><id>tag:None,2021-10-12:/paper-characterising-the-ietf-through-the-lens-of-rfc-deployment.html</id><summary type="html">&lt;h4&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Protocol standards, defined by the Internet Engineering Task Force
+(IETF), are crucial to the successful operation of the Internet. This
+paper presents a large-scale empirical study of IETF activities, with a
+focus on understanding collaborative activities, and how these underpin
+the publication of standards documents (RFCs). Using a unique …&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Abstract&lt;/h4&gt;
+&lt;p&gt;Protocol standards, defined by the Internet Engineering Task Force
+(IETF), are crucial to the successful operation of the Internet. This
+paper presents a large-scale empirical study of IETF activities, with a
+focus on understanding collaborative activities, and how these underpin
+the publication of standards documents (RFCs). Using a unique dataset of
+2.4 million emails, 8,711 RFCs and 4,512 authors, we examine the shifts
+and trends within the standards development process, showing how
+protocol complexity and time to produce standards has increased. With
+these observations in mind, we develop statistical models to understand
+the factors that lead to successful uptake and deployment of protocols,
+deriving insights to improve the standardisation process.&lt;/p&gt;
+&lt;div class="list-group" style="width: 200px;"&gt;
+  &lt;a href="/publications/characterising-ietf-rfc-deployment.pdf" class="list-group-item list-group-item-action"&gt;
+    &lt;div class="d-flex w-100 justify-content-between"&gt;
+          &lt;img src="{{ SITEURL }}/theme/images/arrow-right-square.svg" width="32" height="32"&gt;&lt;h5 class="mb-1"&gt;PDF&lt;/h5&gt;
+    &lt;/div&gt;
+  &lt;/a&gt;
+&lt;/div&gt;</content><category term="Publications"></category></entry><entry><title>Impact of early engagement on longevity of IETF participation</title><link href="/impact-of-early-engagement-on-longevity-of-ietf-participation.html" rel="alternate"></link><published>2021-04-02T15:30:00+01:00</published><updated>2021-04-02T15:30:00+01:00</updated><author><name>Prashant Khare</name></author><id>tag:None,2021-04-02:/impact-of-early-engagement-on-longevity-of-ietf-participation.html</id><summary type="html">&lt;p&gt;Higher engagement with the community in the early years influences longevity of association with IETF&lt;/p&gt;</summary><content type="html">&lt;h4&gt;Introduction&lt;/h4&gt;
 &lt;p&gt;What factors influence an Internet Engineering Task Force (IETF) participant to remain engaged with the IETF community for a long time? Are there early signs that can indicate whether a new participant will go on to stay engaged with IETF activities for a long time or are they likely to get disengaged?&lt;/p&gt;
 &lt;p&gt;In our recent work, we have attempted to find answers to these questions. Nearly 4000 participants per year were found to actively participate across various mailing lists between 2000-2004. During this period nearly 2000 new participants per year joined various mailing lists. By the beginning of the next decade (2011-), the number of active participants per year (across mailing lists) were still close to 4000. While this could reflect an entirely new generation of IETF participants across different time periods or a combination of some old participants still active along with the new participants, the reality is that a significant proportion of new people who joined over the years eventually became inactive or disengaged with the IETF community, at least on the mailing lists.&lt;/p&gt;
 &lt;p&gt;So we decided to look at the interaction behaviour of the new joiners over the years. Without giving too much away, we find out that engaging people early in their life span may be the most effective tool to keep participants engaged. We notice a clear difference in the early age interaction activities of those who go on to stay for a long time in comparison to those who leave early.&lt;/p&gt;
