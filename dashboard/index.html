@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ietfdata bibliometrics</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+</head>
+<body style="padding-top: 10px; position: relative;" data-spy="scroll" data-target="#plot-list">
+    <div class="container">
+        <h3>ietfdata bibliometrics</h3>
+        <hr>
+        Report generated on 06-01-2022 using <a href="https://github.com/glasgow-ipl/ietfdata">ietfdata</a>.
+        <br><br>
+        <div class="row">
+            <div class="col-md-4" style="width: 20%;">
+                <div style="top: 10px; position: sticky; position: -webkit-sticky;">
+                
+                <div id="plot-list" class="list-group">
+                    <li class="list-group-item disabled" aria-disabled="true">RFCs<br><small>Annual publications</small></li>
+                    
+                    <a class="list-group-item list-group-item-action" href="#rfc-annual-pub">All publications</a>
+                    
+                    <a class="list-group-item list-group-item-action" href="#rfc-annual-pub-status">By status</a>
+                    
+                    <a class="list-group-item list-group-item-action" href="#rfc-annual-pub-streams">By stream</a>
+                    
+                    <a class="list-group-item list-group-item-action" href="#rfc-annual-pub-areas">By area</a>
+                    
+                    <a class="list-group-item list-group-item-action" href="#rfc-monthly-publications">By month</a>
+                    
+                </div>
+                <br>
+                
+                <div id="plot-list" class="list-group">
+                    <li class="list-group-item disabled" aria-disabled="true">RFCs<br><small>Annual publications, normalised</small></li>
+                    
+                    <a class="list-group-item list-group-item-action" href="#rfc-annual-pub-status-normalised">By status, normalised</a>
+                    
+                    <a class="list-group-item list-group-item-action" href="#rfc-annual-pub-streams-normalised">By stream, normalised</a>
+                    
+                    <a class="list-group-item list-group-item-action" href="#rfc-annual-pub-areas-normalised">By area, normalised</a>
+                    
+                    <a class="list-group-item list-group-item-action" href="#rfc-monthly-publications-normalised">By month, normalised</a>
+                    
+                </div>
+                <br>
+                
+            </div>
+            </div>
+            <div class="col-md-8">
+                <div data-spy="scroll" data-target="#plot-list" data-offset="0">
+                    
+                    <h3>RFCs <small class="text-muted">Annual publications</small></lh3>
+                    
+                    <h4 id="rfc-annual-pub">All publications</h4>
+                    <img src="plots/rfc-annual-publications.png" width="100%" />
+                    
+                    <h4 id="rfc-annual-pub-status">By status</h4>
+                    <img src="plots/rfc-annual-publications-status.png" width="100%" />
+                    
+                    <h4 id="rfc-annual-pub-streams">By stream</h4>
+                    <img src="plots/rfc-annual-publications-streams.png" width="100%" />
+                    
+                    <h4 id="rfc-annual-pub-areas">By area</h4>
+                    <img src="plots/rfc-annual-publications-areas.png" width="100%" />
+                    
+                    <h4 id="rfc-monthly-publications">By month</h4>
+                    <img src="plots/rfc-monthly-publications.png" width="100%" />
+                    
+                    <hr>
+                    
+                    <h3>RFCs <small class="text-muted">Annual publications, normalised</small></lh3>
+                    
+                    <h4 id="rfc-annual-pub-status-normalised">By status, normalised</h4>
+                    <img src="plots/rfc-annual-publications-status-norm.png" width="100%" />
+                    
+                    <h4 id="rfc-annual-pub-streams-normalised">By stream, normalised</h4>
+                    <img src="plots/rfc-annual-publications-streams-norm.png" width="100%" />
+                    
+                    <h4 id="rfc-annual-pub-areas-normalised">By area, normalised</h4>
+                    <img src="plots/rfc-annual-publications-areas-norm.png" width="100%" />
+                    
+                    <h4 id="rfc-monthly-publications-normalised">By month, normalised</h4>
+                    <img src="plots/rfc-monthly-publications-norm.png" width="100%" />
+                    
+                    <hr>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
