@@ -76,7 +76,41 @@
   <div class="row">
     <div class="col">
 <section id="content">
-
+  <h3>sodestream at IETF 115</h3>
+  <span class="text-muted">by  <a class="url fn" href="/author/stephen-mcquistin.html">Stephen McQuistin</a> &bull; Tuesday 29 November 2022 &bull; <a href="/sodestream-at-ietf-115.html" rel="bookmark" title="Permalink to sodestream at IETF 115">Permalink</a></span>
+  <br><br>
+    <p>IETF 115 was held in London from 5th November through 11th November 2022, with members of the "Streamlining Social Decision Making for Improved Internet Standards" (sodestream) project taking part in activities throughout the meeting.</p>
+    <h4>Hackathon</h5>
+    <p>To start the week, project members, colleagues, and students from the University of Glasgow (<a href="https://www.gla.ac.uk/schools/computing/staff/elizabethboswell/">Elizabeth Boswell</a>, <a href="https://smcquistin.uk">Stephen McQuistin</a>, <a href="https://www.gla.ac.uk/schools/computing/staff/mairisillarsmoya/">Mairi Sillars Moya</a>, and <a href="https://www.niktivan.org">Ivan Nikitin</a>) and Queen Mary University of London (<a href="https://icastro.info">Ignacio Castro</a>, <a href="http://eecs.qmul.ac.uk/profiles/karanmladen.html">Mladen Karan</a>, <a href="http://eecs.qmul.ac.uk/profiles/khareprashant.html">Prashant Khare</a>, Hugo Ramirez, and <a href="https://shekharravi.github.io">Ravi Shekhar</a>) took part in the IETF Hackathon. 
+    <center>
+    <figure>
+  <img src="../images/ietf115-hackathon-group.jpeg" alt="sodestream group at the IETF 115 Hackathon" style="width: 40%">
+  <center><figcaption><i>sodestream group at the IETF 115 Hackathon</i></figcaption></center>
+</figure>
+</center>
+    <p>The focus of our work at the Hackathon was on analysing the sentiment of postings to the <tt>ietf@ietf.org</tt> mailing list. This mailing list provides a forum for the broad discussion of IETF-related topics. Sentiment analysis techniques could be useful in characterising the tone, and levels of toxicity, in the interactions that take place on this, and other, IETF mailing lists. With historical data, these trends can be tracked over time, providing insight into how the IETF community is evolving. The team managed to generate a dataset of sentiment scores, passing e-mail through the <a href="https://github.com/cjhutto/vaderSentiment">VADER library</a> to understand if messages are broadly positive, negative, or neutral. In addition, they started to plot broad trends over time, and for individuals, and sketched out improvements to tooling documentation and packaging.</p>
+<center>
+<figure>
+  <img src="../images/ietf115-hackathon-scores-dist.png" alt="Distribution of VADER sentiment scores for all ietf@ietf.org postings" style="width: 40%">
+  <figcaption><i>Distribution of <a href="https://github.com/cjhutto/vaderSentiment">VADER</a> sentiment scores for all <tt>ietf@ietf.org</tt> postings</i></figcaption>
+</figure>
+<figure>
+  <img src="../images/ietf115-hackathon-scores-over-time.png" alt="Distributions of sentiment scores for all ietf@ietf.org postings, within each year" style="width: 40%">
+  <figcaption><i>Distributions of sentiment scores for all <tt>ietf@ietf.org</tt> postings, within each year</i></figcaption>
+</figure>
+</center>
+<p>There initial evidence of some interesting trends: relatively low levels of negativity, with more negativity on found on postings made on weekends and via person e-mail addresses, and relatively more positivity on Monday's. Broadly, however, the team found that sentiment analysis over technical text is difficult. For example, phrases like "dropped packets", "killed process", and "abort transmission" are neutral technical phrases that are scored negatively by the sentiment analysis library. It is essential to build up a lexicon of technical phrases to avoid misclassification.</p>
+        <h4>Presentations</h5>
+        <center>
+        <figure>
+  <img src="../images/ietf115-castro-hotrfc.jpeg" alt="Ignacio Castro presenting a summary of our findings so far at IETF 115" style="width: 40%">
+  <figcaption><i><a href="https://icastro.info">Ignacio Castro</a> presenting a summary of our findings so far at IETF 115</i></figcaption>
+</figure>
+</center>
+<p><a href="https://icastro.info">Ignacio Castro</a> presented a summary of our recent work to meetings of the Internet Engineering Steering Group (<a href="../slides/2022-11-07_IETF115_London_IESG_Castro-Ignacio.pdf">slides</a>), the Working Group Chair Forum (<a href="../slides/slides-115-emodir-sesse-quo-vadis-ietf-is-the-ietf-becoming-ossified-00.pdf">slides</a>), and the Measurement and Analysis of Protocols Research Group (<a href="../slides/slides-115-maprg-ignacio-castro-quo-vadis-ietf-00.pdf">slides</a>, <a href="https://youtu.be/SE3CE5vKcUY?t=5875">recording</a>). These presentations highlighted our findings, including that conversations seem to be getting more complex, publishing is harder, and that the relevance of a minority of influential participants is growing. Our findings suggest that these are interconnected.</p>
+    <h4>Proposed Research and Analysis of Standardisation Processes Research Group (RASP RG)</h4>
+    Finally, the team contributed to a meeting to discuss a proposal to form a <i>Research and Analysis of Standardisation Processes Research Group</i> within the IRTF. The meeting, led by <a href="https://icastro.info">Ignacio Castro</a> and <a href="https://nielstenoever.net">Niels ten Oever</a>, highlighted the broad themes that relate to building an understanding of standardisation processes. These include understanding IP disclosure rules, barriers to participation, leadership dynamics, and decision making processes. The aim of the proposed group would be to improve our understanding of the development of standards-setting organisations, bringing together a community of researchers, practitioners, and standards developers and users. These themes and objectives align well with the core motivation of the sodestream project, and we look forward to contributing to the development of the group.</p> 
+    
         <h3>Impact of early engagement on longevity of IETF participation</h3>
         <span class="text-muted">by  <a class="url fn" href="/author/prashant-khare.html">Prashant Khare</a> &bull; Friday 02 April 2021 &bull; <a href="/impact-of-early-engagement-on-longevity-of-ietf-participation.html" rel="bookmark" title="Permalink to Impact of early engagement on longevity of IETF participation">Permalink</a></span>
         <br><br>
