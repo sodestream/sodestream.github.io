@@ -76,6 +76,91 @@
   <div class="row">
     <div class="col">
 <section id="content">
+
+<h3>RASP interim meeting (IETF116-117)</h3>
+  <span class="text-muted">by  <a class="url fn" href="/author/mladen-karan.html">Mladen Karan</a> &bull; Friday 2 June 2023 &bull; <a href="/rasprg-interim-2023.html" rel="bookmark" title="Permalink to RASP interim meeting (IETF116-117)">Permalink</a></span>
+  
+  <p>The interim meeting of the Research and Analysis of Standard-Setting Processes Proposed Research Group was held on 16 May 2023. Several members of the sodestream team participated ( (<a href="https://icastro.info">Ignacio Castro</a>, <a href="https://smcquistin.uk">Stephen McQuistin</a>, and <a href="https://csperkins.org">Colin Perkins</a>) and were involved in the discussion.
+  For more info about the discussion you can have a look at the <a href="https://datatracker.ietf.org/doc/agenda-interim-2023-rasprg-01-rasprg-01/">meeting agenda</a>, <a href="https://datatracker.ietf.org/doc/minutes-interim-2023-rasprg-01-202305161100/">minutes</a>, and <a href="https://datatracker.ietf.org/meeting/interim-2023-rasprg-01/session/rasprg">materials</a>.</p>
+  
+  <br><br>
+  <hr>
+  <h3>ACL 2023 paper - Tracing Linguistic Markers of Influence in a Large Online Organisation</h3>
+  <span class="text-muted">by  <a class="url fn" href="/author/mladen-karan.html">Mladen Karan</a> &bull; Friday 2 June 2023 &bull; <a href="/acl2023-tracing-linguistic-markers.html" rel="bookmark" title="Permalink to ACL 2023 paper - Tracing Linguistic Markers of Influence in a Large Online Organisation">Permalink</a></span>
+  <br><br>
+    <p>We have published a new main conference paper at <a href = "https://2023.aclweb.org/">ACL</a>!</p>
+    <h4>Intro</h4>
+    Social science and psycholinguistic research have shown that power and status affect how people use language in a range of domains. In our recent ACL paper, we investigate a similar question in the Internet Engineering Task Force (IETF). Our analysis, based on lexical categories (<a href="https://www.liwc.app/">LIWC</a>) and <a href="https://huggingface.co/docs/transformers/model_doc/bert">BERT</a>, shows that participants’ levels of influence can be predicted from their email text, and identifies key linguistic differences (e.g., certain LIWC categories, such as WE are positively correlated with high-influence). We also identify the differences in language use for the same person before and after becoming influential.
+<br><br>
+Specifically, we explore the following research questions: <b>RQ1:</b> How do linguistic traits differ between more and less influential participants? <b>RQ2:</b> How do linguistic traits vary for participants at different levels of the organization hierarchy? <b>RQ3:</b> How does linguistic behaviour of participants change as they gain influence?
+
+<br><br>
+    <h4>Methods</h4>
+    To tackle these questions we create three classification / regression problems as follows.All tasks have as input a set of LIWC features calculated on a subset of emails of a participant. The prediction tasks are as follows.  RQ1: predict the influence percentile of a person, defined as their centrality score in the email communication network. RQ2: predict whether a person is a working group chair or not. RQ3: predict whether the person’s communication occurred before or after they became influential (as defined in RQ1). The significant (p &lt; 0.05) LIWC features are given in the table below.
+
+<center><figure>
+  <img src="../images/acl2023-markers-liwc.png" alt="The table containing most significant liwc categories." style="width: 60%">
+</figure></center>
+
+  <h4>Results:</h4>
+    <b>RQ1:</b> The first and third person plural pronoun usage indicates that influential people tend to adopt a collaborative and community-oriented approach. Moreover, they also use more organisational language, indicated by negative correlation with less formal LIWC categories, such as <i>netspeak</i> and <i>sexual</i>. 
+    <br>
+    <b>RQ2:</b> Working group (WG) chairs are more social and collaborative, as is shown by the we and social LIWC categories. They also use more tentative statements in discussions primarily focused on technical feedback and revisions, or suggesting alternatives
+    <br>
+    <b>RQ3:</b> We observe that, as they gain influence, participants tend to become more descriptive and engaged in the immediate state of issues and situations. They are also more involved in cognitive processes as compared to their previous self when they were new to IETF and had little influence.
+<h4>Discussion</h4>
+  We further investigated the trends using separate word-level regression models for words in the LIWC categories that were prominent in the experiments. This revealed not all words within the same category have the same trend. For example, the <i>negemo</i> category is more prominent in influential people mostly because they use words like “problems”, even though they do this in a constructive way to provide feedback and point out limitations. We also observed some unexpected trends are related to ambiguous words which have specific meanings in technical discussions (e.g., “live” is often used in “keep connection alive” and “kill” in “kill the process/thread”, which is not typical of standard language use).
+<h4>Prediction experiments:</h4>
+Finally, we experimented with large pretrained language models (BERT) to see how their predictive power would compare to the LIWC features. The results, given below, show that the hand-crafted LIWC features are still somewhat better tailored to these prediction tasks 
+<center><figure>
+  <img src="../images/acl2023-markers-predscores.png" alt="The table containing most scores of prediction models." style="width: 30%">
+</figure></center>
+
+
+  <hr>
+  <h3>ACL 2023 findings paper - LEDA: a Large-Organization Email-Based  Decision-Dialogue-Act Analysis Dataset</h3>
+  <span class="text-muted">by  <a class="url fn" href="/author/mladen-karan.html">Mladen Karan</a> &bull; Friday 2 June 2023 &bull; <a href="/acl2023-leda-dataset.html" rel="bookmark" title="Permalink to ACL 2023 paper - LEDA: a Large-Organization Email-Based  Decision-Dialogue-Act Analysis Dataset">Permalink</a></span>
+  <br><br>
+    <p>We have published a new paper in the Findings of the <a href = "https://2023.aclweb.org/">ACL</a>!</p>
+    <h4>Intro</h4>
+    Collaboration increasingly happens online. This is especially true for large groups working on global tasks, with collaborators all around the world. The size and distributed nature of such groups make decision-making challenging. In our new paper we propose a set of dialog acts for the study of decision-making mechanisms in such groups, and provide a new annotated dataset based on real-world data from the Internet Engineering Task Force (IETF). We also provide some interesting results of an initial exploratory data analysis
+    <br><br>
+    <h4>Annotation</h4>
+    After experimenting with many variants of the label taxonomy in collaboration with annotators who were trained linguists we converged to the set of dialogue-act (DA) labels given in the table below:
+
+<center><figure>
+  <img src="../images/acl2023-dataset-labels.png" alt="The table containing the labels." style="width: 50%">
+  <!-- <figcaption><i>The impact of YANG Doctors on the rate of errata filings for YANG-related RFCs</i></figcaption> -->
+</figure></center>
+   For annotation, we’ve split emails into segments and had at least two annotators independently label each segment. For this purpose we used a custom tool developed specifically for this task. We allow the same instance to be labeled with an arbitrary number of labels at the same time, making the task multilabel.
+   
+        <br><br><h4>Experiments</h4>
+		We divided the lifecycle of the draft into five periods (T1 … T5). Below we give the distribution of each dialogue act across the periods. 
+<center><figure>
+  <img src="../images/acl2023-dataset-fig1.png" alt="Label frequencies in different periods of the draft lifecycle." style="width: 50%">
+</figure></center>
+        We found that Answer and Question are more common in the early phases, likely due to more new issues being raised and unresolved issues discussed. ContextSetting and Extension are very frequent, increasingly so towards the end phases; we conjecture this is because those phases cover more complex issues requiring more background description. The frequency of ProposeAction is stable throughout the cycle and noticeably higher than StateDecision. This may imply that participants prefer to discuss actionable options rather than explicitly deciding on a single one.
+        <br><br>
+		We then divided the participants in terms of their role within the organisation – draft authors, working group chairs, and influencers (participants with high centrality in the email communication network). 
+<center><figure>
+  <img src="../images/acl2023-dataset-fig2.png" alt="Label frequencies for different types of participants." style="width: 50%">
+</figure></center>
+<b>Authors vs. non-Authors</b> Authors are more social, give more answers, and ask fewer questions. Also, they use fewer NeutralResponse, Extension, and ContextSetting, indicating shorter, more focused messages. These trends imply they take a more reactive role in the discussion. Finally, they make the most decisions in the discussion, as would be expected, since they are in charge of the writing process. 
+<br>
+<b>Influential vs. non-Influential</b> Influential people use Answer, Agreement, and NeutralResponse more, making them generally more responsive. They use less Extension, ContextSetting and Thanking, implying a concise, focused communication style. As expected, they make more decisions and propose slightly more actions. 
+<br>
+<b>Chairs vs. non-Chairs</b> Similar to influential participants, chairs use NeutralResponse more than non-Chairs. However, they use more ContextSetting and Extension, and do more Thanking. We find this is because chairs send a lot of emails initiating and managing discussions and review assignments. Such emails are often composed of many small segments and contain a lot of these labels.
+<br><br>
+    <h4>Prediction model</h4>
+    Finally, we made a <a href="https://huggingface.co/docs/transformers/model_doc/bert">BERT</a> based prediction model for these DAs, which can serve as a baseline for more advanced models in future work. Results are given in the table below.
+<center><figure>
+  <img src="../images/acl2023-dataset-predmodel.png" alt="Prediction model scores." style="width: 25%">
+</figure></center>
+
+
+
+
+    <hr>
   <h3>sodestream at IETF 116</h3>
   <span class="text-muted">by  <a class="url fn" href="/author/stephen-mcquistin.html">Stephen McQuistin</a> &bull; Wednesday 31 May 2023 &bull; <a href="/sodestream-at-ietf-116.html" rel="bookmark" title="Permalink to sodestream at IETF 116">Permalink</a></span>
   <br><br>
