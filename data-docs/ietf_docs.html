@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="generator" content="pandoc">
+    <meta name="description" content="">
+
+    <title>ietf_docs</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="https://maxcdn.bootstrapcdn.com/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="https://mushiyo.github.io/pandoc-toc-sidebar/css/dashboard.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">code{white-space: pre;}</style>
+    <style type="text/css">.sidebar ul{padding-left: 10px;}</style>
+    <style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { color: #008000; } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { color: #008000; font-weight: bold; } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">	    
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">IETF / W3C data documentation</a>
+        </div>
+        
+    	<!-- <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">doc1</a></li>
+            <li><a href="#">doc2</a></li>
+            <li><a href="#">doc3</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Nav header</li>
+                <li><a href="#">Separated link</a></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    	-->
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="sidebar" class="col-sm-3 col-md-2 sidebar">
+          <!--<ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
+          </ul>-->
+          <ul>
+          <li><a href="#ietf" id="toc-ietf">IETF</a>
+          <ul>
+          <li><a href="#datatracker"
+          id="toc-datatracker">Datatracker</a>
+          <ul>
+          <li><a href="#quickstart"
+          id="toc-quickstart">Quickstart</a></li>
+          <li><a href="#example-1" id="toc-example-1">Example 1</a></li>
+          <li><a href="#example-2" id="toc-example-2">Example 2</a></li>
+          </ul></li>
+          <li><a href="#rfcindex" id="toc-rfcindex">RfcIndex</a>
+          <ul>
+          <li><a href="#quickstart-1"
+          id="toc-quickstart-1">Quickstart</a></li>
+          <li><a href="#example-1-1" id="toc-example-1-1">Example
+          1</a></li>
+          <li><a href="#example-2-1" id="toc-example-2-1">Example
+          2</a></li>
+          </ul></li>
+          <li><a href="#mailarchive"
+          id="toc-mailarchive">Mailarchive</a>
+          <ul>
+          <li><a href="#quickstart-2"
+          id="toc-quickstart-2">Quickstart</a></li>
+          <li><a href="#example-1-2" id="toc-example-1-2">Example
+          1</a></li>
+          <li><a href="#example-2-2" id="toc-example-2-2">Example
+          2</a></li>
+          </ul></li>
+          <li><a href="#mailarchive-additional-metadata"
+          id="toc-mailarchive-additional-metadata">Mailarchive
+          additional metadata</a>
+          <ul>
+          <li><a href="#quickstart-3"
+          id="toc-quickstart-3">Quickstart</a></li>
+          <li><a href="#example-1-3" id="toc-example-1-3">Example
+          1</a></li>
+          <li><a href="#example-2-3" id="toc-example-2-3">Example
+          2</a></li>
+          </ul></li>
+          <li><a href="#document-full-texts"
+          id="toc-document-full-texts">Document full texts</a>
+          <ul>
+          <li><a href="#rsync-access" id="toc-rsync-access">Rsync
+          access</a></li>
+          </ul></li>
+          </ul></li>
+          <li><a href="#w3c" id="toc-w3c">W3C</a>
+          <ul>
+          <li><a href="#documents" id="toc-documents">Documents</a>
+          <ul>
+          <li><a href="#quickstart-4"
+          id="toc-quickstart-4">Quickstart</a></li>
+          <li><a href="#example-1-4" id="toc-example-1-4">Example
+          1</a></li>
+          <li><a href="#example-2-4" id="toc-example-2-4">Example
+          2</a></li>
+          </ul></li>
+          <li><a href="#emails" id="toc-emails">Emails</a>
+          <ul>
+          <li><a href="#quickstart-5"
+          id="toc-quickstart-5">Quickstart</a></li>
+          <li><a href="#example-1-5" id="toc-example-1-5">Example
+          1</a></li>
+          <li><a href="#example-2-5" id="toc-example-2-5">Example
+          2</a></li>
+          </ul></li>
+          <li><a href="#github-issues" id="toc-github-issues">Github
+          issues</a>
+          <ul>
+          <li><a href="#quickstart-6"
+          id="toc-quickstart-6">Quickstart</a></li>
+          <li><a href="#example-1-6" id="toc-example-1-6">Example
+          1</a></li>
+          <li><a href="#example-2-6" id="toc-example-2-6">Example
+          2</a></li>
+          </ul></li>
+          </ul></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        
+<h1 id="ietf">IETF</h1>
+<p>Example of command line option <code>--cmd-line-option</code>, and a
+command line command:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> clone https://github.com/some/repo/here.git</span></code></pre></div>
+<p>We can also include code snippets like this:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> range<span class="er">(</span><span class="ex">5</span><span class="kw">)</span><span class="bu">:</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>  <span class="ex">print</span><span class="er">(</span><span class="st">&quot;Hello world!&quot;</span><span class="kw">)</span>   </span></code></pre></div>
+<ol type="1">
+<li>As well as list things</li>
+<li>In lists</li>
+<li>Like this one</li>
+</ol>
+<p><code>TODO summary of IETF</code></p>
+<h2 id="datatracker">Datatracker</h2>
+<p><code>TODO</code></p>
+<h3 id="quickstart">Quickstart</h3>
+<p><code>TODO</code></p>
+<h3 id="example-1">Example 1</h3>
+<p><code>TODO</code></p>
+<h3 id="example-2">Example 2</h3>
+<p><code>TODO</code></p>
+<h2 id="rfcindex">RfcIndex</h2>
+<p><code>TODO</code></p>
+<h3 id="quickstart-1">Quickstart</h3>
+<p><code>TODO</code></p>
+<h3 id="example-1-1">Example 1</h3>
+<p><code>TODO</code></p>
+<h3 id="example-2-1">Example 2</h3>
+<p><code>TODO</code></p>
+<h2 id="mailarchive">Mailarchive</h2>
+<p><code>TODO</code></p>
+<h3 id="quickstart-2">Quickstart</h3>
+<p><code>TODO</code></p>
+<h3 id="example-1-2">Example 1</h3>
+<p><code>TODO</code></p>
+<h3 id="example-2-2">Example 2</h3>
+<p><code>TODO</code></p>
+<h2 id="mailarchive-additional-metadata">Mailarchive additional
+metadata</h2>
+<p><code>TODO</code></p>
+<h3 id="quickstart-3">Quickstart</h3>
+<p><code>TODO</code></p>
+<h3 id="example-1-3">Example 1</h3>
+<p><code>TODO</code></p>
+<h3 id="example-2-3">Example 2</h3>
+<p><code>TODO</code></p>
+<h2 id="document-full-texts">Document full texts</h2>
+<p><code>TODO</code></p>
+<h3 id="rsync-access">Rsync access</h3>
+<p><code>TODO</code></p>
+<h1 id="w3c">W3C</h1>
+<p><code>TODO summary of W3C</code></p>
+<h2 id="documents">Documents</h2>
+<p><code>TODO</code></p>
+<h3 id="quickstart-4">Quickstart</h3>
+<p><code>TODO</code></p>
+<h3 id="example-1-4">Example 1</h3>
+<p><code>TODO</code></p>
+<h3 id="example-2-4">Example 2</h3>
+<p><code>TODO</code></p>
+<h2 id="emails">Emails</h2>
+<p><code>TODO</code></p>
+<h3 id="quickstart-5">Quickstart</h3>
+<p><code>TODO</code></p>
+<h3 id="example-1-5">Example 1</h3>
+<p><code>TODO</code></p>
+<h3 id="example-2-5">Example 2</h3>
+<p><code>TODO</code></p>
+<h2 id="github-issues">Github issues</h2>
+<p><code>TODO</code></p>
+<h3 id="quickstart-6">Quickstart</h3>
+<p><code>TODO</code></p>
+<h3 id="example-1-6">Example 1</h3>
+<p><code>TODO</code></p>
+<h3 id="example-2-6">Example 2</h3>
+<p><code>TODO</code></p>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="https://maxcdn.bootstrapcdn.com/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+        //document.getElementById('sidebar').getElementsByTagName('ul')[0].className += "nav nav-sidebar";
+        
+        /* ajust the height when click the toc
+           the code is from https://github.com/twbs/bootstrap/issues/1768
+        */
+        var shiftWindow = function() { scrollBy(0, -50) };
+        window.addEventListener("hashchange", shiftWindow);
+        function load() { if (window.location.hash) shiftWindow(); }
+        
+        /*add Bootstrap styles to tables*/
+        var tables = document.getElementsByTagName("table");
+        for(var i = 0; i < tables.length; ++i){
+            tables[i].className += "table table-bordered table-hover";
+        }
+    </script>
+  </body>
+</html>
