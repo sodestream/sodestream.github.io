@@ -1,0 +1,1487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+
+  <head>
+    
+    <title>rfcindex.RfcEntry</title>
+    <meta name="generator" content="pydoctor 23.9.1"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+</head>
+
+  <body>
+
+    
+
+    <nav class="navbar navbar-default mainnavbar">
+      
+  
+  <div class="container-fluid">
+
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+        <span class="navbar-brand">
+          <a href="https://sodestream.github.io/data-docs/libs/" class="projecthome">ietfdata-documentation</a> <a href="index.html">API Documentation</a>
+        </span>
+
+        <a href="moduleIndex.html">
+          Modules
+        </a>
+
+        <a href="classIndex.html">
+          Classes
+        </a>
+
+        <a href="nameIndex.html">
+          Names
+        </a>
+
+        <div id="search-box-container">
+          <div class="input-group">
+            <input id="search-box" type="search" name="search-query" placeholder="Search..." aria-label="Search" minlength="2" class="form-control" autocomplete="off" />
+            
+            <span class="input-group-btn">
+              <a style="display: none;" class="btn btn-default" id="search-clear-button" title="Clear" onclick="clearSearch()"><img src="fonts/x-circle.svg" alt="Clear" /></a>
+              <a class="btn btn-default" id="search-help-button" title="Help" onclick="toggleSearchHelpText()"><img src="fonts/info.svg" alt="Help" /></a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="search-results-container" style="display: none;">
+        
+        <div id="search-buttons">
+          <span class="label label-default" id="search-docstrings-button">
+          <label class="checkbox-inline">
+            <input type="checkbox" id="toggle-search-in-docstrings-checkbox" value="false" onclick="toggleSearchInDocstrings()">
+              search in docstrings
+            </input>
+          </label>
+          </span>
+          
+        </div>
+        
+        <noscript>
+            <h1>Cannot search: JavaScript is not supported/enabled in your browser.</h1>
+        </noscript>
+
+        <div class="hint" id="search-help-box">
+          <p class="rst-last">
+      
+            Search bar offers the following options:
+            <ul>   
+                <li>
+                  <strong>Term presence.</strong> The below example searches for documents that 
+                    must contain “foo”, might contain “bar” and must not contain “baz”: <code>+foo bar -baz</code>
+                </li> 
+
+                <li>
+                  <strong>Wildcards.</strong> The below example searches for documents with words beginning with “foo”: <code>foo*</code>
+                </li> 
+
+                <li>
+                  <strong>Search in specific fields.</strong> The following search matches all objects 
+                  in "twisted.mail" that matches “search”: <code>+qname:twisted.mail.* +search</code>
+
+                  <p>
+                    Possible fields: 'name', 'qname' (fully qualified name), 'docstring', and 'kind'.
+                    Last two fields are only applicable if "search in docstrings" is enabled.
+                  </p>
+                </li>
+
+                <li>
+                  <strong>Fuzzy matches.</strong> The following search matches all documents 
+                  that have a word within 1 edit distance of “foo”: <code>foo~1</code>
+                </li>
+            </ul>
+
+          </p>
+        </div>
+
+        <div id="search-status"> </div>
+
+        <div class="warning" id="search-warn-box" style="display: none;">
+          <p class="rst-last"><span id="search-warn"></span></p>
+        </div>
+
+        <table id="search-results">
+          <!-- Filled dynamically by JS -->
+        </table>
+        
+        <div style="margin-top: 8px;">
+          <p>Results provided by <a href="https://lunrjs.com">Lunr.js</a></p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</nav>
+    
+    <div class="container-fluid">
+
+      <!-- Side navigation -->
+      <div class="sidebarcontainer" style="display: none;">
+        
+        <div class="sidebar"><nav class="sidebar">
+  
+
+  <div>
+
+      <div class="thingTitle">
+        <span>Class</span>
+        <code class="thisobject"><a href="rfcindex.RfcEntry.html" class="internal-link" title="This class"><wbr></wbr>Rfc<wbr></wbr>Entry</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        
+        
+
+        <div class="childrenKindTitle">Methods</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__init__" class="internal-link" title="rfcindex.RfcEntry.__init__">__init__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__str__" class="internal-link" title="rfcindex.RfcEntry.__str__">__str__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#charset" class="internal-link" title="rfcindex.RfcEntry.charset">charset</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#content_url" class="internal-link" title="rfcindex.RfcEntry.content_url">content<wbr></wbr>_url</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#date" class="internal-link" title="rfcindex.RfcEntry.date">date</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+
+        <div class="childrenKindTitle">Attributes</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#curr_status" class="internal-link" title="rfcindex.RfcEntry.curr_status">curr<wbr></wbr>_status</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#doi" class="internal-link" title="rfcindex.RfcEntry.doi">doi</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#month" class="internal-link" title="rfcindex.RfcEntry.month">month</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#page_count" class="internal-link" title="rfcindex.RfcEntry.page_count">page<wbr></wbr>_count</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#publ_status" class="internal-link" title="rfcindex.RfcEntry.publ_status">publ<wbr></wbr>_status</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#stream" class="internal-link" title="rfcindex.RfcEntry.stream">stream</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#title" class="internal-link" title="rfcindex.RfcEntry.title">title</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#year" class="internal-link" title="rfcindex.RfcEntry.year">year</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#abstract" class="internal-link" title="rfcindex.RfcEntry.abstract">abstract</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#area" class="internal-link" title="rfcindex.RfcEntry.area">area</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#authors" class="internal-link" title="rfcindex.RfcEntry.authors">authors</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#day" class="internal-link" title="rfcindex.RfcEntry.day">day</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#doc_id" class="internal-link" title="rfcindex.RfcEntry.doc_id">doc<wbr></wbr>_id</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#draft" class="internal-link" title="rfcindex.RfcEntry.draft">draft</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#errata_url" class="internal-link" title="rfcindex.RfcEntry.errata_url">errata<wbr></wbr>_url</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#formats" class="internal-link" title="rfcindex.RfcEntry.formats">formats</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#is_also" class="internal-link" title="rfcindex.RfcEntry.is_also">is<wbr></wbr>_also</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#keywords" class="internal-link" title="rfcindex.RfcEntry.keywords">keywords</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#obsoleted_by" class="internal-link" title="rfcindex.RfcEntry.obsoleted_by">obsoleted<wbr></wbr>_by</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#obsoletes" class="internal-link" title="rfcindex.RfcEntry.obsoletes">obsoletes</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#see_also" class="internal-link" title="rfcindex.RfcEntry.see_also">see<wbr></wbr>_also</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#updated_by" class="internal-link" title="rfcindex.RfcEntry.updated_by">updated<wbr></wbr>_by</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#updates" class="internal-link" title="rfcindex.RfcEntry.updates">updates</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#wg" class="internal-link" title="rfcindex.RfcEntry.wg">wg</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+        
+      </div>
+  </div><div>
+
+      <div class="thingTitle">
+        <span>Module</span>
+        <code><a href="rfcindex.html" class="internal-link" title="The parent of this class">rfcindex</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        <div class="childrenKindTitle">Classes</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="rfcindex.BcpEntry.html" class="internal-link" title="rfcindex.BcpEntry"><wbr></wbr>Bcp<wbr></wbr>Entry</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="rfcindex.FyiEntry.html" class="internal-link" title="rfcindex.FyiEntry"><wbr></wbr>Fyi<wbr></wbr>Entry</a></code>
+            </div>
+        
+
+    </li><li class=" thisobject">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="rfcindex.RfcEntry.html" class="internal-link" title="rfcindex.RfcEntry"><wbr></wbr>Rfc<wbr></wbr>Entry</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="rfcindex.RFCIndex.html" class="internal-link" title="rfcindex.RFCIndex"><wbr></wbr>RFCIndex</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="rfcindex.RfcNotIssuedEntry.html" class="internal-link" title="rfcindex.RfcNotIssuedEntry"><wbr></wbr>Rfc<wbr></wbr>Not<wbr></wbr>Issued<wbr></wbr>Entry</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="rfcindex.StdEntry.html" class="internal-link" title="rfcindex.StdEntry"><wbr></wbr>Std<wbr></wbr>Entry</a></code>
+            </div>
+        
+
+    </li>
+</ul>
+
+        
+         
+
+        
+         
+
+        <div class="childrenKindTitle">Variables</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="rfcindex.html#DocID" class="internal-link" title="rfcindex.DocID"><wbr></wbr>Doc<wbr></wbr>ID</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+        
+      </div>
+  </div>
+
+</nav>
+        </div>
+        <div id="collapseSideBar">
+          <a class="btn btn-link" onclick="toggleSideBarCollapse()" title="Toggle Sidebar Collapse">
+          </a>
+        </div> 
+        <script src="sidebartoggle.js" type="text/javascript"></script>
+       
+      </div>
+
+      <div id="main" class="">
+        
+
+        
+
+        <div class="page-header">
+          <h1 class="class"><code><code><a href="rfcindex.html" class="internal-link">rfcindex</a></code><wbr></wbr>.<code><a href="rfcindex.RfcEntry.html" class="internal-link" title="rfcindex.RfcEntry">RfcEntry</a></code></code></h1>
+          <div id="showPrivate">
+            <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+          </div>
+        </div>
+
+        <div class="categoryHeader">
+          class documentation
+        </div>
+
+        <div class="extrasDocstring">
+          <p class="class-signature"><code><span class="py-keyword">class</span> <span class="py-defname">RfcEntry</span>:</code></p><p>Constructor: <code><a href="#__init__" class="internal-link" title="rfcindex.RfcEntry.__init__">RfcEntry(rfc_element)</a></code></p>
+          <p><a href="classIndex.html#rfcindex.RfcEntry">View In Hierarchy</a></p>
+        </div>
+
+        <div class="moduleDocstring">
+          <div><p>An RFC entry in the rfc-index.xml file. No attempt is made to normalise the data included here.</p></div>
+        </div>
+
+        <div id="splitTables">
+          <table class="children sortable" id="id2">
+  
+  
+  <tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__init__" class="internal-link" title="rfcindex.RfcEntry.__init__">__init__</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__str__" class="internal-link" title="rfcindex.RfcEntry.__str__">__str__</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#charset" class="internal-link" title="rfcindex.RfcEntry.charset">charset</a></code></td>
+    <td>Most RFCs are UTF-8, or it's ASCII subset. A few are not. Return an appropriate encoding for the text of this RFC.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#content_url" class="internal-link" title="rfcindex.RfcEntry.content_url">content<wbr></wbr>_url</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#date" class="internal-link" title="rfcindex.RfcEntry.date">date</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="classvariable">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#curr_status" class="internal-link" title="rfcindex.RfcEntry.curr_status">curr<wbr></wbr>_status</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="classvariable">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#doi" class="internal-link" title="rfcindex.RfcEntry.doi">doi</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="classvariable">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#month" class="internal-link" title="rfcindex.RfcEntry.month">month</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="classvariable">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#page_count" class="internal-link" title="rfcindex.RfcEntry.page_count">page<wbr></wbr>_count</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="classvariable">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#publ_status" class="internal-link" title="rfcindex.RfcEntry.publ_status">publ<wbr></wbr>_status</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="classvariable">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#stream" class="internal-link" title="rfcindex.RfcEntry.stream">stream</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="classvariable">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#title" class="internal-link" title="rfcindex.RfcEntry.title">title</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="classvariable">
+    
+    <td>Class Variable</td>
+    <td><code><a href="#year" class="internal-link" title="rfcindex.RfcEntry.year">year</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#abstract" class="internal-link" title="rfcindex.RfcEntry.abstract">abstract</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#area" class="internal-link" title="rfcindex.RfcEntry.area">area</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#authors" class="internal-link" title="rfcindex.RfcEntry.authors">authors</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#day" class="internal-link" title="rfcindex.RfcEntry.day">day</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#doc_id" class="internal-link" title="rfcindex.RfcEntry.doc_id">doc<wbr></wbr>_id</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#draft" class="internal-link" title="rfcindex.RfcEntry.draft">draft</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#errata_url" class="internal-link" title="rfcindex.RfcEntry.errata_url">errata<wbr></wbr>_url</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#formats" class="internal-link" title="rfcindex.RfcEntry.formats">formats</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#is_also" class="internal-link" title="rfcindex.RfcEntry.is_also">is<wbr></wbr>_also</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#keywords" class="internal-link" title="rfcindex.RfcEntry.keywords">keywords</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#obsoleted_by" class="internal-link" title="rfcindex.RfcEntry.obsoleted_by">obsoleted<wbr></wbr>_by</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#obsoletes" class="internal-link" title="rfcindex.RfcEntry.obsoletes">obsoletes</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#see_also" class="internal-link" title="rfcindex.RfcEntry.see_also">see<wbr></wbr>_also</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#updated_by" class="internal-link" title="rfcindex.RfcEntry.updated_by">updated<wbr></wbr>_by</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#updates" class="internal-link" title="rfcindex.RfcEntry.updates">updates</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#wg" class="internal-link" title="rfcindex.RfcEntry.wg">wg</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr>
+</table>
+          
+
+            
+        </div>
+
+        <div id="childList">
+          <div class="basemethod">
+  
+  
+  <a name="rfcindex.RfcEntry.__init__">
+    
+  </a>
+  <a name="__init__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__init__</span><span class="function-signature">(self, rfc_element: <code>ET.Element</code>)</span>:
+    
+    <a class="headerLink" href="#__init__" title="rfcindex.RfcEntry.__init__">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="rfcindex.RfcEntry.__str__">
+    
+  </a>
+  <a name="__str__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__str__</span><span class="function-signature">(self) -&gt; <code>str</code></span>:
+    
+    <a class="headerLink" href="#__str__" title="rfcindex.RfcEntry.__str__">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="rfcindex.RfcEntry.charset">
+    
+  </a>
+  <a name="charset">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">charset</span><span class="function-signature">(self) -&gt; <code>str</code></span>:
+    
+    <a class="headerLink" href="#charset" title="rfcindex.RfcEntry.charset">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Most RFCs are UTF-8, or it's ASCII subset. A few are not. Return an appropriate encoding for the text of this RFC.</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="rfcindex.RfcEntry.content_url">
+    
+  </a>
+  <a name="content_url">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">content_url</span><span class="function-signature">(self, required_format: <code>str</code>) -&gt; <code>Optional[<wbr></wbr>str]</code></span>:
+    
+    <a class="headerLink" href="#content_url" title="rfcindex.RfcEntry.content_url">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="rfcindex.RfcEntry.date">
+    
+  </a>
+  <a name="date">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">date</span><span class="function-signature">(self) -&gt; <code>datetime</code></span>:
+    
+    <a class="headerLink" href="#date" title="rfcindex.RfcEntry.date">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="baseclassvariable">
+  
+  
+  <a name="rfcindex.RfcEntry.curr_status">
+    
+  </a>
+  <a name="curr_status">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">curr_status</span>: <code>str</code> =
+    
+    <a class="headerLink" href="#curr_status" title="rfcindex.RfcEntry.curr_status">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseclassvariable">
+  
+  
+  <a name="rfcindex.RfcEntry.doi">
+    
+  </a>
+  <a name="doi">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">doi</span>: <code>str</code> =
+    
+    <a class="headerLink" href="#doi" title="rfcindex.RfcEntry.doi">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseclassvariable">
+  
+  
+  <a name="rfcindex.RfcEntry.month">
+    
+  </a>
+  <a name="month">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">month</span>: <code>str</code> =
+    
+    <a class="headerLink" href="#month" title="rfcindex.RfcEntry.month">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseclassvariable">
+  
+  
+  <a name="rfcindex.RfcEntry.page_count">
+    
+  </a>
+  <a name="page_count">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">page_count</span>: <code>int</code> =
+    
+    <a class="headerLink" href="#page_count" title="rfcindex.RfcEntry.page_count">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseclassvariable">
+  
+  
+  <a name="rfcindex.RfcEntry.publ_status">
+    
+  </a>
+  <a name="publ_status">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">publ_status</span>: <code>str</code> =
+    
+    <a class="headerLink" href="#publ_status" title="rfcindex.RfcEntry.publ_status">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseclassvariable">
+  
+  
+  <a name="rfcindex.RfcEntry.stream">
+    
+  </a>
+  <a name="stream">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">stream</span>: <code>str</code> =
+    
+    <a class="headerLink" href="#stream" title="rfcindex.RfcEntry.stream">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseclassvariable">
+  
+  
+  <a name="rfcindex.RfcEntry.title">
+    
+  </a>
+  <a name="title">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">title</span>: <code>str</code> =
+    
+    <a class="headerLink" href="#title" title="rfcindex.RfcEntry.title">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseclassvariable">
+  
+  
+  <a name="rfcindex.RfcEntry.year">
+    
+  </a>
+  <a name="year">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">year</span>: <code>int</code> =
+    
+    <a class="headerLink" href="#year" title="rfcindex.RfcEntry.year">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.abstract">
+    
+  </a>
+  <a name="abstract">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">abstract</span>: <code>Optional[<wbr></wbr>ET.Element]</code> =
+    
+    <a class="headerLink" href="#abstract" title="rfcindex.RfcEntry.abstract">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.area">
+    
+  </a>
+  <a name="area">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">area</span>: <code>Optional[<wbr></wbr>str]</code> =
+    
+    <a class="headerLink" href="#area" title="rfcindex.RfcEntry.area">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.authors">
+    
+  </a>
+  <a name="authors">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">authors</span>: <code>List[<wbr></wbr>str]</code> =
+    
+    <a class="headerLink" href="#authors" title="rfcindex.RfcEntry.authors">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.day">
+    
+  </a>
+  <a name="day">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">day</span>: <code>Optional[<wbr></wbr>int]</code> =
+    
+    <a class="headerLink" href="#day" title="rfcindex.RfcEntry.day">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.doc_id">
+    
+  </a>
+  <a name="doc_id">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">doc_id</span>: <code><a href="rfcindex.html#DocID" class="internal-link" title="rfcindex.DocID">DocID</a></code> =
+    
+    <a class="headerLink" href="#doc_id" title="rfcindex.RfcEntry.doc_id">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.draft">
+    
+  </a>
+  <a name="draft">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">draft</span>: <code>Optional[<wbr></wbr>str]</code> =
+    
+    <a class="headerLink" href="#draft" title="rfcindex.RfcEntry.draft">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.errata_url">
+    
+  </a>
+  <a name="errata_url">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">errata_url</span>: <code>Optional[<wbr></wbr>str]</code> =
+    
+    <a class="headerLink" href="#errata_url" title="rfcindex.RfcEntry.errata_url">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.formats">
+    
+  </a>
+  <a name="formats">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">formats</span>: <code>List[<wbr></wbr>str]</code> =
+    
+    <a class="headerLink" href="#formats" title="rfcindex.RfcEntry.formats">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.is_also">
+    
+  </a>
+  <a name="is_also">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">is_also</span>: <code>List[<wbr></wbr><a href="rfcindex.html#DocID" class="internal-link" title="rfcindex.DocID">DocID</a>]</code> =
+    
+    <a class="headerLink" href="#is_also" title="rfcindex.RfcEntry.is_also">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.keywords">
+    
+  </a>
+  <a name="keywords">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">keywords</span>: <code>List[<wbr></wbr>str]</code> =
+    
+    <a class="headerLink" href="#keywords" title="rfcindex.RfcEntry.keywords">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.obsoleted_by">
+    
+  </a>
+  <a name="obsoleted_by">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">obsoleted_by</span>: <code>List[<wbr></wbr><a href="rfcindex.html#DocID" class="internal-link" title="rfcindex.DocID">DocID</a>]</code> =
+    
+    <a class="headerLink" href="#obsoleted_by" title="rfcindex.RfcEntry.obsoleted_by">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.obsoletes">
+    
+  </a>
+  <a name="obsoletes">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">obsoletes</span>: <code>List[<wbr></wbr><a href="rfcindex.html#DocID" class="internal-link" title="rfcindex.DocID">DocID</a>]</code> =
+    
+    <a class="headerLink" href="#obsoletes" title="rfcindex.RfcEntry.obsoletes">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.see_also">
+    
+  </a>
+  <a name="see_also">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">see_also</span>: <code>List[<wbr></wbr><a href="rfcindex.html#DocID" class="internal-link" title="rfcindex.DocID">DocID</a>]</code> =
+    
+    <a class="headerLink" href="#see_also" title="rfcindex.RfcEntry.see_also">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.updated_by">
+    
+  </a>
+  <a name="updated_by">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">updated_by</span>: <code>List[<wbr></wbr><a href="rfcindex.html#DocID" class="internal-link" title="rfcindex.DocID">DocID</a>]</code> =
+    
+    <a class="headerLink" href="#updated_by" title="rfcindex.RfcEntry.updated_by">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.updates">
+    
+  </a>
+  <a name="updates">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">updates</span>: <code>List[<wbr></wbr><a href="rfcindex.html#DocID" class="internal-link" title="rfcindex.DocID">DocID</a>]</code> =
+    
+    <a class="headerLink" href="#updates" title="rfcindex.RfcEntry.updates">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable">
+  
+  
+  <a name="rfcindex.RfcEntry.wg">
+    
+  </a>
+  <a name="wg">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">wg</span>: <code>Optional[<wbr></wbr>str]</code> =
+    
+    <a class="headerLink" href="#wg" title="rfcindex.RfcEntry.wg">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div>
+        </div>
+      
+      </div>
+    </div>
+
+    <footer class="navbar navbar-default">
+
+  
+  <div class="container">
+    <a href="index.html">API Documentation</a> for <a href="https://sodestream.github.io/data-docs/libs/" class="projecthome">ietfdata-documentation</a>,
+  generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+    23.9.1 at 2023-11-05 19:38:16.
+  </div>
+
+  <!-- Search related scripts needs to be loaded at the end of HTML 
+    parsing not to introduce overhead and display HTML data asap -->
+  <script src="ajax.js" type="text/javascript"></script>
+  <script src="searchlib.js" type="text/javascript"></script>
+  <script src="search.js" type="text/javascript"></script>
+
+</footer>
+  
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>

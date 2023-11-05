@@ -1,0 +1,861 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+          "DTD/xhtml1-strict.dtd">
+<html>
+  
+
+  <head>
+    
+    <title>mailarchive2.MailingList</title>
+    <meta name="generator" content="pydoctor 23.9.1"> 
+        
+    </meta>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="apidocs.css" />
+    <link rel="stylesheet" type="text/css" href="extra.css" />
+</head>
+
+  <body>
+
+    
+
+    <nav class="navbar navbar-default mainnavbar">
+      
+  
+  <div class="container-fluid">
+
+
+    <div class="navbar-header">
+      
+      <div class="navlinks">
+        <span class="navbar-brand">
+          <a href="https://sodestream.github.io/data-docs/libs/" class="projecthome">ietfdata-documentation</a> <a href="index.html">API Documentation</a>
+        </span>
+
+        <a href="moduleIndex.html">
+          Modules
+        </a>
+
+        <a href="classIndex.html">
+          Classes
+        </a>
+
+        <a href="nameIndex.html">
+          Names
+        </a>
+
+        <div id="search-box-container">
+          <div class="input-group">
+            <input id="search-box" type="search" name="search-query" placeholder="Search..." aria-label="Search" minlength="2" class="form-control" autocomplete="off" />
+            
+            <span class="input-group-btn">
+              <a style="display: none;" class="btn btn-default" id="search-clear-button" title="Clear" onclick="clearSearch()"><img src="fonts/x-circle.svg" alt="Clear" /></a>
+              <a class="btn btn-default" id="search-help-button" title="Help" onclick="toggleSearchHelpText()"><img src="fonts/info.svg" alt="Help" /></a>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="search-results-container" style="display: none;">
+        
+        <div id="search-buttons">
+          <span class="label label-default" id="search-docstrings-button">
+          <label class="checkbox-inline">
+            <input type="checkbox" id="toggle-search-in-docstrings-checkbox" value="false" onclick="toggleSearchInDocstrings()">
+              search in docstrings
+            </input>
+          </label>
+          </span>
+          
+        </div>
+        
+        <noscript>
+            <h1>Cannot search: JavaScript is not supported/enabled in your browser.</h1>
+        </noscript>
+
+        <div class="hint" id="search-help-box">
+          <p class="rst-last">
+      
+            Search bar offers the following options:
+            <ul>   
+                <li>
+                  <strong>Term presence.</strong> The below example searches for documents that 
+                    must contain “foo”, might contain “bar” and must not contain “baz”: <code>+foo bar -baz</code>
+                </li> 
+
+                <li>
+                  <strong>Wildcards.</strong> The below example searches for documents with words beginning with “foo”: <code>foo*</code>
+                </li> 
+
+                <li>
+                  <strong>Search in specific fields.</strong> The following search matches all objects 
+                  in "twisted.mail" that matches “search”: <code>+qname:twisted.mail.* +search</code>
+
+                  <p>
+                    Possible fields: 'name', 'qname' (fully qualified name), 'docstring', and 'kind'.
+                    Last two fields are only applicable if "search in docstrings" is enabled.
+                  </p>
+                </li>
+
+                <li>
+                  <strong>Fuzzy matches.</strong> The following search matches all documents 
+                  that have a word within 1 edit distance of “foo”: <code>foo~1</code>
+                </li>
+            </ul>
+
+          </p>
+        </div>
+
+        <div id="search-status"> </div>
+
+        <div class="warning" id="search-warn-box" style="display: none;">
+          <p class="rst-last"><span id="search-warn"></span></p>
+        </div>
+
+        <table id="search-results">
+          <!-- Filled dynamically by JS -->
+        </table>
+        
+        <div style="margin-top: 8px;">
+          <p>Results provided by <a href="https://lunrjs.com">Lunr.js</a></p>
+        </div>
+      </div>
+
+    </div>
+
+
+  </div>
+</nav>
+    
+    <div class="container-fluid">
+
+      <!-- Side navigation -->
+      <div class="sidebarcontainer" style="display: none;">
+        
+        <div class="sidebar"><nav class="sidebar">
+  
+
+  <div>
+
+      <div class="thingTitle">
+        <span>Class</span>
+        <code class="thisobject"><a href="mailarchive2.MailingList.html" class="internal-link" title="This class"><wbr></wbr>Mailing<wbr></wbr>List</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        
+        
+
+        <div class="childrenKindTitle">Methods</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#__init__" class="internal-link" title="mailarchive2.MailingList.__init__">__init__</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#message" class="internal-link" title="mailarchive2.MailingList.message">message</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#message_uids" class="internal-link" title="mailarchive2.MailingList.message_uids">message<wbr></wbr>_uids</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#messages" class="internal-link" title="mailarchive2.MailingList.messages">messages</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#messages_as_dataframe" class="internal-link" title="mailarchive2.MailingList.messages_as_dataframe">messages<wbr></wbr>_as<wbr></wbr>_dataframe</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#name" class="internal-link" title="mailarchive2.MailingList.name">name</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#num_messages" class="internal-link" title="mailarchive2.MailingList.num_messages">num<wbr></wbr>_messages</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#threads" class="internal-link" title="mailarchive2.MailingList.threads">threads</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#uidvalidity" class="internal-link" title="mailarchive2.MailingList.uidvalidity">uidvalidity</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#update" class="internal-link" title="mailarchive2.MailingList.update">update</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+
+        <div class="childrenKindTitle">Attributes</div>
+        <ul>
+    
+    <li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_list_name" class="internal-link" title="mailarchive2.MailingList._list_name">_list<wbr></wbr>_name</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_log" class="internal-link" title="mailarchive2.MailingList._log">_log</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_mail_archive" class="internal-link" title="mailarchive2.MailingList._mail_archive">_mail<wbr></wbr>_archive</a></code>
+            </div>
+        
+
+    </li><li class="private">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="#_uidvalidity" class="internal-link" title="mailarchive2.MailingList._uidvalidity">_uidvalidity</a></code>
+            </div>
+        
+
+    </li>
+</ul> 
+
+        
+         
+        
+      </div>
+  </div><div>
+
+      <div class="thingTitle">
+        <span>Module</span>
+        <code><a href="mailarchive2.html" class="internal-link" title="The parent of this class">mailarchive2</a></code> 
+      </div>
+      
+      <div>
+        
+
+        
+         
+
+        <div class="childrenKindTitle">Classes</div>
+        <ul>
+    
+    <li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="mailarchive2.Envelope.html" class="internal-link" title="mailarchive2.Envelope"><wbr></wbr>Envelope</a></code>
+            </div>
+        
+
+    </li><li class="">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="mailarchive2.MailArchive.html" class="internal-link" title="mailarchive2.MailArchive"><wbr></wbr>Mail<wbr></wbr>Archive</a></code>
+            </div>
+        
+
+    </li><li class=" thisobject">
+        
+        
+        
+
+        
+            <div class="itemName"><code><a href="mailarchive2.MailingList.html" class="internal-link" title="mailarchive2.MailingList"><wbr></wbr>Mailing<wbr></wbr>List</a></code>
+            </div>
+        
+
+    </li>
+</ul>
+
+        
+         
+
+        
+         
+
+        
+         
+
+        
+         
+        
+      </div>
+  </div>
+
+</nav>
+        </div>
+        <div id="collapseSideBar">
+          <a class="btn btn-link" onclick="toggleSideBarCollapse()" title="Toggle Sidebar Collapse">
+          </a>
+        </div> 
+        <script src="sidebartoggle.js" type="text/javascript"></script>
+       
+      </div>
+
+      <div id="main" class="">
+        
+
+        
+
+        <div class="page-header">
+          <h1 class="class"><code><code><a href="mailarchive2.html" class="internal-link">mailarchive2</a></code><wbr></wbr>.<code><a href="mailarchive2.MailingList.html" class="internal-link" title="mailarchive2.MailingList">MailingList</a></code></code></h1>
+          <div id="showPrivate">
+            <button class="btn btn-link" onclick="togglePrivate()">Toggle Private API</button>
+          </div>
+        </div>
+
+        <div class="categoryHeader">
+          class documentation
+        </div>
+
+        <div class="extrasDocstring">
+          <p class="class-signature"><code><span class="py-keyword">class</span> <span class="py-defname">MailingList</span>:</code></p><p>Constructor: <code><a href="#__init__" class="internal-link" title="mailarchive2.MailingList.__init__">MailingList(mail_archive, list_name)</a></code></p>
+          <p><a href="classIndex.html#mailarchive2.MailingList">View In Hierarchy</a></p>
+        </div>
+
+        <div class="moduleDocstring">
+          <div><p class="undocumented">Undocumented</p></div>
+        </div>
+
+        <div id="splitTables">
+          <table class="children sortable" id="id10">
+  
+  
+  <tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#__init__" class="internal-link" title="mailarchive2.MailingList.__init__">__init__</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#message" class="internal-link" title="mailarchive2.MailingList.message">message</a></code></td>
+    <td>Return the Envelope containing the Message identified by the specified uid within this mailing list.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#message_uids" class="internal-link" title="mailarchive2.MailingList.message_uids">message<wbr></wbr>_uids</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#messages" class="internal-link" title="mailarchive2.MailingList.messages">messages</a></code></td>
+    <td>Return the envelopes containing the specified messages from this mailing list.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#messages_as_dataframe" class="internal-link" title="mailarchive2.MailingList.messages_as_dataframe">messages<wbr></wbr>_as<wbr></wbr>_dataframe</a></code></td>
+    <td>Return a dataframe containing metadata about the specified messages from this mailing list.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#name" class="internal-link" title="mailarchive2.MailingList.name">name</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#num_messages" class="internal-link" title="mailarchive2.MailingList.num_messages">num<wbr></wbr>_messages</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#threads" class="internal-link" title="mailarchive2.MailingList.threads">threads</a></code></td>
+    <td>Yields the envelopes containing the first message in each thread in this mailing list.</td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#uidvalidity" class="internal-link" title="mailarchive2.MailingList.uidvalidity">uidvalidity</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="method">
+    
+    <td>Method</td>
+    <td><code><a href="#update" class="internal-link" title="mailarchive2.MailingList.update">update</a></code></td>
+    <td>Update the local copy of this mailing list from the IMAP server.</td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#_list_name" class="internal-link" title="mailarchive2.MailingList._list_name">_list<wbr></wbr>_name</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#_log" class="internal-link" title="mailarchive2.MailingList._log">_log</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#_mail_archive" class="internal-link" title="mailarchive2.MailingList._mail_archive">_mail<wbr></wbr>_archive</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr><tr class="instancevariable private">
+    
+    <td>Instance Variable</td>
+    <td><code><a href="#_uidvalidity" class="internal-link" title="mailarchive2.MailingList._uidvalidity">_uidvalidity</a></code></td>
+    <td><span class="undocumented">Undocumented</span></td>
+  </tr>
+</table>
+          
+
+            
+        </div>
+
+        <div id="childList">
+          <div class="basemethod">
+  
+  
+  <a name="mailarchive2.MailingList.__init__">
+    
+  </a>
+  <a name="__init__">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">__init__</span><span class="function-signature">(self, mail_archive: <code><a href="mailarchive2.MailArchive.html" class="internal-link" title="mailarchive2.MailArchive">MailArchive</a></code>, list_name: <code>str</code>)</span>:
+    
+    <a class="headerLink" href="#__init__" title="mailarchive2.MailingList.__init__">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="mailarchive2.MailingList.message">
+    
+  </a>
+  <a name="message">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">message</span><span class="function-signature">(self, uid: <code>int</code>) -&gt; <code>Optional[<wbr></wbr><a href="mailarchive2.Envelope.html" class="internal-link" title="mailarchive2.Envelope">Envelope</a>]</code></span>:
+    
+    <a class="headerLink" href="#message" title="mailarchive2.MailingList.message">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return the Envelope containing the Message identified by the specified uid within this mailing list.</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="mailarchive2.MailingList.message_uids">
+    
+  </a>
+  <a name="message_uids">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">message_uids</span><span class="function-signature">(self) -&gt; <code>Iterator[<wbr></wbr>int]</code></span>:
+    
+    <a class="headerLink" href="#message_uids" title="mailarchive2.MailingList.message_uids">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="mailarchive2.MailingList.messages">
+    
+  </a>
+  <a name="messages">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">messages</span><span class="function-signature">(self, received_after: <code>str</code> = <span class="rst-variable-quote">'</span><span class="rst-variable-string">1970-01-01T00:00:00</span><span class="rst-variable-quote">'</span>, received_before: <code>str</code> = <span class="rst-variable-quote">'</span><span class="rst-variable-string">2038-01-19T03:14:07</span><span class="rst-variable-quote">'</span>) -&gt; <code>Iterator[<wbr></wbr><a href="mailarchive2.Envelope.html" class="internal-link" title="mailarchive2.Envelope">Envelope</a>]</code></span>:
+    
+    <a class="headerLink" href="#messages" title="mailarchive2.MailingList.messages">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return the envelopes containing the specified messages from this mailing list.</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="mailarchive2.MailingList.messages_as_dataframe">
+    
+  </a>
+  <a name="messages_as_dataframe">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">messages_as_dataframe</span><span class="function-signature">(self, received_after: <code>str</code> = <span class="rst-variable-quote">'</span><span class="rst-variable-string">1970-01-01T00:00:00</span><span class="rst-variable-quote">'</span>, received_before: <code>str</code> = <span class="rst-variable-quote">'</span><span class="rst-variable-string">2038-01-19T03:14:07</span><span class="rst-variable-quote">'</span>) -&gt; <code>pd.DataFrame</code></span>:
+    
+    <a class="headerLink" href="#messages_as_dataframe" title="mailarchive2.MailingList.messages_as_dataframe">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Return a dataframe containing metadata about the specified messages from this mailing list.</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="mailarchive2.MailingList.name">
+    
+  </a>
+  <a name="name">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">name</span><span class="function-signature">(self) -&gt; <code>str</code></span>:
+    
+    <a class="headerLink" href="#name" title="mailarchive2.MailingList.name">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="mailarchive2.MailingList.num_messages">
+    
+  </a>
+  <a name="num_messages">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">num_messages</span><span class="function-signature">(self) -&gt; <code>int</code></span>:
+    
+    <a class="headerLink" href="#num_messages" title="mailarchive2.MailingList.num_messages">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="mailarchive2.MailingList.threads">
+    
+  </a>
+  <a name="threads">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">threads</span><span class="function-signature">(self) -&gt; <code>Iterator[<wbr></wbr><a href="mailarchive2.Envelope.html" class="internal-link" title="mailarchive2.Envelope">Envelope</a>]</code></span>:
+    
+    <a class="headerLink" href="#threads" title="mailarchive2.MailingList.threads">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Yields the envelopes containing the first message in each thread in this mailing list.</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="mailarchive2.MailingList.uidvalidity">
+    
+  </a>
+  <a name="uidvalidity">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">uidvalidity</span><span class="function-signature">(self) -&gt; <code>int</code></span>:
+    
+    <a class="headerLink" href="#uidvalidity" title="mailarchive2.MailingList.uidvalidity">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+  </div>
+</div><div class="basemethod">
+  
+  
+  <a name="mailarchive2.MailingList.update">
+    
+  </a>
+  <a name="update">
+    
+  </a>
+  <div class="functionHeader">
+    
+    
+    <span class="py-keyword">def</span> <span class="py-defname">update</span><span class="function-signature">(self, verbose=True) -&gt; <code>List[<wbr></wbr>int]</code></span>:
+    
+    <a class="headerLink" href="#update" title="mailarchive2.MailingList.update">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="docstring functionBody">
+    
+    <div><p>Update the local copy of this mailing list from the IMAP server.</p>
+<p>This MUST be called at least once for each mailing list, else no messages will be retrieved from the server. That initial update may well be slow, since it downloads the entire set of messages from the list. Subsequent calls to `update()` only fetch the new messages and so are much faster.</p>
+</div>
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="mailarchive2.MailingList._list_name">
+    
+  </a>
+  <a name="_list_name">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">_list_name</span>: <code>str</code> =
+    
+    <a class="headerLink" href="#_list_name" title="mailarchive2.MailingList._list_name">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="mailarchive2.MailingList._log">
+    
+  </a>
+  <a name="_log">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">_log</span>: <code>logging.Logger</code> =
+    
+    <a class="headerLink" href="#_log" title="mailarchive2.MailingList._log">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="mailarchive2.MailingList._mail_archive">
+    
+  </a>
+  <a name="_mail_archive">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">_mail_archive</span>: <code><a href="mailarchive2.MailArchive.html" class="internal-link" title="mailarchive2.MailArchive">MailArchive</a></code> =
+    
+    <a class="headerLink" href="#_mail_archive" title="mailarchive2.MailingList._mail_archive">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div><div class="baseinstancevariable private">
+  
+  
+  <a name="mailarchive2.MailingList._uidvalidity">
+    
+  </a>
+  <a name="_uidvalidity">
+    
+  </a>
+  <div class="functionHeader">
+    
+    <span class="py-defname">_uidvalidity</span>: <code>int</code> =
+    
+    <a class="headerLink" href="#_uidvalidity" title="mailarchive2.MailingList._uidvalidity">
+      
+      
+      ¶
+    </a>
+  </div>
+  <div class="functionBody">
+    
+    <div><p class="undocumented">Undocumented</p></div>
+    
+  </div>
+</div>
+        </div>
+      
+      </div>
+    </div>
+
+    <footer class="navbar navbar-default">
+
+  
+  <div class="container">
+    <a href="index.html">API Documentation</a> for <a href="https://sodestream.github.io/data-docs/libs/" class="projecthome">ietfdata-documentation</a>,
+  generated by <a href="https://github.com/twisted/pydoctor/">pydoctor</a>
+    23.9.1 at 2023-11-05 19:38:16.
+  </div>
+
+  <!-- Search related scripts needs to be loaded at the end of HTML 
+    parsing not to introduce overhead and display HTML data asap -->
+  <script src="ajax.js" type="text/javascript"></script>
+  <script src="searchlib.js" type="text/javascript"></script>
+  <script src="search.js" type="text/javascript"></script>
+
+</footer>
+  
+    <script src="pydoctor.js" type="text/javascript"></script>
+
+  </body>
+</html>
